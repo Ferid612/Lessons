@@ -1,0 +1,133 @@
+Başlık:
+Bütün suallar
+
+İçerik:
+31.01.2020
+1) a və b ədədini müştəri daxil edir. bu ədədin cəmini,fərqini,hasilini,nisbətini tapıb çıxışa verən program tərtib edin.
+2) 2)a və b ədədini müştəri daxil edir. a nı 3ə vur b ni 2ə bunların cəmini çıxışa verən program tərtib edin. 
+3) 3) a və b ədədləri verib. bu ədədlərin kvadratları cəmi yoxsa cəminin kvadratının böyük olduğunu araşdıran programı tərtib edin.
+4) 4) a ədədini müştəri daxil edir. S=a^2+2*a
+5)  S in 3ə və 7ə ayrı bölünüb bölünmədiyini araşdıran programı tərtib et.
+01.02.2020
+1)a,b,c,d ədədləri verilib bu ədədlərdən neçəsi 4ə və 5ə bölünəndə qalıq 1dən böyük olar?
+2) a,b,c,d ədədləri verilib bu ədədlərdən hansılar müsbət və cütdür.
+3) Fəzada V(a,b,c) vektoru verilib bu. Vektorun uzunluğunu hesablayan program tərtib edin. 
+4) k=a*b*c 5ci dərəcədən kökaltında k nı tapan programı tərtib edin. 
+5) 5)a,b,c,d ədədlərindən ən böyüyünü tapan programı tərtib edin.
+6) 6) Trapesiyanın sahəsini hesablayan programı tərtib edin.
+02.02.2020
+1) 0 dan +N ə cən 7ə tam bölünən ədədləri ekrana çıxaran programı tərtib edin.N i müştəri daxil edəcək. 
+2) 0dan N-ə dək 3 və 7 ə bölünən bütün ədədlərin cəmini tapan program tərtib edin.
+ N i müştəri daxil edəcək. 
+4) N! hesablayan programı tərtib edin. 
+5) 1 den 100 dek ededleri yoxlayaraq n^m=m^n bərabərliyini ödəyən ededleri tapan programı tərtib edkn. (İpuci İç içə while funksiyalarından istifadə edəcəksiniz).
+6) Üçbucağın tərəfləri verilib. Bu üçbucağın düzbucaqlı olub-olmadığını araşdırın. Tərəflərini müştəri daxil edəcək. Əgər müştəri mənfi ədəd və ya sıfır girərsə müştəriyə "uzunluq mənfi və ya sıfır olanmaz yenidən bir ədəd girin" deyə bildiriş gəlsin. Və müştəri həmin tərəfi yenidən girsin. 
+7) 6) Müstəvi üzərində düzbucaqlı dekart koordinat sistemi və M (x,y) nöqtəsi verilib. x və y in qiymətlərinə görə M nöqtəsinin hansı rübdə yerləşdiyini tapın. x və y i müştəri daxil edəcək. 
+8) 7) koordinat oxunda AB parçası verilib x nöqtəsinin AB parçasının üzərində olub-olmadığını araşdırın.
+03.02.2020
+1)Vurma cədvəlini ekrana çıxaran program tərtib edin.(İki variantda: for və while)
+2) *N ə dək sadə ədədi çıxışa verən programı tərtib edin.
+3) 3) N natural ədədi verilib bu ədədin rəqəmləri cəmini və hasilin tapan programı tərtib edin. məs 7314 ---7+3+1+4=15  (Do while istifade edin).
+4) 4)nCm tapan program tərtib edin.
+5) 5) 1/1+1/2+1/3 ......1/n=cem. hesablayan program tərtib edin
+6) 6) ekstra) N natural ədədinin cüt rəqəmlərinin sayını tapan program tərtib edin.
+04.02.2020
+1)  for,while, do while dövrləri haqqında səsli anlatım. öz sözlərinizlə nəyin nə olduğunu, arasında ki, fərqləri oxşarlıqları danışın.
+2) 2) Natural ədədin cüt rəqəmlərin sayı ilə 3ə tam bölünün rəqəmlərinin cəmini tapan program tərtib edin. 
+3) 3) Kvadratın və dairənin sahəsi verilmişdir. Kvadratın dairənin içinə tam yerləşib yerləşmədiyini araşdıran programı tərtib edin.
+4) 4)(x+1)(x-3)....(x-27)
+5)  hasilini hesablayan program tərtib edin.
+6) 5) A,B ədədinin ƏBOB unu tapan program tərtib edin.
+7) 6)* A,B ədədinin ƏKOB nu tapan program tərtib edin. 
+05.02.2020
+1)
+1. Dönər=1.20
+2. 2. Lahmacun=1.80
+3. 3. Ayran=0.50
+4. 4. Mərci=1.50
+5. 5. Kola=0.50
+6. Menyusunu tərtib edin. Müştəri seçimlərini etsin və ümumi hesabı ekranı çıxarın. (Videoya baxa-baxa kopyasını da çıxara bilərsiz).
+7. 2) 5 sualdan ibarət summativ(test) tərtib edin.  Düzgün cavabların sayını ekrana çıxaran programı tərtib edin. 
+8. 3)* 3 rəqəmli N natural ədədi girilir. Bu ədəd hərflə ekrana yazılır.(funksiya və Switch case işlədə bilərsiz.)
+9. 578 - beş yüz yetmiş səkkiz. 
+10. 4) (n!+m!) -(n-m)! hesablayan program tərtib edin. Funksiya ilə. 
+11. 5) Programdakı 2 səhvi tapın:
+12. #include  <iostream>
+13. using namespace std; 
+14. int main ()
+15. {
+16.   int a=1,b=2,c;
+17.   c=cem (a,b);
+18.   cout <<c;
+19. }
+int cem (int x, int y)
+{ return x+y   }
+
+06.02.2020
+Uşaqlar Overload,Templates, Namespace bu mövzularda suallar tapanmadım nədə sual tərtib edənmədim. Bilmədim necə sual verim😅. Ona görə ümumi belə yazdım.
+1)Şəkildəki programın nəticəsini tapın.
+2) 4 tam ədəd verilib rəqəmlərinin cəmi ən böyük olan ədədi tapan programı tərtib edin.
+3) 3) 3 rəqəmli natural ədəd verilib bu ədədləri aralarında boşluq olmaqla ekrana çıxaran programı tərtib edin. 
+4) 4)Massivin müsbət elementlərinin indeksləri cəmini tapan programı tərtib edin. 
+5) 5) Massivin müsbət elementlərinin kvadratları cəmini tapan programı tərtib edin. 
+6) 6) Massivin elementlərini artan sıra ilə ilə düzən programları tərtib edin.
+07.02.2020
+1)*  A[n][m] və B[n][m] çoxölçülü matrisləri verilib. Bu matrislərin uyğun elementlərinin hasilindən alının C [n][m] matrisini hazırlayın.
+2) Matrisin  baş diaqonal elementlərinin cəmini tapan programı tərtib edin.
+3) 3) Verilmiş massivdə cüt ədədlərin hasili ilə tək ədədlərin sayının fərqinin cüt olub olmadığını yoxlayan program tərtib edin. 
+4) 4)Massivin max və min elementinin hasilini tapan programı tərtib edin. 
+5) 5)A[n][m] massivinin hər sütununda müsbət elementlərinin cəmini tapan programı tərtib edin. 
+6) 6)Massivin max və min elementinin indekslərinin hasilini tapan programı tərtib edin. 
+7) 7)Massivdə elementlərinin işarə dəyişmələrinin sayını tap.
+8) 8) massivin elementlərinin ədədi silsilə olub olmadığını araşdıran programı tərtib edin.
+08.02.2020
+1) Struktur yapıdan istifadə edərək 5nəfərlik qrup məlumatı yaradın.
+2) 2)Yarışmaya qeydiyyat üçün 3 qrupun məlumatlarını toplayıb çıxışa verən programı tərtib edin. (üzvlərin sayə,adı,yaşı).
+3) 3) Göstəricilərdən(pointer) istifadə edərək A[n] massivin elementlərini B[n] massivinə mənimsədin.
+4) 4) Göstəricilərdən(pointer) istifadə edərək A[n] massivin elementlərinin hər birini 3ə vurun. Və ekrana çıxışı verin.
+03.04.2020
+22- Referans 
+1)main funksiyasından əlavə Funksiyaya dəyişkənin(ədədin)   referansını yollayın. Funksiyada *həmin* ədədin(referansın) kvadratını əldə etdikdən sonra. Yenidən main funksiyasının içində *bu* ədədin (yəni köhnə ədədin kvadratının) sadə olub olmadığını yoxlayan program tərtib edin. 
+
+2) main funksiyasından əlavə Funksiyaya dəyişkənin(string' in)   referansını yollayın. Funksiyada *həmin* stringin(referansın) yanına " - Azerbaycan(Baki) " yazısını əlavə etdikdən sonra. Yenidən main funksiyasının içində *bu* stringi
+3) (yəni "köhnə string -Azerbaycan(Baki)")ekrana yazdırın.(stringi müştəri girir).
+4) məs: müştəri daxil edir: "Əli"
+5) Ekrana:  "Əli - Azərbaycan(Baki)" yazısı çıxsın.
+6)  
+7) 06.04.2020
+8)  24 - Const
+9)  Çevrənin sahəsini və xaricinə çəkilmiş üçbucağın tərəflərini müştəri daxil edir. const pi=3.14 qəbul edərək üçbucağın sahəsini tapın.
+27 & 28 - Pointer,Struct,Funksiya
+1) 2-3 nəfərlik struct işçi qrupu yaradın. 
+2) Hər birinin adını soyadını və maasını ardıcıl ekrana yazdırın. sonra pointer vasitəsi ilə işçilərin soyadının sonuna (Baki,Sumqayıt və.s) artırın. Maaşlarınıda pointerler vasitəsilə 20% artırın. Sonra yenidən hər birinin adını soyadını və maasını ardıcıl ekrana yazdırın.
+30 - iç içə Struct 
+1) Insan struct qrupu yaradın. Bu qrupda işçilərin adı soyadi yaşı qeyd olunmaq üçün var olsun. Sonra 4 dənə Weber1,2 və  Gamer1,2 Structlarini yaradin. Bu Struct'ın içində isci pointerini  yerləşdirin.  
+2) Main funksiyasında Gamer və Weber Structina aid iç-içə 2-2 ümumi 4 dene işçi yaradın.  Sonra pointerlerle işçilərin məlumatlarını daxil edin.
+3) mes : cin>> Gamer1.isci->ali.yas;
+4)            cin>>Weber1.isci-> hasan.yas; 
+5) ve pointerlerle ekrana yazdirin.
+08.04.2020
+33 & 34 & 35 - Dinamik Bellek (new delete)
+1) n ölçüdən ibarət massiv yaradın. Massivin elementlərini müştəri daxil etdikdən sonra 
+2) for (int i=0;sizeof(n)/4;i++) 
+3) qaydası ilə ekrana yazdırın.
+2) n ededden ibarət A massivini yaradin. Bu massivi  foreach ile ekrana yazin. ardiyca bu massivin elementləri cemini tapin. sonda A massivini azad edin. Ardiyca m ededden ibarət yeni B massivini yaradin bu massivide foreach ile ekrana yazin. ardiyca B massivinin ededi ortasini tapin. sonda B massivini azad edin.
+3) A massivini cemi ile B massivinin ededi ortasinin hasilini ekrana yazdirin. Massivlerin ölçüsünü ve elementlərini müştəri daxil edir.
+Ümumi.Təkrar.2020
+1.  Natural bir nömrə verilir. Natural ədədlərdəki rəqəmlərdən istifadı edərək alınan maksimum mümkün sayını əldə etmək üçün nömrələrini yenidən sıralayın.  
+2. 1 dən N-dək Natural ədədlər ardıcıllığı verilib. Ardıcıllıqda olmayan natural ədədləri tapın.
+3.  Müştəri x-i daxil edir və x-ə tam bölünən hər bir elementi massivdən çıxarın və qalanları massivin əvvəlində yığın.
+4.  A[n] massivi verilib. Klaviaturadan x sayını daxil edin və mütləq dəyəri | x | -dən çox olan bütün elementləri silin. Və yenidən ekrana yazdırın. 
+5.  Massiv elementlərinin azalmaması sırası ilə düzülüb. Müştəri yeni x ədədini daxil edir. Yeni ədəd həmin sıraya ardıcıl daxil olsun və indeksini ekrana yazıdırın.
+6. A [n] və B[m] massivi verilmişdir. Massivlərin eyni olub olmadığını, hansı massivin digərinin alt çoxluğu olduğunu tapan programı tərtib edin. 
+7. A[n] massivi verilmişdir. Massivin elementlərini müştəri daxil edir. 40 dan böyük elementləri artan sıra ilə düzən programı tərtib edin.
+8. 1-dən 100000-dək ədədin kvadratının son rəqəmi ilə üst-üstə düşən bütün natural ədədləri tapın, məsələn: 25^2 = 625; 76^2 = 5676.
+9. 1-dən  N-dək natural ədədlərdən hər *rəqəmə* (təbii 0 istisna) bölünən natural ədədləri sayını tapın və həmin ədədləri ekrana yazdırın .
+10.  Özü istisna olmaqla, bütün bölənlərinin cəminə bərabər olduqda, natural ədəd mükəmməl adlanır. Məsələn, 6 nömrəsi mükəmməldir, çünki 6 =   1 + 2 + 3. N-dək olan bütün mükəmməl ədədləri ekrana yazdırın. 
+11. İlk üç rəqəmin  cəmi son üç rəqəminin cəminə bərabər olan altı rəqəmli "şanslı" nömrələrin sayını məyyənləşdirin və həmin ədədləri ekrana yazdırın.
+1) funksiyadan istifadə edərək massivdəki cüt ədərdlərin sayını tapan programı tərtib edin. 
+2) 2) girilən sözdəki saitlərin sayını tapan proqram tərtib edin.
+3) 3) massivdəki cüt ədədlər ibarət yeni alt massiv yaradın
+4) 4) iki massivdə də olan ədədlərin sayını ekrana yazdıran proqram tərtib edin.
+
+

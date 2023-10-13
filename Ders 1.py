@@ -257,3 +257,221 @@
 # print(x is y)
 
 
+# print( 3 or  4 )
+# print( 3 and  4 )
+
+
+# variable_a=""
+# number_1= int(input("number_1: "))
+# number_2 = int(input("number_2: "))
+
+
+# if number_1>number_2:
+#     variable_a = f"{number_1} {number_2} den boyukdur"
+# else:
+#     variable_a = f"{number_2} {number_1} den boyukdur"
+
+
+# variable_a = f"{number_1}  {number_2} den boyukdur" if number_1>number_2  else f"{number_2} {number_1} den boyukdur"
+
+# variable_a = number_1 > number_2 and f"{number_1} {number_2} den boyukdur" or f"{number_2} {number_1} dem boyukdur"
+
+# print(variable_a)
+
+# x= 7
+# y= 7
+
+# print(id)
+
+# list_1  = [2,4,56,7,8]
+
+# print(list_1[-2])
+
+# var_a= "Hesen"
+
+# print(var_a[0])
+
+# print(22 not in list_1)
+
+# variable_a = "Hesen 5\4 aldi "
+# print(variable_a)
+
+
+
+# list_a = [1, 2, 3, 4, 5, 6, 7, 8]
+
+# print(list_a[ -6 ])
+# print(list_a[ -7 ])
+# print(list_a[ -6 : 5 ])
+
+
+# print(1 not in list_a)
+
+
+# string_variable = "Salam Baki."
+# string_atr_1 = None
+# string_atr_2 = None
+
+# print(type(string_atr_1))
+# print(type(string_atr_2))
+# print(string_variable[ 6:10])
+
+# x = list(("apple", "banana", "cherry"))
+# y = tuple(("apple", "banana", "cherry"))
+
+
+# print(type(x))
+# print(type(y))
+
+
+# import random
+
+# random.randrange(1, 7)
+
+# input_count = 12213212
+# count = 0
+# cem =0
+
+# while count < input_count:
+#     cem = cem + random.randrange(1,7)
+#     count+=1
+    
+
+# print(cem/input_count)    
+
+# a = """Lorem ipsum dolor sit amet,
+# consectetur adipiscing elit,
+# sed do eiusmod tempor incididunt
+# ut labore et dolore magna aliqua."""
+# print(a)
+# a = "Bu simvol a\b = 20."
+# print(a)
+# N ededi daxil edilir. N ededinin faktorialini tapin.
+# number_n = int(input('number_n= '))
+# hasil = 1
+# count = 0
+# while count < number_n:
+#     count = count + 1
+#     hasil = hasil * count
+
+#     print("count: " + str(count))
+#     print("hasil: " + str(hasil))    
+
+
+# print(hasil)
+# N natural ədədi verilib bu ədədin rəqəmləri cəmini və 
+# hasilin tapan programı tərtib edin. məs 7314 ---7+3+1+4=15
+# number_n = int(input("number_n: "))
+# qaliq = number_n % 10
+# tam = number_n // 10
+
+# k=1
+# cem = 0
+# hasil = 1
+# while number_n !=0:
+#     eded = number_n%10
+#     cem = cem + eded
+#     hasil = hasil * eded
+
+#     number_n//=10 
+
+# print("cem: ",cem)    
+# print("hasil: ",hasil)    
+
+# 7 3 1 4
+# birinci eded =  number_n//1 % 10         -  4
+# ikinci eded =  (number_n // 10) %10  -  1
+# ucunce eded =  (number_n // 100) %10  - 3
+# dorduncu eded =  (number_n // 1000) %10  - 3
+    
+    
+# str_variable = "7312121,1323123131,323132,1312312312,213123131,132131"
+
+
+# for item in str_variable.split(","):
+#     print(item)
+
+
+# text_1 = "Hesen"
+# text_3 = "Yusif"
+
+# text_2 = "Salam {var_a}, necesen {var_b}"
+
+# print(text_2.format(var_a=text_1, var_b = text_3))
+
+# print(      "Salam Baki. \n Necesen."         )
+
+
+# import random
+
+
+# saygac= 0
+# count = 122221
+
+# cem =0
+# while saygac<count:
+#     rand_eded = random.randrange(1,7)
+#     cem += rand_eded 
+    
+#     saygac+=1
+
+# print(cem/count)
+
+# list_a = [1,2,3,4,5,6,7,8,9]
+# list_c = list_a
+# list_b = list_a.copy()
+
+
+# list_c[0] = 1234
+# list_b[1] = 235
+
+# print(list_a)
+
+
+# print(list_b)
+
+
+
+# N natural ədədi verilib bu ədədin rəqəmləri cəmini
+# və hasilin tapan programı tərtib edin. 
+# məs 7314 ---7+3+1+4=15  (Do while istifade edin).
+# 4) 4)nCm tapan program tərtib edin.
+
+
+# birinci = reqem//1 % 10
+# ikinci = reqem //10 % 10
+# ucunce = reqem //100 % 10
+# # dorduncu = reqem //1000
+
+# cem = 0
+# hasil = 1 
+
+# eded = 1242
+# while eded != 0:    
+#     reqem = eded % 10 
+#     if reqem%2 == 0:
+#         cem += reqem
+#         hasil *= reqem 
+#     eded //= 10
+    
+    
+# print(cem)
+# print(hasil)
+# hasil = 6*5*4*3*2*1
+
+# eded = 4
+# hasil = 1
+
+# n=1
+
+# while n<eded:
+#     n+=1
+#     hasil*=n
+    
+    
+# print(hasil)
+
+
+
+
+

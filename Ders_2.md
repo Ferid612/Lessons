@@ -505,4 +505,178 @@ https://www.crio.do/blog/string-methods-in-python/
 <br>
 
 
+
+
 <h1 class="__web-inspector-hide-shortcut__">Python <span class="color_h1">Lists</span></h1>
+
+
+
+<table class="ws-table-all notranslate">
+<tbody><tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr><td><a href="ref_list_append.asp">append()</a></td><td>Adds an element at 
+  the end of the list</td></tr>
+<tr><td><a href="ref_list_clear.asp">clear()</a></td><td>Removes all the 
+  elements from the list</td></tr>
+<tr><td><a href="ref_list_copy.asp">copy()</a></td><td>Returns a copy of the 
+  list</td></tr>
+<tr><td><a href="ref_list_count.asp">count()</a></td><td>Returns the number of 
+  elements with the specified value</td></tr>
+<tr><td><a href="ref_list_extend.asp">extend()</a></td><td>Add the elements of a 
+  list (or any iterable), to the end of the current list</td></tr>
+<tr><td><a href="ref_list_index.asp">index()</a></td><td>Returns the index of 
+  the first element with the specified value</td></tr>
+<tr><td><a href="ref_list_insert.asp">insert()</a></td><td>Adds an element at 
+  the specified position</td></tr>
+<tr><td><a href="ref_list_pop.asp">pop()</a></td><td>Removes the element at the 
+  specified position</td></tr>
+<tr><td><a href="ref_list_remove.asp">remove()</a></td><td>Removes the first 
+  item with the specified value</td></tr>
+<tr><td><a href="ref_list_reverse.asp">reverse()</a></td><td>Reverses the order 
+  of the list</td></tr>
+<tr><td><a href="ref_list_sort.asp">sort()</a></td><td>Sorts the list</td></tr>
+</tbody></table>
+
+
+
+
+<br>
+<br>
+<h3>
+<ul>
+<li><strong>List</strong> is a collection which is ordered and changeable. Allows duplicate members.</li>
+<br>
+
+<li><strong><a href="python_tuples.asp">Tuple</a></strong> is a collection which is ordered and unchangeable. Allows duplicate members.</li>
+<br>
+
+<li><strong><a href="python_sets.asp">Set</a></strong> is a collection which is unordered, 
+unchangeable*, and unindexed. No duplicate members.</li>
+
+<br>
+
+<li><strong><a href="python_dictionaries.asp">Dictionary</a></strong> is a collection which is ordered** 
+and changeable. No duplicate members.</li>
+</ul>
+
+<br>
+
+</h3>
+
+<br>
+<br>
+
+
+
+
+<h1 class="__web-inspector-hide-shortcut__">Python <span class="color_h1">Tuple</span></h1>
+
+
+<table style="    -webkit-text-size-adjust: 100%;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #white!important;
+    box-sizing: inherit;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc;
+    margin: 20px 0;"class="ws-table-all notranslate">
+<tbody><tr>
+<th style="width:20%">Method</th>
+<th>Description</th>
+</tr>
+<tr><td><a href="ref_tuple_count.asp">count()</a></td><td>Returns the number of times a specified value occurs in a tuple</td></tr>
+<tr><td><a href="ref_tuple_index.asp">index()</a></td><td>Searches the tuple for a specified value and returns the position of where it was found</td></tr>
+</tbody></table>
+
+<br>
+<br>
+<br>
+<h1 class="__web-inspector-hide-shortcut__">Python <span class="color_h1">SET</span></h1>
+
+
+
+<table class="ws-table-all notranslate">
+<tbody><tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr><td><a href="ref_set_add.asp">add()</a></td><td>Adds an element to the 
+  set</td></tr>
+<tr><td><a href="ref_set_clear.asp">clear()</a></td><td>Removes all the 
+  elements from the set</td></tr>
+<tr><td><a href="ref_set_copy.asp">copy()</a></td><td>Returns a copy of the set</td></tr>
+  <tr>
+    <td><a href="ref_set_difference.asp">difference()</a></td><td>Returns a set 
+    containing the difference between two or more sets</td>
+  </tr>
+  <tr>
+    <td><a href="ref_set_difference_update.asp">difference_update()</a></td><td>Removes the 
+    items in this set that are also included in another, specified set</td>
+  </tr>
+<tr><td><a href="ref_set_discard.asp">discard()</a></td><td>Remove the specified 
+  item</td></tr>
+  <tr>
+    <td><a href="ref_set_intersection.asp">intersection()</a></td><td>Returns a set, 
+    that is the intersection of two other sets</td>
+  </tr>
+<tr><td><a href="ref_set_intersection_update.asp">intersection_update()</a></td><td>
+  Removes the items in this set that are not present in other, specified set(s)</td></tr>
+  <tr>
+    <td><a href="ref_set_isdisjoint.asp">isdisjoint()</a></td><td>Returns whether 
+    two sets have a intersection or not</td>
+  </tr>
+  <tr>
+    <td><a href="ref_set_issubset.asp">issubset()</a></td><td>Returns whether 
+    another set contains this set or not</td>
+  </tr>
+<tr><td><a href="ref_set_issuperset.asp">issuperset()</a></td><td>Returns whether 
+  this set contains another set or not</td></tr>
+<tr><td><a href="ref_set_pop.asp">pop()</a></td><td>Removes an element from the 
+  set</td></tr>
+<tr><td><a href="ref_set_remove.asp">remove()</a></td><td>Removes the specified element</td></tr>
+  <tr>
+    <td><a href="ref_set_symmetric_difference.asp">symmetric_difference()</a></td><td>Returns 
+    a set with the symmetric differences of two sets</td>
+  </tr>
+<tr><td><a href="ref_set_symmetric_difference_update.asp">symmetric_difference_update()</a></td><td>
+  inserts the symmetric differences from this set and another</td></tr>
+  <tr>
+    <td><a href="ref_set_union.asp">union()</a></td><td>Return a set containing 
+    the union of sets</td>
+  </tr>
+<tr><td><a href="ref_set_update.asp">update()</a></td><td>Update the set with the 
+  union of this set and others</td></tr>
+</tbody></table>
+
+<br>
+<br>
+<br>
+<h1 class="__web-inspector-hide-shortcut__">Python <span class="color_h1">DICTIONARY</span></h1>
+
+
+
+
+<table class="ws-table-all notranslate">
+<tbody><tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr><td><a href="ref_dictionary_clear.asp">clear()</a></td><td>Removes all the elements from the dictionary</td></tr>
+<tr><td><a href="ref_dictionary_copy.asp">copy()</a></td><td>Returns a copy of the dictionary</td></tr>
+<tr><td><a href="ref_dictionary_fromkeys.asp">fromkeys()</a></td><td>Returns a dictionary with the specified keys and value</td></tr>
+<tr><td><a href="ref_dictionary_get.asp">get()</a></td><td>Returns the value of the specified key</td></tr>
+<tr><td><a href="ref_dictionary_items.asp">items()</a></td><td>Returns a list containing a tuple for each key value pair</td></tr>
+<tr><td><a href="ref_dictionary_keys.asp">keys()</a></td><td>Returns a list containing the dictionary's keys</td></tr>
+<tr><td><a href="ref_dictionary_pop.asp">pop()</a></td><td>Removes the element with the specified key</td></tr>
+<tr><td><a href="ref_dictionary_popitem.asp">popitem()</a></td><td>Removes the last 
+  inserted key-value pair</td></tr>
+<tr><td><a href="ref_dictionary_setdefault.asp">setdefault()</a></td><td>Returns the value of the specified key. If the key does not exist: insert the key, with the specified value</td></tr>
+<tr><td><a href="ref_dictionary_update.asp">update()</a></td><td>Updates the dictionary with the specified key-value pairs</td></tr>
+<tr><td><a href="ref_dictionary_values.asp">values()</a></td><td>Returns a list of all the values in the dictionary</td></tr>
+</tbody></table>
