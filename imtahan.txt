@@ -1,0 +1,21 @@
+Sual 1: İstifadəçidən adını alın və ekranda "Salam, [ad]!" kimi salam yazan Python proqramı yazın.
+
+Sual 2: Verilmiş siyahıda tək ədədləri tapan Python funksiyasını yazın.
+
+Sual 3: Verilmiş siyahıda tək ədədləri tapan və bu tək ədədləri başqa siyahıya əlavə edən Python funksiyasını yazın.
+
+Sual 4: Siyahıda ardıcıl təkrarlanan elementləri tapan Python proqramı yazın. Məsələn, [1, 2, 2, 3, 4, 4, 5] kimi siyahıda ardıcıl rast gəlinən elementləri tapmalısınız.
+
+
+Sual 5: Tələbələrin imtahan ballarını ehtiva edən lüğət(dict) verilmişdir.  Tələbələrin orta balını və ən yüksək və ən aşağı qiymətləri tapmalıdır.
+
+Məs:
+imtahan_neticeleri = {
+"Farid": 34,
+"Ali": 34,
+"Huseyn":13
+}
+
+
+# Sual 6: Verilmiş tam ədədlər siyahısında ən böyük və ən kiçik dəyərləri tapan Python funksiyasını yazın. Max ve Min funksialarını istifadə etmədən.
+

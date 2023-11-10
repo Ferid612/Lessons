@@ -1,0 +1,272 @@
+[
+    {
+        "label": "\"\"\"x",
+        "kind": 5,
+        "importPath": "Ders 2 copy",
+        "description": "Ders 2 copy",
+        "peekOfCode": "\"\"\"x = 35e3\ny = 12E4\nz = -87.7e100\nprint(type(x))\nprint(type(y))\nprint(type(z))\nprint(x)\nprint(y)\nprint(z)\n\"\"\"",
+        "detail": "Ders 2 copy",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Ders 2 copy",
+        "description": "Ders 2 copy",
+        "peekOfCode": "y = 12E4\nz = -87.7e100\nprint(type(x))\nprint(type(y))\nprint(type(z))\nprint(x)\nprint(y)\nprint(z)\n\"\"\"\n#! Numune 1 END",
+        "detail": "Ders 2 copy",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "Ders 2 copy",
+        "description": "Ders 2 copy",
+        "peekOfCode": "z = -87.7e100\nprint(type(x))\nprint(type(y))\nprint(type(z))\nprint(x)\nprint(y)\nprint(z)\n\"\"\"\n#! Numune 1 END\n#! Numene 2 Start",
+        "detail": "Ders 2 copy",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"x",
+        "kind": 5,
+        "importPath": "Ders 2 copy",
+        "description": "Ders 2 copy",
+        "peekOfCode": "\"\"\"x = 1    # int\ny = 2.8  # float\nz = 1j   # complex\n#convert from int to float:\na = float(x)\n#convert from float to int:\nb = int(y)\n#convert from int to complex:\nc = complex(x)\nprint(a)",
+        "detail": "Ders 2 copy",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Ders 2 copy",
+        "description": "Ders 2 copy",
+        "peekOfCode": "y = 2.8  # float\nz = 1j   # complex\n#convert from int to float:\na = float(x)\n#convert from float to int:\nb = int(y)\n#convert from int to complex:\nc = complex(x)\nprint(a)\nprint(b)",
+        "detail": "Ders 2 copy",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "Ders 2 copy",
+        "description": "Ders 2 copy",
+        "peekOfCode": "z = 1j   # complex\n#convert from int to float:\na = float(x)\n#convert from float to int:\nb = int(y)\n#convert from int to complex:\nc = complex(x)\nprint(a)\nprint(b)\nprint(c)",
+        "detail": "Ders 2 copy",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Ders 2 copy",
+        "description": "Ders 2 copy",
+        "peekOfCode": "a = float(x)\n#convert from float to int:\nb = int(y)\n#convert from int to complex:\nc = complex(x)\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))\nprint(type(b))",
+        "detail": "Ders 2 copy",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Ders 2 copy",
+        "description": "Ders 2 copy",
+        "peekOfCode": "b = int(y)\n#convert from int to complex:\nc = complex(x)\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))\nprint(type(b))\nprint(type(c))\"\"\"\n#! Numene 2 End",
+        "detail": "Ders 2 copy",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Ders 2 copy",
+        "description": "Ders 2 copy",
+        "peekOfCode": "c = complex(x)\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))\nprint(type(b))\nprint(type(c))\"\"\"\n#! Numene 2 End\n# print(5j*5j)\nenglish_levels = {",
+        "detail": "Ders 2 copy",
+        "documentation": {}
+    },
+    {
+        "label": "english_levels",
+        "kind": 5,
+        "importPath": "Ders 2 copy",
+        "description": "Ders 2 copy",
+        "peekOfCode": "english_levels = {\n    \"a1\":\"beginner\",\n    \"a2\":\"elemetry\",\n    \"c1\":\"pre-intermadate\",\n    \"b1\":\"pre-intermadate12\",\n}\nlist_a = [2,3,4,2]\nprint(list_a)\nlist_a = set([2,3,4,2])\nprint(list_a)",
+        "detail": "Ders 2 copy",
+        "documentation": {}
+    },
+    {
+        "label": "list_a",
+        "kind": 5,
+        "importPath": "Ders 2 copy",
+        "description": "Ders 2 copy",
+        "peekOfCode": "list_a = [2,3,4,2]\nprint(list_a)\nlist_a = set([2,3,4,2])\nprint(list_a)\nvariable = None\n# Onlayn dersler: Multiline Strings",
+        "detail": "Ders 2 copy",
+        "documentation": {}
+    },
+    {
+        "label": "list_a",
+        "kind": 5,
+        "importPath": "Ders 2 copy",
+        "description": "Ders 2 copy",
+        "peekOfCode": "list_a = set([2,3,4,2])\nprint(list_a)\nvariable = None\n# Onlayn dersler: Multiline Strings",
+        "detail": "Ders 2 copy",
+        "documentation": {}
+    },
+    {
+        "label": "variable",
+        "kind": 5,
+        "importPath": "Ders 2 copy",
+        "description": "Ders 2 copy",
+        "peekOfCode": "variable = None\n# Onlayn dersler: Multiline Strings",
+        "detail": "Ders 2 copy",
+        "documentation": {}
+    },
+    {
+        "label": "faktorial",
+        "kind": 2,
+        "importPath": "Ders 2",
+        "description": "Ders 2",
+        "peekOfCode": "def faktorial(x):\n    if x == 0:\n        return 1\n    else:\n        return x*faktorial(x-1)   \nprint(faktorial(5))",
+        "detail": "Ders 2",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"x",
+        "kind": 5,
+        "importPath": "Ders 2",
+        "description": "Ders 2",
+        "peekOfCode": "\"\"\"x = 35e3\ny = 12E4\nz = -87.7e100\nprint(type(x))\nprint(type(y))\nprint(type(z))\nprint(x)\nprint(y)\nprint(z)\n\"\"\"",
+        "detail": "Ders 2",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Ders 2",
+        "description": "Ders 2",
+        "peekOfCode": "y = 12E4\nz = -87.7e100\nprint(type(x))\nprint(type(y))\nprint(type(z))\nprint(x)\nprint(y)\nprint(z)\n\"\"\"\n#! Numune 1 END",
+        "detail": "Ders 2",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "Ders 2",
+        "description": "Ders 2",
+        "peekOfCode": "z = -87.7e100\nprint(type(x))\nprint(type(y))\nprint(type(z))\nprint(x)\nprint(y)\nprint(z)\n\"\"\"\n#! Numune 1 END\n#! Numene 2 Start",
+        "detail": "Ders 2",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"x",
+        "kind": 5,
+        "importPath": "Ders 2",
+        "description": "Ders 2",
+        "peekOfCode": "\"\"\"x = 1    # int\ny = 2.8  # float\nz = 1j   # complex\n#convert from int to float:\na = float(x)\n#convert from float to int:\nb = int(y)\n#convert from int to complex:\nc = complex(x)\nprint(a)",
+        "detail": "Ders 2",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Ders 2",
+        "description": "Ders 2",
+        "peekOfCode": "y = 2.8  # float\nz = 1j   # complex\n#convert from int to float:\na = float(x)\n#convert from float to int:\nb = int(y)\n#convert from int to complex:\nc = complex(x)\nprint(a)\nprint(b)",
+        "detail": "Ders 2",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "Ders 2",
+        "description": "Ders 2",
+        "peekOfCode": "z = 1j   # complex\n#convert from int to float:\na = float(x)\n#convert from float to int:\nb = int(y)\n#convert from int to complex:\nc = complex(x)\nprint(a)\nprint(b)\nprint(c)",
+        "detail": "Ders 2",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Ders 2",
+        "description": "Ders 2",
+        "peekOfCode": "a = float(x)\n#convert from float to int:\nb = int(y)\n#convert from int to complex:\nc = complex(x)\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))\nprint(type(b))",
+        "detail": "Ders 2",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Ders 2",
+        "description": "Ders 2",
+        "peekOfCode": "b = int(y)\n#convert from int to complex:\nc = complex(x)\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))\nprint(type(b))\nprint(type(c))\"\"\"\n#! Numene 2 End",
+        "detail": "Ders 2",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Ders 2",
+        "description": "Ders 2",
+        "peekOfCode": "c = complex(x)\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))\nprint(type(b))\nprint(type(c))\"\"\"\n#! Numene 2 End\n# print(5j*5j)\n# english_levels = {",
+        "detail": "Ders 2",
+        "documentation": {}
+    },
+    {
+        "label": "adam_adi",
+        "kind": 5,
+        "importPath": "Ders 3",
+        "description": "Ders 3",
+        "peekOfCode": "adam_adi = input(\"Adam adi gir: \")\nyas = input(\"Yasini gir: \")\nprint(\"Salam {adam_adim}, senin {yasim} yasin var.\".format(yasim=yas, adam_adim=adam_adi)   ) \n#!Strings Methods\n#*startswith\n#*endswith\n#*count\n#*find\n#*join\n#*repleca",
+        "detail": "Ders 3",
+        "documentation": {}
+    },
+    {
+        "label": "yas",
+        "kind": 5,
+        "importPath": "Ders 3",
+        "description": "Ders 3",
+        "peekOfCode": "yas = input(\"Yasini gir: \")\nprint(\"Salam {adam_adim}, senin {yasim} yasin var.\".format(yasim=yas, adam_adim=adam_adi)   ) \n#!Strings Methods\n#*startswith\n#*endswith\n#*count\n#*find\n#*join\n#*repleca\n#*split",
+        "detail": "Ders 3",
+        "documentation": {}
+    },
+    {
+        "label": "thislist",
+        "kind": 5,
+        "importPath": "Ders 3",
+        "description": "Ders 3",
+        "peekOfCode": "thislist = [\"apple\", \"banana\", \"cherry\", \"cherry\"]\nthistuple = (\"apple\", \"banana\", \"cherry\", \"cherry\")\n# list_a = [0]\n# print(list_a)\n# print(type(list_a))\n# thislist[0] = \"Lemon\"\n# print(thislist[0])\n# print(thislist)\n# thistuple[0] = \"KIWI\"\n# print(thistuple[0])",
+        "detail": "Ders 3",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "Ders 3",
+        "description": "Ders 3",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\", \"cherry\")\n# list_a = [0]\n# print(list_a)\n# print(type(list_a))\n# thislist[0] = \"Lemon\"\n# print(thislist[0])\n# print(thislist)\n# thistuple[0] = \"KIWI\"\n# print(thistuple[0])\n# Dublicate",
+        "detail": "Ders 3",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "Ders 3",
+        "description": "Ders 3",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\n# for x in thisset:\n#   print(x)\n# thisset.pop()\n# thisset.pop()\n# print(\"thisset:\", thisset)\n# print(thisset)\n# var = thisset.pop()\n# var_b = thisset.pop()\n# print(var)",
+        "detail": "Ders 3",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "Ders 3",
+        "description": "Ders 3",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\n# thisset.remove(\"banana\")\n# thisset.remove(\"banana\")\n# print(thisset)\n# #or\n# thisset.discard(\"banana\")\n# thisset.discard(\"banana\")\n# thisset.discard(\"banana\")\n# var_b = thisset.discard(\"banana\")\n# print(var_a)",
+        "detail": "Ders 3",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "saitlerin_sayi",
+        "description": "saitlerin_sayi",
+        "peekOfCode": "count = 0\nwhile a <= c:\n    b=1\n    while b<=c: \n        if a**b == b**a and a !=b :\n            count+=1\n            print(a,b)\n        b+=1  \n    a+=1 \nprint(count)",
+        "detail": "saitlerin_sayi",
+        "documentation": {}
+    }
+]

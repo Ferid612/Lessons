@@ -7,6 +7,32 @@
 # print(a)
 # print(b)
 # print(c)
+a = 12
+b = 20
+c = 30
+cem = a+b+c
+print(cem)
+hasil=a*b*c
+print(hasil)
+bolme=c/b
+print(bolme)
+bolme_2=c//b
+print(bolme_2)
+
+#string
+setir="s_+_(KJyhuojalam"
+    
+#integer 
+aysel_a="20"
+
+aysel_a=int (aysel_a)
+cem = aysel_a + aysel_a
+print(cem)
+
+aysel_b = 20.3
+print(aysel_b)
+print(type(aysel_b))
+
 
 
 # print(list_a)
