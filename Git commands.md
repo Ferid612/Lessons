@@ -43,6 +43,7 @@ git config --global user.email sam@google.com</pre
             </font></font
         >
         <pre class="" len="16">git add temp.txt</pre>
+        <pre class="" len="16">git restore --staged ders_2.py</pre>
     </li>
     <li len="384">
         <strong len="10" lang="az" style="">git clone</strong
