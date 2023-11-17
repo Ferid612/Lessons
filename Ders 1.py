@@ -150,11 +150,80 @@
 # print(factorial(5))
 
 # list_a = (2, 4 ,5 )
-
 # print(bool(list_a))
 
 
-# print(    isinstance(number, float)     )
+
+# number_a = 20
+
+
+# netice = "musbet" if number_a>0 else "menfi" if number_a<0 else "sifir" 
+# print(netice)
+
+
+
+
+# # integer int
+# a = 20
+# # string str
+# b = "20"
+# # boolean bool
+# c = True
+
+#None type
+# x = None
+
+# # float
+# e = 2.5
+# #  complex
+# d = 5j
+
+
+
+# print(type(a))
+# print(type(b))
+# print(type(c))
+# print(type(e))
+# print(type(d))
+
+# number_a = int(input("Daxil edin: ")) 
+# print(type(number_a))
+
+# print("senin girdiyin deyer:", number_a)
+
+# ifade = ""
+
+# if ifade: 
+#     print("Working")
+# else:
+#     print("Not working")
+
+# print ( bool(ifade))
+
+
+
+# number_b = "23"
+
+# if number_b == 23 or not number_b < 59:
+#     print("Sert odendi")
+# else:
+#     print("sert odenmedi")
+
+
+
+# number_a = "salam" and "sagol" and "" and "Yox"
+
+# number_b = 2 > 4 and 2
+# print(number_b)
+
+
+default_country = "Canada"
+
+country = "" or default_country
+
+print(country)
+
+# deyisgen = "12"
 
 
 # variable_b = (True, True, True)
