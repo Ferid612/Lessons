@@ -23,7 +23,7 @@ Git, pulsuz, açıq mənbəli versiya nəzarət sistemidir. Git mənbə kodundak
 git config --global user.email sam@google.com</pre
         >;kmjkn
     </li>
-    <img src="Selection_082.png">
+    <img src="/Pictures/Git dersleri.png">
     <li len="122">
         <strong len="8" lang="az" style="">git init</strong><br len="0" /><font
             ><font lang="az" style=""

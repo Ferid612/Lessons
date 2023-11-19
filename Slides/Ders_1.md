@@ -307,7 +307,7 @@ isclose(x, 3.3)
 </code></pre>
 <br><br><br>
 
-
+<!-- <p>Hello world</p> -->
 
 # Logical Operatorlar Nümunə 2
 <div class="highlight python repl" len="637"><span class="repl-toggle" title="Toggle REPL prompts and output" len="12">&gt;&gt;&gt;</span><pre len="542"><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="nb">bool</span><span class="p">(</span><span class="s2">""</span><span class="p">)</span>

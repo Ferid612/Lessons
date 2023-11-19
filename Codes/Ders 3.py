@@ -1,13 +1,128 @@
-# print(bizim_ifade.lower())
 
-# adam_adi = input("Adam adi gir: ")
-# yas = input("Yasini gir: ")
+# temp = my_list[0]
+# my_list[0] = my_list[-1]
+# my_list[-1] = temp
 
 
-# print("Salam {adam_adim}, senin {yasim} yasin var.".format(yasim=yas, adam_adim=adam_adi)   ) 
+# temp = my_list[1]
+# my_list[1] = my_list[-2]
+# my_list[-2] = temp
+
+
+
+# my_list = [1,2,3,4,5,6,7,8,9]
+# for i in range(len(my_list)//2):
+#     temp = my_list[i]
+#     my_list[i] = my_list[-1-i]
+#     my_list[-1-i] = temp
+
+
+# print(my_list)
+
+# # for j in range(len(mylist) ):
+
+#     for i in range(  len(mylist) -1  ):
+#         if mylist [i] > mylist [i+1]:
+#             temp=mylist [i]
+#             mylist [i]=mylist [i+1]
+#             mylist [i+1]=temp
+
+# print(mylist)
+
+# 1. Siyahı yaradın və bu siyahının elementlərini tərsinə çevirin.
+
+# 2. Siyahı yaradın və bu siyahıya elementlərin cəmi hesablayın. sum() funksiyasını işlətməyin.
+
+# 3. Siyahı yaradın və bu siyahıdakı elementləri kiçikdən böyüyə və ya böyüyün kiçiyinə sıralayın. İki üsulla yazın. Həm hazır list funksiyasından istifadə edərək. Həm etməyərək.
+
+# 4. Verilmiş siyahıdakı bütün dublikat elementləri silmək üçün proqram yazın.
+
+# 5. İki siyahı yaradın və bu iki siyahının kəsişməsini (ümumi elementlərini) tapan proqram yazın.
+
+# 6. Siyahıdakı elementlərin ədədi ortasını və medianını hesablayan proqram yazın.
+
+# 7. Siyahı yaradın və bu siyahıdakı elementləri elementin sayına görə çeşidləyən proqram yazın.  (Yəni, ən çox təkrarlanan elementdən ən az təkrarlanan elementə doğru)
+
+# 8. Siyahıdakı bütün sadə ədədləri tapan proqram yazın.
+
+
+# number_a = 20
+# number_b = 30
+
+
+# temp = number_a
+# number_a = number_b
+# number_b = temp
+
+
+# number_a =  number_a + number_b
+# number_b = number_a - number_b
+# number_a = number_a - number_b
+# print(number_a)
+# print(number_b)
+
+
+# siyahi_a =siyahi_a[::-1]
+# print(siyahi_a)
+
+
+# siyahi_a = [0,1,2,3,4,5,6,7,8,9]
+
+# for index in range(len(siyahi_a)):
+#     temp = siyahi_a[index]
+#     siyahi_a[index] = siyahi_a[-1 - index]
+#     siyahi_a[-1 -index] = temp 
+    
+
+# print(siyahi_a)
+
+
+# temp = siyahi_a[0]
+# siyahi_a[0] = siyahi_a[-1]
+# siyahi_a[-1] = temp
+
+
+# temp = siyahi_a[1]
+# siyahi_a[1] = siyahi_a[-2]
+# siyahi_a[-2] = temp
+
+
+
+
+# siyahi_a[1] = siyahi_a[-2]
+# siyahi_a[2] = siyahi_a[-3]
+# siyahi_a[3] = siyahi_a[-4]
+# siyahi_a[4] = siyahi_a[-5]
+# siyahi_a[5] = siyahi_a[-6]
+# siyahi_a[6] = siyahi_a[-7]
+# siyahi_a[7] = siyahi_a[-8]
+
+# print(siyahi_a)
+
+
+# list_a = [2,7,35,43,5,6,8]
+
+# for a in list_a:  
+#   for i in range(len(list_a)- 1):
+#     if list_a[i]<list_a[i+1]:  
+#       temp = list_a[i]
+#       list_a[i] = list_a[i+1]
+#       list_a[i+1] = temp
+  
+
+# print(list_a)
+
 
 
 #!Strings Methods
+
+#! Strings
+
+# Multiline Strings
+
+# string_a = "Salam BAKI NECESEM"
+
+
 
 #*startswith
 #*endswith
@@ -22,25 +137,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #*encode
 # string1 = 'I am Job-Reådy'
 
@@ -50,9 +146,7 @@
 
 
 
-
 #*endswith
-
 
 # soz_1 = "Crio Dev Community."
 
@@ -320,7 +414,7 @@
 
 #*Remove
 
-thisset = {"apple", "banana", "cherry"}
+# thisset = {"apple", "banana", "cherry"}
 # thisset.remove("banana")
 # thisset.remove("banana")
 
@@ -374,8 +468,8 @@ thisset = {"apple", "banana", "cherry"}
 
 
 # simmetric ferq
-x = {"apple", "banana", "cherry"}
-y = {"google", "microsoft", "apple"}
+# x = {"apple", "banana", "cherry"}
+# y = {"google", "microsoft", "apple"}
 
 
 # x =  x - y + (y - x)
@@ -430,6 +524,14 @@ y = {"google", "microsoft", "apple"}
 #
 
 # car = {"brand": "Ford", "model": "S-class", "year": 2012}
+
+# english_levels = {
+#     "a1":"beginner",
+#     "a2":"elemetry",
+#     "c1":"pre-intermadate",
+#     "b1":"pre-intermadate12",
+# }
+
 
 
 # matris = [[1,2,3],[2,3,4],[7,8,9]]
@@ -622,8 +724,6 @@ y = {"google", "microsoft", "apple"}
 # print(thisdict.pop("model"))
 # print(thisdict)
 
-
-
 # print(thisdict)
 
 
@@ -646,9 +746,7 @@ y = {"google", "microsoft", "apple"}
 
 
 
-
-
-
+# For above nested dicts
 # list_a = [1,2,3,4,5,6,7,8,9]
 # matrix_a = [1,2,3],[4,5,6],[7,8,9]
 
@@ -659,11 +757,6 @@ y = {"google", "microsoft", "apple"}
 #     print(a, end =' ')
 
 #   print()
-
-
-
-
-
 
 
 
@@ -718,154 +811,7 @@ y = {"google", "microsoft", "apple"}
 # print(b)
 
 
-
-# temp = my_list[0]
-# my_list[0] = my_list[-1]
-# my_list[-1] = temp
-
-
-# temp = my_list[1]
-# my_list[1] = my_list[-2]
-# my_list[-2] = temp
-
-
-
-# my_list = [1,2,3,4,5,6,7,8,9]
-# for i in range(len(my_list)//2):
-#     temp = my_list[i]
-#     my_list[i] = my_list[-1-i]
-#     my_list[-1-i] = temp
-
-
-# print(my_list)
-
-# # for j in range(len(mylist) ):
-
-#     for i in range(  len(mylist) -1  ):
-#         if mylist [i] > mylist [i+1]:
-#             temp=mylist [i]
-#             mylist [i]=mylist [i+1]
-#             mylist [i+1]=temp
-
-# print(mylist)
-
-# 1. Siyahı yaradın və bu siyahının elementlərini tərsinə çevirin.
-
-# 2. Siyahı yaradın və bu siyahıya elementlərin cəmi hesablayın. sum() funksiyasını işlətməyin.
-
-# 3. Siyahı yaradın və bu siyahıdakı elementləri kiçikdən böyüyə və ya böyüyün kiçiyinə sıralayın. İki üsulla yazın. Həm hazır list funksiyasından istifadə edərək. Həm etməyərək.
-
-# 4. Verilmiş siyahıdakı bütün dublikat elementləri silmək üçün proqram yazın.
-
-# 5. İki siyahı yaradın və bu iki siyahının kəsişməsini (ümumi elementlərini) tapan proqram yazın.
-
-# 6. Siyahıdakı elementlərin ədədi ortasını və medianını hesablayan proqram yazın.
-
-# 7. Siyahı yaradın və bu siyahıdakı elementləri elementin sayına görə çeşidləyən proqram yazın.  (Yəni, ən çox təkrarlanan elementdən ən az təkrarlanan elementə doğru)
-
-# 8. Siyahıdakı bütün sadə ədədləri tapan proqram yazın.
-
-
-# number_a = 20
-# number_b = 30
-
-
-# temp = number_a
-# number_a = number_b
-# number_b = temp
-
-
-# number_a =  number_a + number_b
-# number_b = number_a - number_b
-# number_a = number_a - number_b
-# print(number_a)
-# print(number_b)
-
-
-# siyahi_a =siyahi_a[::-1]
-# print(siyahi_a)
-
-
-# siyahi_a = [0,1,2,3,4,5,6,7,8,9]
-
-# for index in range(len(siyahi_a)):
-#     temp = siyahi_a[index]
-#     siyahi_a[index] = siyahi_a[-1 - index]
-#     siyahi_a[-1 -index] = temp 
-    
-
-# print(siyahi_a)
-
-
-# temp = siyahi_a[0]
-# siyahi_a[0] = siyahi_a[-1]
-# siyahi_a[-1] = temp
-
-
-# temp = siyahi_a[1]
-# siyahi_a[1] = siyahi_a[-2]
-# siyahi_a[-2] = temp
-
-
-
-
-# siyahi_a[1] = siyahi_a[-2]
-# siyahi_a[2] = siyahi_a[-3]
-# siyahi_a[3] = siyahi_a[-4]
-# siyahi_a[4] = siyahi_a[-5]
-# siyahi_a[5] = siyahi_a[-6]
-# siyahi_a[6] = siyahi_a[-7]
-# siyahi_a[7] = siyahi_a[-8]
-
-# print(siyahi_a)
-
-
-# list_a =[2,7,35,43,5,6,8]
-
-# for a in list_a:  
-#   for i in range(len(list_a)- 1):
-#     if list_a[i]<list_a[i+1]:  
-#       temp = list_a[i]
-#       list_a[i] = list_a[i+1]
-#       list_a[i+1] = temp
-  
-
-# print(list_a)
-
-
-
-
-# def canculator(parametr ="*",eded_1=12):
-
-
-#     birinci_eded = int(input('birinci_eded: '))
-#     ikinci_eded = int(input('ikinci_eded: '))
-#     netice = 0
-#     if parametr == "+":
-#         netice = birinci_eded+ikinci_eded
-    
-#     if parametr == "-":
-#         netice = birinci_eded-ikinci_eded
-      
-#     if parametr == "*":
-#         netice = birinci_eded*ikinci_eded
-    
-#     if parametr == "/":
-#         netice = birinci_eded/ikinci_eded
-      
-#     return birinci_eded,ikinci_eded,parametr, netice
-
-
-
-# parametr= input('parametr: ')
-
-# eded_1, eded_2,parametr, netice = canculator(parametr)
-# print(f"{eded_1} {parametr} {eded_2}  = {netice}")
-
-
-# def test():
-#   print("Salam dunyani")
-  
+# Mediani tapma proqrami
 # list_str = input("Listi daxil edin")
 # list_str = input("Listi daxil edin: ")
 # list_a = list_str.split(" ")
@@ -888,8 +834,7 @@ y = {"google", "microsoft", "apple"}
 
 
 
-
-
+# Sade olub olmadigini yoxlamaq
 # list_a = [1,2,3,4,5,6,7,8,9,10,11,12]
 
 # for eded in list_a:
@@ -910,14 +855,7 @@ y = {"google", "microsoft", "apple"}
 
 
 
-
-
-
-
-
-
-
-
+# Sorting
 # for index in range(0, len(list_a) -1):
 #     if list_a[index] > list_a[index + 1]:
 #       temp = list_a[index]
