@@ -150,13 +150,20 @@
 
 #! Isinstance
 # number = 42  
+# Object orianted programing  - OOP
+# print(type(number))
 # validation_conditions = (isinstance(number, int),number % 2 == 0,)
 # print(all(validation_conditions))
 
 #! Callabe
 # number = 24
+# for a in number:
+    # print(a)
+    
+# number
 # print(   callable(print)   )
 
+# a = int(number)
 
 #! Short life cycle
 # number_a = "salam" and "sagol" and "" and "Yox"
@@ -183,7 +190,7 @@
 
 
 #! Is keyword
-# x = 1001
+# x = y
 # y = x
 
 # print(id(x))
@@ -264,17 +271,20 @@
 
 #! Random library
 # import random
+# x= random.randrange(1, 1077)
+# print(x)
 
-# random.randrange(1, 7)
+# count = 10000000
 
-# input_count = 12213212
-# count = 0
-# cem =0
+# i = 0
+# cem = 0
+# while i < count:
+#     x  = random.randrange(1,7)
+#     cem += x 
+#     i += 1        
+    
 
-# while count < input_count:
-#     cem = cem + random.randrange(1,7)
-#     count+=1
-
-
-# print(cem/input_count)    
+# print(cem/count)
+    
+    
     

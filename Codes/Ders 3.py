@@ -120,20 +120,55 @@
 
 # Multiline Strings
 
-# string_a = "Salam BAKI NECESEM"
+# string_a = """Salam baki necesen.
+# Neynirsen?
+# Halin ehvalin."""
+# print(string_a)
+# print(type(string_a))
+
+# for herf in "SalamBaki":
+#     print(herf)
 
 
+#! indexing in string
+# var_a = "Dunya senin"
+# herf = var_a[::-1]
+# print(herf)
+# print(len(var_a))
+
+
+#! in keyword in strings
+
+
+txt = "The best things in life are Free!"
+# new_txt = txt.
+
+# print(new_txt)
+# list_a = ["Farid", "Mahammad","Muhammad","Nicat"]
+
+
+# new_text = ",".join(list_a)
+
+# print(new_text)
+
+# print(txt.find("in",12))
+
+# print(txt.upper().count("F"))
+
+
+#*upper
+#*lower
+#*split
+#*strip
+#*format
 
 #*startswith
 #*endswith
 #*count
+
 #*find
 #*join
 #*repleca
-
-#*split
-#*strip
-#*format
 
 
 
@@ -143,6 +178,7 @@
 # print ( string1.encode( encoding = "ascii", errors = "namereplace" ) )
 # print ( string1.encode( encoding = "ascii", errors = "replace" ) )
 # print ( string1.encode( encoding = "ascii", errors = "ignore" ) )
+
 
 
 
@@ -249,7 +285,8 @@
 # thistuple = ("apple", "banana", "cherry","Test")
 # print(len(thistuple))
 
-
+# verilen_string = "Salam frontend , backend , Broend 
+# , locked"
 # Some tuples
 
 # tuple1 = ("apple", "banana", "cherry")
