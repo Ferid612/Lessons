@@ -2,6 +2,78 @@
 #! Funksiyalar 
 
 
+
+
+
+# def funksiya_a(item,item_3 ,  item_2 = "Mehemmed" ,  ):
+#     print(f"Salam {item}")
+#     print(f"Salam {item_2}")
+#     print(f"Salam {item_3}")
+    
+    
+    
+# def canculator(number_1, number_2, operator):
+#     if operator == "+":
+#         return number_1 + number_2        
+    
+#     elif operator == "-":    
+#         return number_1 - number_2
+    
+#     elif operator == "*":
+#         return  number_1 * number_2
+    
+#     elif operator == "/":
+#         return number_1 / number_2
+
+
+
+# cem_1 = canculator(1, 2, "+") 
+# cem_2 = canculator(3, 4, "+") 
+
+
+# print(type(cem_1))
+# print(type(cem_2))
+
+# print(cem_1)
+# print(cem_2)
+
+
+
+# funksiya_a("Hesen" , "Ali")
+# adam_adi = input()
+
+# funksiya_a()
+
+
+
+# funksiya_a("Hesen")
+
+# funksiya_a("ALi")
+# funksiya_a(5)
+
+
+# def ucbucagin_novunu_tap (a,b,c):
+#     if a < 0 or b < 0 or c < 0:
+#         return "Bele bir ucbucaq yoxdur"
+    
+#     if a == b == c == 60:
+#         return "Beraberyanli ucbucaqdir"
+
+#     elif a + b < c: 
+#         return "Korbucaqli ucbucaqdir"
+         
+
+# ucbucagin_novunu_tap(-20, 20, 80)
+# netice = ucbucagin_novunu_tap(-20, 20, 80)
+
+# if "yoxdur" in netice:
+#     print("Baki balaca seherdir")
+
+
+# list_a =[10,9, 8, 7, 6, 5, 4, 3, 2, 1]
+# list_a.sort()
+
+
 # result = factorial(n)
 # print(f"{n} faktoriali = {result}")
 
@@ -15,26 +87,34 @@
 # print(funskiya_a_c(8))
 # print(funskiya_a_c(20))
 # print(funskiya_a_c(25))
-# a
-# b
-# c
-
-
 
 
 #! Rekursiv funksiya
 
 # n = int(input())
 
+
+# def funksiya_a(t):
+#     print("emeliyat yerine yetirildi")
+#     funksiya_a(2)
+
+
+# funksiya_a(23)
+
+
 # def factorial(n):
-    
 #     if n == 0:
 #         return 1
-#     else:  # 5  factorial(4)  4* factorial(3)   3*factorial(2)  2 *factorial(1)  1* factorial(0) 1
+#     else: 
 #         return n * factorial(n - 1)
 
+ #return  5* factorial(4)  4* factorial(3)   3*factorial(2)  2 *factorial(1)  1* factorial(0) 1
+# 5!  5 * 5-1 * 5-1-1  5-1-1-1 
 
 # print(factorial(5))
+
+
+
 
 # list_a = (2, 4 ,5 )
 # print(bool(list_a))
@@ -44,14 +124,15 @@
 
 # def f(x):
 #     if x < 0:
-#         return
+#         return 0
 #     if x > 100:
-#         return
+#         return 0
+
 #     print(x)
 
 
 # f(-3)
-# f(105)
+# print(f(105))
 # f(64)
 # 64
 
@@ -61,11 +142,11 @@
 #     return ['foo', 'bar', 'baz', 'qux']
  
 
-# f()
+# print(f())
 
-# f()[2]
+# print(f()[2])
 
-# f()[::-1]
+# print(f()[::-1])
 
 
 

@@ -59,8 +59,8 @@
 1) for,while, do while dövrləri haqqında səsli anlatım. öz sözlərinizlə nəyin nə olduğunu, arasında ki, fərqləri oxşarlıqları danışın.
 2) Natural ədədin cüt rəqəmlərin sayı ilə 3ə tam bölünün rəqəmlərinin cəmini tapan program tərtib edin. 
 3) Kvadratın və dairənin sahəsi verilmişdir. Kvadratın dairənin içinə tam yerləşib yerləşmədiyini araşdıran programı tərtib edin.
-4) (x+1)(x-3)....(x-27)
-5) hasilini hesablayan program tərtib edin.
+4) (x+1)(x-3)....(x-27)  hasilini hesablayan program tərtib edin.
+
 6) A,B ədədinin ƏBOB unu tapan program tərtib edin.
 7) * A,B ədədinin ƏKOB nu tapan program tərtib edin. 
 

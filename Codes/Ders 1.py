@@ -86,12 +86,28 @@
 #     )
 
 
+# String  str  "soz"   'soz'
+
+# var_a = "Hesen "
+# var_b = "Necesen" 
+
+# print(var_a + var_b)
+
+ 
+
+
+
 #! Isclose 
-# x = 1.1 + 2.2
+x = 1.1 + 2.2
+
 # print(x)
 # print(x == 3.3)
 
+
 # from math import isclose
+# print(  isclose(6,10, rel_tol=0.2)  )
+
+
 # x = 1.1 + 2.2
 # print( isclose(x,3.3))
 
@@ -100,7 +116,8 @@
 
 
 #! Boolean cheking 
-# print("a" <  "A")
+# print("a" >  2)
+
 # print(ord("A"))
 # print(ord("a"))
 
@@ -134,13 +151,22 @@
 # print(type(e))
 # print(type(d))
 
-# number_a = int(input("Daxil edin: ")) 
+# a = int( input("a: "))
+
+# print("musteri daxil etdi:", a)
+# print(type(a))
+
+
+# print(12 > a )
+# number_a = int(input("Daxil edin: ")) 1
 # print(type(number_a))
 
 # print("senin girdiyin deyer:", number_a)
 
 
 #! all
+
+
 # variable_b = (True, True, True)
 # print(all( variable_b))
 
@@ -148,8 +174,15 @@
 # print(all(tuple_a))
 # print(any(tuple_a))
 
+
+
+
 #! Isinstance
-# number = 42  
+# var_a = 42.2  
+# b = isinstance(var_a, int) 
+
+# print(b)
+
 # Object orianted programing  - OOP
 # print(type(number))
 # validation_conditions = (isinstance(number, int),number % 2 == 0,)
@@ -164,6 +197,45 @@
 # print(   callable(print)   )
 
 # a = int(number)
+
+
+
+
+
+# print("Hello, world!")
+
+# a = 35
+# b = 25
+# c = 12
+
+
+# if a == 25:
+#     a = 20  
+    
+# elif  a!=25:
+#     a = 28
+
+# else:
+#     a = 40
+
+
+# print(a)
+# a = input()
+# b = int(input())
+
+# c = ["Salam",a, "!", b, "yasindasan"]
+
+# c = [str(item) for item in c]
+# d = " ".join(c)
+
+
+# list_a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+# any()
+# all()
+
+# list_b = [item for item in list_a if item % 2 == 0]
+# print(list_b)
+
 
 #! Short life cycle
 # number_a = "salam" and "sagol" and "" and "Yox"
@@ -185,8 +257,17 @@
 # print(var_a)
 # number = 0
 
-
+# Qaldiq 221
     
+# a = ""
+# a = ''
+# a = []
+# a = 0 
+# a = {}
+
+
+# if a:
+#     print("Bura isledi")
 
 
 #! Is keyword
@@ -271,8 +352,10 @@
 
 #! Random library
 # import random
-# x= random.randrange(1, 1077)
+# x = random.randrange(1, 10)
 # print(x)
+
+
 
 # count = 10000000
 

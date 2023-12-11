@@ -140,6 +140,9 @@
 #! in keyword in strings
 
 
+from pprint import pprint 
+
+
 txt = "The best things in life are Free!"
 # new_txt = txt.
 
@@ -433,7 +436,7 @@ txt = "The best things in life are Free!"
 # #* Add items
 
 # thisset = {"apple", "banana", "cherry"}
-# thisset.add("orange")
+# thisset.add("banana")
 # print(thisset)
 
 
@@ -481,7 +484,10 @@ txt = "The best things in life are Free!"
 
 # set1 = {"a", "b" , "c"}
 # set2 = {1, 2, 3,'a'}
-# set3 = set1.union(set2)
+# c = {2,3,5}
+# d = {5,9,10}
+# set3 = set1.union(c, d, set2)
+
 # print(set3)
 
 
@@ -490,19 +496,21 @@ txt = "The best things in life are Free!"
 # x = {"apple", "banana", "cherry"}
 # y = {"google", "microsoft", "apple"}
 
+# T = x.intersection(y)
 # x.intersection_update(y)
 # print(x)
+# print(T)
 
 # print(result_a)
 
 
-# result = x.intersection_update(y)
-# print(result_a)
+# result = x.intersection(y)
+# print(result)
 
 # print( x)
 # print( result)
 
-
+# files = ["test.jpg","data.txt","var_a.jpg"]
 
 # simmetric ferq
 # x = {"apple", "banana", "cherry"}
@@ -520,9 +528,10 @@ txt = "The best things in life are Free!"
 
 # Alt coxlugugurmu
 
-# x = {"a", "b", "c"}
-# y = {"f", "e", "d","a", "c", "b"}
+# y = {"a", "b", "c"}
+# x = {"f", "e","a", "d", "c", "b"}
 
+# z = y.issubset(x)
 # z = y.issuperset(x)
 # print(z)
 
@@ -536,8 +545,7 @@ txt = "The best things in life are Free!"
 # test_str = test_str.split(" ")
 # print(test_str)
 
-
-
+# 3 dene set
 
 # x.union(y)
 
@@ -557,22 +565,36 @@ txt = "The best things in life are Free!"
 # print(list_a)
 
 
+
+
+
 #! DICT
 #
 
-# car = {"brand": "Ford", "model": "S-class", "year": 2012}
+
+
+
+
+# car = {
+#   "brand": "Ford",
+#   "model": "S-class",
+#   "year": 2012
+#   }
+
+
 
 # english_levels = {
 #     "a1":"beginner",
 #     "a2":"elemetry",
-#     "c1":"pre-intermadate",
-#     "b1":"pre-intermadate12",
+#     "b1":"pre-intermadate",
+#     "b2":"intermadate",
+#     "c1":"pre-intermadate2",
 # }
 
 
+# list_a = [12,12]
 
-# matris = [[1,2,3],[2,3,4],[7,8,9]]
-
+# matris = [[2,3,4],[7,8,9],{1,2,3}]
 # print(matris[0][2])
 
 
@@ -583,19 +605,25 @@ txt = "The best things in life are Free!"
 #   print()
 
 
-# print("Salam")
-# print("Hesen")
-
 #*Duplicates
 # thisdict = {
 #   "brand": "Ford",
 #   "model": "Mustang",
 #   "year": 1964,
-#   "year": 2020
+#   "year": 2020,
+#   "oil_type" : "dizel"
 # }
-# print(thisdict)
 
-# print(    thisdict["brand"]        )
+# pprint.pprint(thisdict, width=1)
+
+
+# print(thisdict.keys())
+# for a in thisdict:
+#   print(a)
+
+
+
+# print(thisdict.get('oil_type',"benzin"))
 
 
 
@@ -655,8 +683,8 @@ txt = "The best things in life are Free!"
 # for key,value in thisdict.items():  
 #   print("key:",key,"value:", value)
 
-# list_adam_adlari = ["Hasan","Ali"]
 
+# list_adam_adlari = ["Hasan","Ali"]
 # for index,item in enumerate(list_adam_adlari):
 #   print(index,item)
   
@@ -730,18 +758,25 @@ txt = "The best things in life are Free!"
 #   12 : "Mustang",
 
 # }
+
+
+# thisdict[True] = "MERCEDES"
+# print(thisdict)
+
+
 # thisdict.update(
 #   {
 #     "year": 2020,
 #    "model":"BMW",
 #    "oil_type":"benzin"
 #    }
+  
 #   )
 
 
 # thisdict[True] = 23
 
-# print(thisdict)
+# pprint(thisdict, width=1)
 
 
 # #REMOVE
@@ -751,13 +786,14 @@ txt = "The best things in life are Free!"
 #   "model": "Mustang",
 #   "year": 1964
 # }
-# print(thisdict)
-# print(thisdict.popitem())
+#print(thisdict)
+# pprint(thisdict.popitem())
 
 
 # print(thisdict)
+
 # 
-# thisdict.pop("model")
+# print(thisdict.pop("model"))
 # print(thisdict.pop("model"))
 # print(thisdict)
 
@@ -799,28 +835,30 @@ txt = "The best things in life are Free!"
 
 
 # NESTED ITEMS
-# child1 = {
-#   "name" : "Emil",
-#   "year" : 2004
-# }
+child1 = {
+  "name" : "Emil",
+  "year" : 2004
+}
 
-# child2 = {
-#   "name" : "Tobias",
-#   "year" : 2007
-# }
+child2 = {
+  "name" : "Tobias",
+  "year" : 2007
+}
 
-# child3 = {
-#   "name" : "Linus",
-#   "year" : 2011,
-# }
+child3 = {
+  "name" : "Linus",
+  "year" : 2011,
+}
 
-# myfamily = {
-#   "child1" : child1,
-#   "child2" : child2,
-#   "child3" : child3
-# }
+myfamily = {
+  "child1" : child1,
+  "child2" : child2,
+  "child3" : child3
+}
 
-# print(child2['name'])
+print(child2['name'])
+
+
 
 
 # x = ('key1', 'key2', 'key3')
