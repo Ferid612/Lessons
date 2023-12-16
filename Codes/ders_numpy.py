@@ -149,6 +149,7 @@ import numpy as np
 
 #! shape !BURDA QALDIQ F1 QRUPU
 # arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8,10], [5, 6, 7, 8,10], [5, 6, 7, 8,10], [5, 6, 7, 8,10], [5, 6, 7, 8,10]])
+# newarr = arr.reshape(4, 3)
 # print(arr)  # (2, 4)
 
 
@@ -189,23 +190,25 @@ import numpy as np
 
 #! It is view 
 # arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
-
 # print(arr.reshape(2, 4).base)  # [1 2 3 4 5 6 7 8]
 
 
 #! Arrayleri birlesdirmek
-# arr1 = np.array([1, 2, 3])
-# arr2 = np.array([4, 5, 6])
-# arr3 = np.array([7, 8, 9])
+arr1 = np.array([1, 2, 3])
+arr2 = np.array([4, 5, 6])
+arr3 = np.array([7, 8, 9])
 
-# arr = np.vstack((arr1, arr2, arr3))
+arr = np.vstack((arr1, arr2, arr3))
 
-    # arr = np.dstack((arr1, arr2, arr3))
+# arr = np.dstack((arr1, arr2, arr3))
 
-    # print(arr)
+print(arr)
 
 # [[1 2 3]
 #  [4 5 6]]
+
+
+
 
 
 #! Flatten
