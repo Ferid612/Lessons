@@ -220,9 +220,40 @@
 
 # Canculyator funksiyasi yazin
 
+
+
 #! Docstring
 
 
+# Instagran user passowrd
+
+
+# from curses import longname
+# user_password = "Bakugan612"
+
+# # login for teleqram
+# def login(username, password, age) -> bool:
+#     """Bu funksiya instarame giris ucundur
+    
+#     Args:
+#         username (str): istifadecinin instagram  istifadeci adi
+#         password (str): intifadecinin instagram sifresi
+#         age (int): istifadecinin yasi
+
+#     Returns:
+#         bool: neticeniin true ve ya false olaraq return edir 
+#         """
+
+
+#     if age>18:
+#         print("xos gelmisiniz")
+    
+    
+    
+#     return 23
+
+
+# login("u","p", "salam")
 
 # def foo(bar=0, baz=1):
 #     """Perform a foo transformation.
@@ -238,8 +269,22 @@
 
 
 #! Lambda 
-# x = lambda a : a + 10
+x = lambda a : a + 10
+
+uce_vur = lambda x : 1 if x== 0 else x* uce_vur(x-1)
+
+
+# def uce_vur(a):
+#     return  a*3
+
+
+# print(uce_vur(5))
+
 # print(x(5))
+
+
+
+
 
 
 # def func(a):
@@ -265,10 +310,22 @@
 
 
 
-# def myfunc(n):
+# def edede_vur(n):
 #   return lambda a : a * n
 
-# mydoubler = myfunc(2)
+
+# k = int(input("k: "))
+# edede_vur_k = edede_vur(k)
+
+
+# print(edede_vur_k(3))
+
+# def topla(a, b):
+#     return a+b
+# k = cem()
+
+# print(k(2,3))
+
 # def mydoubler(a):
 # return a*2
 # print(mydoubler(11))
@@ -315,6 +372,18 @@
   
 
 #! OOP 
+# Object  orianted programing
+# Esya yonumlu proqramlasdirma
+
+# class esyamizin tipi. classdan yaranan butun obyektle 
+# hemin class in daxilindeki fieldlere ve methodlara  sahib olmus olur
+
+# object - esyamizin classdan yaradiriq 
+
+# field-properties    ---- obyektin ozelikleri
+# methods -- funksiyalarimiz 
+
+ 
 
 # usaq1 = {
 #     "name":"hasan",
@@ -342,6 +411,34 @@
 # }
 
 # sinif["useqlar"][0]
+
+
+
+
+class Human:
+    # constructor 
+    name_in_god = "Bende"
+    def __init__(self, name, username):
+        self.name = name
+        self.username = username
+        self.fullname = name + " " + username
+        
+        
+    def __str__(self):
+        return  self.fullname
+        
+
+
+farid_obj = Human("Farid","Habibli")
+mahammad_obj = Human("Mahammad","Ekberov")
+
+
+print(farid_obj)
+
+# print(type(farid_obj))
+
+
+
 
 
 # class Sinif:

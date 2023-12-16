@@ -121,7 +121,7 @@ import numpy as np
 
 #View
 
-# arr = np.array([1, 2, 3, 4, 5])
+# arr = np.array([1, 2, 3, 4, 0], dtype='bool')
 # x = arr.view()
 # arr[0] = 42
 
@@ -131,8 +131,9 @@ import numpy as np
 
 
 #! Yapılandırılmış bir dizi oluşturma
-# data_type = [('isim', 'U10'), ('yas', 'i4'), ('boy', 'f4')]
-# veriler = np.array([('Ali', 31, 1.75), ('Veli', 28, 1.80)], dtype=data_type)
+
+# data_type = [('i4', 'U10'), ('yas', 'f4'), ('boy', 'f4')]
+# veriler = np.array([('Ali', 31, 1.75), ('Veli', 28, 1.80), ('Veli', 28, 1.80)], dtype=data_type)
 
 # print(veriler)
 
@@ -154,15 +155,16 @@ import numpy as np
 
 
 
+
 # arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
-# newarr = arr.reshape(4, 3)
+# newarr = arr.reshape(2, 7)
 # print(newarr)
 
+# a* b* c  
 
-
-# arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24])
-# newarr = arr.reshape(2, 3, 4)
-# print(newarr)
+arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24])
+newarr = arr.reshape(12, 2)
+print(newarr)
 
 # [[[ 1  2  3  4]
 #   [ 5  6  7  8]

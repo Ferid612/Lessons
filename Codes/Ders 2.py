@@ -1,15 +1,30 @@
 
 #! Data types
-# x = 1    # int
-# y = 2.8  # float
-# z = 1j   # complex
-# a = "salam" # string 
-# b = True # boolean
-# c = None # Nonetype
-# list_a = ["a", "b", "c"] # list, tuple,  set,dict 
+x = 1    # int  # integer 
+y = 2.8  # float  
+z = 1j   # complex
+a = "salam" # string 
+b = True # boolean
+c = None # Nonetype
+
+
+# a = 20
+# b = 2.4
+# c = 30
+# d = None
+
+# print(a<d)
+
+
 
 #convert from int to float:
-# x = "10" 
+# x = "100"
+# x = int(x)
+
+
+# print(type(x))
+
+ 
 # a = float(x)
 # print(a)
 # print(type(a))
@@ -33,7 +48,17 @@
 #! Lists
 
 
-# var_a = [2, 4, 6, 8, 10, 12, 14, 15, 16, 17, 18, 19, 20]
+# var_a = [ 2 , 4, 20]
+
+var_b =  ["salam", "necesen", "neynirsen"]
+
+print(var_b[-3])
+print(var_b[2])
+
+
+
+# print(type(var_a))
+
 # var_a = [1, 2, 3, 4, 5]
 # var_b = [2,4,5,6,8]
 
