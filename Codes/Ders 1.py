@@ -313,10 +313,17 @@ x = 1.1 + 2.2
 
 
 #! If with short life cycle
-# if number_b == 23 or not number_b < 59:
-#     print("Sert odendi")
+
+# number_b = 23
+
+# # or ve ya
+
+# if number_b == 23 and number_b < 59:
+#     print("ag")
 # else:
-#     print("sert odenmedi")
+#     print("qara")
+
+
 
 # if len(list_a):
 #     print("Bize true qayitdi")
