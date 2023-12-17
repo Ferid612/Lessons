@@ -1,0 +1,68 @@
+1. Stringi qəbul edən və böyük və kiçik hərflərin sayını hesablayan Python funksiyasını yazın.
+    Sample String : 'The quick Brow Fox'
+    Expected Output :
+    No. of Upper case characters : 3
+    No. of Lower case Characters : 12
+
+
+2.Rəqəmin "Mükəmməl" olub olmadığını yoxlamaq üçün Python funksiyasını yazın.
+    Vikipediyaya görə: Ədədlər nəzəriyyəsində mükəmməl ədəd onun müvafiq müsbət bölənlərinin cəminə, yəni ədədin özü
+    xaric olan müsbət bölənlərinin cəminə bərabər olan müsbət tam ədəddir (həmçinin onun aliquot cəmi kimi tanınır).
+    Ekvivalent olaraq mükəmməl ədəd bütün müsbət bölənlərinin (özü də daxil olmaqla) cəminin yarısı olan ədəddir.
+    Nümunə : Birinci mükəmməl ədəd 6-dır, çünki 1, 2 və 3 onun müvafiq müsbət bölənləridir və 1 + 2 + 3 = 6.
+    Ekvivalent olaraq, 6 rəqəmi bütün müsbət bölənlərin cəminin yarısına bərabərdir: ( 1 + 2 + 3 + 6 ) / 2 = 6.
+    Növbəti mükəmməl ədəd 28 = 1 + 2 + 4 + 7 + 14-dür. Bunun ardınca 496 və 8128 mükəmməl ədədləri gəlir.
+
+
+3. Verilmiş sətirin palindrom olub-olmadığını yoxlayan Python funksiyasını yazın. palindrom sözlər düzünə və tərsinə oxunanda düz oxunur.
+    Məs: madam, ütü, tamat  
+
+
+4. Sətrin panqram olub olmadığını yoxlamaq üçün Python funksiyasını yazın.
+    Qeyd: Panqram cümlələr əlifbadakı bütün hərfləri ehtiva edən cümlələrdir.
+    For example : "The quick brown fox jumps over the lazy dog"
+
+5. Sözlərin defislə ayrılmış ardıcıllığını giriş kimi qəbul edən və sözləri əlifba 
+   sırası ilə sıraladıqdan sonra defislə ayrılmış ardıcıllıqla çap edən Python proqramı yazın.
+    Sample Items : green-red-yellow-black-white
+    Expected Result : black-green-red-white-yellow
+
+
+
+6. Write a Python function to reverse a list at a specific location.
+    Original list:
+    [10, 20, 30, 40, 50, 60, 70, 80]
+    Reverse elements of the said list between index position 2 and 4
+    [10, 20, 50, 40, 30, 60, 70, 80]
+
+    Original list:
+    [10, 20, 50, 40, 30, 60, 70, 80]
+    Reverse elements of the said list between index position 6 and 7
+    [10, 20, 50, 40, 30, 60, 80, 70]
+
+    Original list:
+    [10, 20, 50, 40, 30, 60, 80, 70]
+    Reverse elements of the said list between index position 0 and 7
+    [70, 80, 60, 30, 40, 50, 20, 10]
+
+
+
+
+
+7. Write a Python function that finds all the permutations of the members of a list.
+    Original list:
+    [10, 20, 30, 40, 50, 60, 70, 80]
+    Length of the longest increasing sub-sequence in the said list:
+    8
+
+    Original list:
+    [10, 20, 30, 40, 50, 30, 30, 20]
+    Length of the longest increasing sub-sequence in the said list:
+    5
+
+    Original list:
+    [-1, -2, -3, -4, -5, -11, -12, -13]
+    Length of the longest increasing sub-sequence in the said list:
+    1
+
+
