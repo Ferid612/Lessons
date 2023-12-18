@@ -1,0 +1,76 @@
+# Numpy array da verilmiş 1 ölçülü array i NxN ölçülü matrisə çevirin.
+# Numpy array da verilmiş integer arrayi stringe çevir.
+# Numpy array da verilmiş integer ədədlərin içində rəqəmlərin cəmi ən boyuk olan ədədi tapın.
+# Numpy array de hər bir elementinin sıfır olmadığını yoxlayan proqram yazın.
+# Numpy array de hər bir elementinin sıfır olduğunu yoxlayan proqram yazın.
+# Numpy arrayin cemini, max ve minumumunu tapan proqram yazın.
+# Numpy arrayda matris deki bütün sadə ədədlərin cəmini tapan proqram yazın. 
+# Numpy arrayde verilmiş matris in vektorunu tapan proqram yazın.
+# Numpy arrayde verilmiş matris in hər iki diaqonalın ayrı ayrı cəmini tapan proqram yazın.
+# Numpy arrayde verilmiş matris in 4 kənarındakı elementlərin hasilini ve onlar arasında ən böyüyünü tapan proqram yazın.
+# Numpy arrayde ayrı ayrı verilmiş iki matrisdə birinci matrisin sağ diaqonalın hasilinin  ilə ikinci matrisin sol diaqonalın cəmi nisbətini tap
+# Numpy arrayde NxN ölçülü random massiv yaradın massivdə birinci və sonuncu sətirləri dəyişdirərək yeni massiv yaradın.
+# Numpy arrayde verilmiş matrisin hər sətrini artan sıra ilə düz.
+# Numpy arrayde verilmiş matrisdən n dən böyük elementləri özündə saxlayan yeni array yaradın.
+# Numpy arrayde 4x4 matrisi yaratmaq üçün NumPy proqramı yazın. Birinci və sonuncu, ikinci və üçüncü sütunları dəyişdirərək qeyd olunan massivdən massiv yaradın.
+# Numpy arrayde verilmiş iki matrisdə ilk matrisin hər elementinin ikinici matrisdəki uyğun sıradakı eleməntə vurub nəticələrdən yeni matris yaradın.
+
+
+
+
+
+# Numpy arrayde verilmiş matrisin hər sütunu artan sıra ilə düz.
+Original array:
+[[5.54 3.38 7.99]
+ [3.54 4.38 6.99]
+ [1.54 2.39 9.29]]
+
+Sort the said array by row in ascending order:
+[[3.38 5.54 7.99]
+ [3.54 4.38 6.99]
+ [1.54 2.39 9.29]]
+
+Sort the said array by column in ascending order:
+[[1.54 2.39 6.99]
+ [3.54 3.38 7.99]
+ [5.54 4.38 9.29]]
+
+
+
+
+
+#! 
+Write a NumPy program to create a new array of given shape (5,6) and type, filled with zeros.
+Change the said array in the following format:
+
+Given array:
+[[0 0 0 0 0 0]
+[0 0 0 0 0 0]
+[0 0 0 0 0 0]
+[0 0 0 0 0 0]
+[0 0 0 0 0 0]]
+New array:
+[[3 0 3 0 3 0]
+[7 0 7 0 7 0]
+[3 0 3 0 3 0]
+[7 0 7 0 7 0]
+[3 0 3 0 3 0]]
+
+
+
+
+
+
+Write a NumPy program to swap rows and columns of a given array in reverse order.
+Original array:
+[[[ 1  2  3  4]
+  [ 0  1  3  4]
+  [90 91 93 94]
+  [ 5  0  3  2]]]
+
+Swap rows and columns of the said array in reverse order:
+[[[ 5  0  3  2]
+  [90 91 93 94]
+  [ 0  1  3  4]
+  [ 1  2  3  4]]]
+None
