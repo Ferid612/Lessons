@@ -2,9 +2,6 @@
 #! Funksiyalar 
 
 
-
-
-
 # def funksiya_a(item,item_3 ,  item_2 = "Mehemmed" ,  ):
 #     print(f"Salam {item}")
 #     print(f"Salam {item_2}")
@@ -269,9 +266,9 @@
 
 
 #! Lambda 
-x = lambda a : a + 10
+# x = lambda a : a + 10
 
-uce_vur = lambda x : 1 if x== 0 else x* uce_vur(x-1)
+# uce_vur = lambda x : 1 if x== 0 else x* uce_vur(x-1)
 
 
 # def uce_vur(a):
@@ -295,13 +292,13 @@ uce_vur = lambda x : 1 if x== 0 else x* uce_vur(x-1)
 
 # print(func(10,20))
 
-# def best_func(a):
+# def test_func(a):
 #     print(a+10000)
 #     return a + 10000
 
 
 # def myfunc():
-#     return best_func
+#     return test_func
 
 
 # x = myfunc()
@@ -367,7 +364,7 @@ uce_vur = lambda x : 1 if x== 0 else x* uce_vur(x-1)
 # print(f"{eded_1} {parametr} {eded_2}  = {netice}")
 
 
-# def best():
+# def test():
 #   print("Salam dunyani")
   
 
@@ -480,46 +477,46 @@ uce_vur = lambda x : 1 if x== 0 else x* uce_vur(x-1)
 
 
 
-# class Human:
-#     def __init__(self,name,last,age):
-#         self.name = name
-#         self.last = last
-#         self.age = age
+
+class Human:
+    def __init__(self,name,last,age):
+        self.name = name
+        self.last = last
+        self.age = age
         
 
-#     def yemek_yemek(self):
-#         print(f"{self.name} yemek yedi.")
+    def yemek_yemek(self):
+        print(f"{self.name} yemek yedi.")
 
-#     def yas_artmaq(self):
-#         self.age = self.age + 1
-#         print(f"{self.name} yas artdi. yeni yas:{self.age}")
-
-
-#     def __str__(self):
-#         return self.name + " " + self.last
+    def yas_artmaq(self):
+        self.age = self.age + 1
+        print(f"{self.name} yas artdi. yeni yas:{self.age}")
 
 
-# class Hekim(Human):
-#     def __init__(self,name,last, age):
-#         super().__init__(name,last,age)
+    def __str__(self):
+        return self.name + " " + self.last
+
+
+class Hekim(Human):
+    def __init__(self,name,last, age):
+        super().__init__(name,last,age)
     
 
 
-# class Muellim(Human):
-#     def __init__(self,name,last, age, academic_level):
-#         super().__init__(name,last,age)
-#         self.academic_level = academic_level
+class Muellim(Human):
+    def __init__(self,name,last, age, academic_level):
+        super().__init__(name,last,age)
+        self.academic_level = academic_level
     
-#     def get_def(self,deyisgen):
-#         return self.name + " " + self.last + " " + self.academic_level
+    def get_def(self,deyisgen):
+        return self.name + " " + self.last + " " + self.academic_level
    
-#     # Override
-#     # Overloading 
+    # Override
+    # Overloading 
     
-# hekim_a = Hekim("Ali","Sahib", 24)
-# muellim_a = Muellim("Ali","Sahib", 24,"ProfessorDoktor")
+hekim_a = Hekim("Ali","Sahib", 24)
+muellim_a = Muellim("Ali","Sahib", 24,"ProfessorDoktor")
+print(hekim_a)     
+print(muellim_a)     
 
-
-# a = 10 
-# print(isinstance(a, int))
 

@@ -1,18 +1,22 @@
 # pip install numpy
 import numpy as np
 
+# list, tupple ,set, dict 
+
 # print(np.__version__)
 
 # arr = np.array([1, 2, 3, 4, 5])
 
-#  1,2,3,4,5
-# Array 
-#  1 INDEX, 2,3,4,5
-# List
 
-
+# index 
+# type
 # print(arr)
+# print(arr[0])
+# print(arr[-1])
+# print(arr[2:])
+
 # print(type(arr))
+
 
 
 
@@ -21,11 +25,16 @@ import numpy as np
 # print(type(arr))
 
 
+# arr = np.array(2)
+# arr = np.array([1, 2, 3, 4, 5])
+# arr = np.array([[1, 2, 3, 4, 5],[1, 2, 3, 4, 5],[1, 2, 3, 4, 5]])
+# arr = np.array([[[1, 2, 3, 4, 5],[1, 2, 3, 4, 5],[1, 2, 3, 4, 5]]])
 
 
 # 2D array
 # arr = np.array([[1, 2, 3], [4, 5, 6]])
 # print(arr)
+# print()
 
 
 # # 3D array
@@ -38,7 +47,7 @@ import numpy as np
 
 # a = np.array(42)
 # b = np.array([1, 2, 3, 4, 5])
-# c = np.array([[1, 2, 3], [4, 5, 6]])
+# c = np.array([[1, 2, 3, 4], [4, 5, 6, 8]])
 # d = np.array([[[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]],[[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]]])
 
 # print(a.ndim)  # 0
@@ -59,12 +68,18 @@ import numpy as np
 # print(arr[0])  # 1
 
 
+# arr = np.array([[1, 2, 3, 4], [4, 5, 6, 8]])
+# print(arr[0,2])
 
-# arr = np.array([[[1,2,3,4,5], [6,7,8,9,10],[11,12,13,14,15]],  [[1,2,3,4,5], [6,7,8,9,123],[11,12,13,14,15]]  ,[[1,2,3,4,5], [6,7,8,9,10],[11,12,13,14,15]]])
 
+
+# arr = np.array([[[1,2,3,4,5], [6,7,8,9,10],[11,12,13,14,15]], 
+#                 [[1,2,3,4,5], [6,7,8,9,123],[11,12,13,14,15]]
+#                 ,[[1,2,3,4,5], [6,7,8,9,10],[11,12,13,14,15]]])
 # print(   arr[1,1,4]   )
 
 #3D Index
+
 
 # arr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
 # print(arr[0, 1, 2])
@@ -78,21 +93,40 @@ import numpy as np
 # slice
 
 # arr = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])
-# print(arr[1, ::1])   # [7 8 9]
+# print(arr[1, ::])   # [7 8 9]
+
+
+#! Data Types in NumPy
+
+# NumPy has some extra data types, and refer to data types with one character, like i for integers, u for unsigned integers etc.
+# Below is a list of all data types in NumPy and the characters used to represent them.
+
+# i - integer i4 
+# b - boolean
+# u - unsigned integer
+# f - float
+# c - complex float
+# m - timedelta
+# M - datetime
+# O - object
+# S - string
+# U - unicode string
+# V - fixed chunk of memory for other type ( void )
 
 
 
 
-# arr = np.array(['a', '2', '3'], dtype='i')
+# arr = np.array(['1', '2', '3'], dtype='i2')
 # arr_2 = np.array(['1', '2', '3'], dtype='i4')
-# # print(arr.dtype)  
+# print(arr)  
+# print(arr.dtype)  
 # print(arr_2)  
 # print(arr_2.dtype)  
 
 # 4 BYTE 32 BIT 32 FERQLI QUTU HER QUTU 0 VE 1
 
-# arr = np.array([1.1, 2.1, 0])
 
+# arr = np.array([1.1, 2.1, 0])
 # newarr = arr.astype('str')
 # print(newarr)        # [1 2 3]
 
@@ -112,7 +146,8 @@ import numpy as np
 #Copy 
 # arr = np.array([1, 2, 3, 4, 5])
 # x = arr.copy()
-# # x = arr
+# x = arr
+
 # x[0] = 42
 
 # print(arr)  # [42  2  3  4  5]
@@ -121,8 +156,11 @@ import numpy as np
 
 #View
 
-# arr = np.array([1, 2, 3, 4, 0], dtype='bool')
+arr = np.array([1, 2, 3, 4, 0])
+
 # x = arr.view()
+# x = arr
+
 # arr[0] = 42
 
 # print(arr)  # [42  2  3  4  5]
@@ -148,7 +186,13 @@ import numpy as np
 # print(b.base is a)  # True döner, çünkü b, a'nın verilerini paylaşır
 
 
-#! shape !BURDA QALDIQ F1 QRUPU
+#! shape 
+# arr = np.array([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16])
+# new_arr = arr.reshape(2,4,2)
+
+# print(new_arr)
+# print(arr)
+
 # arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8,10], [5, 6, 7, 8,10], [5, 6, 7, 8,10], [5, 6, 7, 8,10], [5, 6, 7, 8,10]])
 # newarr = arr.reshape(4, 3)
 # print(arr)  # (2, 4)
@@ -193,36 +237,21 @@ import numpy as np
 
 
 
-#! Data Types in NumPy
-# NumPy has some extra data types, and refer to data types with one character, like i for integers, u for unsigned integers etc.
-
-# Below is a list of all data types in NumPy and the characters used to represent them.
-
-# i - integer
-# b - boolean
-# u - unsigned integer
-# f - float
-# c - complex float
-# m - timedelta
-# M - datetime
-# O - object
-# S - string
-# U - unicode string
-# V - fixed chunk of memory for other type ( void )
-
-
 
 
 #! Diqqet
 #! It is view 
 # arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
-# print(arr.reshape(2, 4).base)  # [1 2 3 4 5 6 7 8]
+# new_arr = arr.reshape(2, 4).base  # [1 2 3 4 5 6 7 8]
 
 
 # a = np.array([1, 2, 3, 4, 5, 1, 2, 3, 4, 5])
-# b = a[1:4]  # b, a'nın bir görünümüdür
+# b = a[1:5]  # b, a'nın bir görünümüdür
 # c = b[1:2]
 
+# b[2] = 10
+# print(b.base)
+# print(a)
 
 # print(b.base is a)  
 # print(c.base is a)  
@@ -230,6 +259,9 @@ import numpy as np
 
 
 #! Arrayleri sütuna uyğun birlesdirmek
+# [1, 2, 3]  [4, 5, 6]  [7, 8, 9]
+
+
 # arr1 = np.array([1, 2, 3])
 # arr2 = np.array([4, 5, 6])
 # arr3 = np.array([7, 8, 9])
@@ -245,12 +277,10 @@ import numpy as np
 
 
 
+# arr1 = np.array([[1, 2],[3,4]])
+# arr2 = np.array([[4, 5], [6,7]])
 
-
-# arr1 = np.array([1, 2, 3])
-# arr2 = np.array([4, 5, 6])
-
-# arr = np.concatenate((arr1, arr2))
+# arr = np.concatenate((arr1, arr2), axis = 1)
 
 # print(arr)
 
@@ -261,10 +291,12 @@ import numpy as np
 # axis - 0 sətir boyunca birləşdirmə yəni dik birləşdirmə
 # axis - 1 sütun boyunca birləşdirmə yəni üfüqi birləşdirmə
 
+# 1 2     5  6  3 4     7  8 
+
 # arr1 = np.array([[1, 2], [3, 4]])
 # arr2 = np.array([[5, 6], [7, 8]])
 
-# arr = np.concatenate((arr1, arr2), axis=0)
+# arr = np.concatenate((arr1, arr2), axis=1)
 # print(arr)
 
 
@@ -307,8 +339,8 @@ import numpy as np
 
 
 # newarr = arr.reshape(-1)
-# print(newarr.ndim)  
-# print(arr.ndim)
+# print(newarr)  
+# print(newarr.ndim)
 
 
 
@@ -323,16 +355,20 @@ import numpy as np
 # for x in arr:
 #   for y in x:
 #     for z in y:
-#       print(z)
+#       print(z, end=" ")
+    
+# print()
 
 
 
 
 
-#! nditer - 
-# arr = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
-# for x in np.nditer(arr):
-#   print(x)
+#! nditer - F2 Qrupu 25 Dekabr Burada qaldi
+arr = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+for x in np.nditer(arr):
+  print(x)
+
+
 
 # a = np.arange(6).reshape(2,3)
 # for x in np.nditer(a.T):
@@ -389,21 +425,32 @@ import numpy as np
 # print(newarr)
 
 #! https://www.w3schools.com/python/numpy/numpy_array_split.asp
+# 5  6  7  8
 
+# arr1 = np.array([[1, 2] ,[3,4]])
 
-# arr1 = np.array([1, 2, 3])
+# arr2 = np.array([[5, 6],[7,8]])
 
-# arr2 = np.array([4, 5, 6])
+# new_arr_1 = np.hstack((arr1, arr2))
+# new_arr_4 = np.concatenate((arr1, arr2),axis=1)
 
-# arr = np.hstack((arr1, arr2))
-#same arr = np.concatenate((arr1, arr2))
+# new_arr_2 = np.vstack((arr1, arr2))
+# new_arr_3 = np.concatenate((arr1, arr2),axis=0)
+# print("hstack")
+# print(new_arr_1)
+# print("concatenate 2")
+# print(new_arr_4)
 
-# print(arr)
+# print("vstack")
+# print(new_arr_2)
+# print("concatenate")
+# print(new_arr_3)
 
 
 #! Search
-# arr = np.array([1, 2, 3, 4, 5, 4, 4])
-# x = np.where(arr == 2)
+# arr = np.array([1, 2, 3, 4, 5, 2,2,2,4, 4])
+
+# x = np.where(arr % 2 == 1)
 # print(x)
 
 
@@ -414,16 +461,14 @@ import numpy as np
 # print(x)
 
 # Hara elave ede
-# arr = np.array([6, 7, 8, 9])
-# x = np.searchsorted(arr, 7)
+# arr = np.array([6, 7, 8, 9,10])
+# x = np.searchsorted(arr)
 # print(x)
 
 
 
 # arr = np.array([6, 7, 8, 9])
-
 # x = np.searchsorted(arr, 7)
-
 # print(x)
 
 
@@ -440,7 +485,6 @@ import numpy as np
 
 #! Boolean
 # arr = np.array([True, False, True])
-
 # print(np.sort(arr))
 
 
@@ -451,7 +495,15 @@ import numpy as np
 # x = arr[[True, False, True, False]]
 # print(x)
 
+# indexes = np.where(arr>3)
+# new_arr = [arr[item] for item in indexes]
+# print(new_arr)
 
+# try catch
+# pip packet manager
+# virtual environment
+# JSON
+# PANDAS
 
 #! Ferqli situsiyalar ucun
 # arr = np.array([41, 42, 43, 44])
@@ -514,9 +566,8 @@ from numpy import random
 #Random 2d Array
 # x = random.randint(100, size=(3, 5))
 
-
 #Random 3d Array
-# x = random.randint(100, size=(3, 5))
+# x = random.randint(100, size=(3, 5, 2))
 
 # print(x)
 
@@ -525,6 +576,7 @@ from numpy import random
 # Verilənlərdən rastgələ  array
 # x = random.choice([3, 5, 7, 9])
 # print(x)
+
 
 
 # x = random.choice([3, 5, 7, 9], size=(3, 5))
@@ -537,7 +589,8 @@ from numpy import random
 # z = []
 
 # for i, j in zip(x, y):
-#   z.append(i + j)
+#     print(i,j)
+#     z.append(i + j)
 # print(z)
 
 
@@ -588,7 +641,7 @@ from numpy import random
 
 #! POW
 # arr1 = np.array([10, 20, 30, 40, 50, 60])
-# arr2 = np.array([3, 5, 6, 8, 2, 33])
+# arr2 = np.array([31, 5, 6, 8, 2, 33])
 
 # newarr = np.power(arr1, arr2)
 
@@ -610,6 +663,7 @@ from numpy import random
 # arr2 = np.array([3, 7, 9, 8, 2, 33])
 
 # newarr = np.mod(arr1, arr2)
+# print(newarr)
 
 #* Ve ya
 # newarr = np.remainder(arr1, arr2)
@@ -647,7 +701,7 @@ from numpy import random
 
 
 #! True Rounding
-# arr = np.around(3.1666, 2)
+# arr = np.around(3.1566, 1)
 
 # print(arr)   # 3.17
 
@@ -700,4 +754,4 @@ from numpy import random
 # newarr = np.add(arr1, arr2)   # [2 4 6]
 # newarr = np.sum(arr1, arr2)   # 12
 
-# print(newarr)
+# print(newarr) 

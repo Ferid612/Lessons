@@ -1,10 +1,10 @@
-
 #! Syntax
 
-# variable_a = 12
+
+# variable_a = 'Salab' 
 # print(variable_a)
 
-# a = b = c = 300
+# a, *b, c = [4, 6, 8,30,23]
 
 # print(a)
 # print(b)
@@ -21,14 +21,19 @@
 # print(c)
 # print(d)
 
+# x = -9 // 2 
+
+# print(x)
 
 # x = 10
+# x = x + 20
+# x += 20
+# print(x)
+
 # x += 20 
+
 # x -= 10
-
-# x = x *10
-
-# x//=10
+# x = x - 10
 
 
 #! Case Types
@@ -40,38 +45,45 @@
 # _age = 6
 # age_ = 7
 # _AGE_ = 8
+# a = 30 
+# A = 20
 
+# print(a)
+# print(A)
 # vairable =5
 
 # [A-Z]  [a-z] [0-9]  _ 
 # print(age, Age, aGe, AGE, a_g_e, _age, age_, _AGE_)
 
 
+# UserPassword = "salam"
+# UserLibraryName = " "
+
+# user_password = "1212"
+# user_profile_name = 12
+
+# user-password = "salam"
+# user-profile-name ="12"
+
 # camelCase
 # PascalCase  Upper camelCase
 # snake_case
 # kabab-case
 
+
+
 # PEP8
 
-
-# Pascal Case 
-# Upper CamelCase
-# UserLastName = ""
-# UserPassword = ""
-# User =""
 
 
 # Variable name snake_case user_password user_lastname
 # class yaradirsizsa PascalCase
 
-
-
 #! KEYWORDS  
 
 # for = ""
 
-# help("class")
+# help("for")
 
 
 # None = ""
@@ -88,24 +100,32 @@
 
 # String  str  "soz"   'soz'
 
-# var_a = "Hesen "
-# var_b = "Necesen" 
+# var_a = "Salam men Samsung S23 almaq isteyirem"         
+# var_b = "Necesen"      
 
-# print(var_a + var_b)
+# print(var_b, end=" \t")
+# print(var_b, end=" \t")
+# print(var_b, end=" \t")
+# print(var_b, end=" \t")
+# print(var_b, end=" \t")
+# print()
 
  
 
 
-
+ 
 #! Isclose 
-x = 1.1 + 2.2
+
+# x = 1.1 + 2.2
+
 
 # print(x)
 # print(x == 3.3)
 
+# Ondaliq ededler uzerinde emeliyyatlar 
 
 # from math import isclose
-# print(  isclose(6,10, rel_tol=0.2)  )
+# print(  isclose(6, 8, rel_tol=0.2 )  )
 
 
 # x = 1.1 + 2.2
@@ -115,7 +135,23 @@ x = 1.1 + 2.2
 # print( isclose(6, 7, rel_tol=0.2))
 
 
-#! Boolean cheking 
+
+#! Boolean cheking
+
+# a = "Alam" # string str 
+# b = "alam" 
+
+# print(a < b)
+# print(type(a))  
+
+# print(ord("A"))
+# print(ord("a"))
+
+
+
+# print(type(b)) 
+
+
 # print("a" >  2)
 
 # print(ord("A"))
@@ -123,27 +159,65 @@ x = 1.1 + 2.2
 
 # print( "SalamT" < "SalanT")
 
-# print([5,6,7]< [8])
+# print(  [5,6,7]< [6]    )
 
 
 
 
 #! Data types
+
 # integer int
 # a = 20
+# print(a)
+# print(type(a))
+# print(id(a))
+
+
 # string str
-# b = "20"
+# b = 20
+# print(b)
+# print(type(b))
+
+# c = -2.5
+# print(c)
+# print(type(c))
+
+# b = "Salam"
+# b = "h"
+# b = "1211@#@324353"
+
+
+# float
+# e = 2.5 
+# e = 2.2 
+# e = -2.5 
+# e = -3.5 
+# e = -5.0
+# print(e) 
+# print(type(e)) 
+
+
+#  complex
+# d = 5j
+# print(5j*5j)
+# print(type(d))
+
 # boolean bool
+# False
 # c = True
+# print(c)
+# print(type(c))
+# print( type(5>2 ))
+
+# print(c)
+# print(type(c))
 
 #None type
 # x = None
+# print(x)
 
-# float
-# e = 2.5
-#  complex
-# d = 5j
-
+# x = 10
+# print(x)
 
 # print(type(a))
 # print(type(b))
@@ -151,11 +225,27 @@ x = 1.1 + 2.2
 # print(type(e))
 # print(type(d))
 
+# a = bool( input("A ni daxil et: "))
+
+# print("a:",a) 
+# print("a type:", type(a)) #string 
+# print(12>a)
+
+
+# print(bool([]))
+
+# print("type:",type(a))
+
 # a = int( input("a: "))
 
 # print("musteri daxil etdi:", a)
 # print(type(a))
 
+
+# a = 32.4
+# b = 23
+
+# print( a > b  ) 
 
 # print(12 > a )
 # number_a = int(input("Daxil edin: ")) 1
@@ -165,10 +255,24 @@ x = 1.1 + 2.2
 
 
 #! all
+a= 4
+
+# print(        a > 3  and a % 2 ==  0 and a<100 and a==5      )
+# print(  all(( a > 3, a % 2 ==  0, a<100, a==5))    )
+
+# print(        a > 3  or a % 2 ==  0 or a<100 or a==5      )
+# print(  any(( a > 3, a % 2 ==  0, a<100, a==5))    )
+
+# print(10>5 and 3>1 and 4>2 and 3<1)
 
 
-# variable_b = (True, True, True)
-# print(all( variable_b))
+# print(any((10>5, 3>1, 4>2, 3<1)))
+
+
+# variable_b = (False, False, False)
+# print(any( variable_b))
+
+
 
 # tuple_a  = ( False, True, 8!=10, 5>2)
 # print(all(tuple_a))
@@ -178,9 +282,9 @@ x = 1.1 + 2.2
 
 
 #! Isinstance
-# var_a = 42.2  
-# b = isinstance(var_a, int) 
-
+ 
+# var_a = 2.5
+# b = isinstance(var_a, float) 
 # print(b)
 
 # Object orianted programing  - OOP
@@ -188,16 +292,24 @@ x = 1.1 + 2.2
 # validation_conditions = (isinstance(number, int),number % 2 == 0,)
 # print(all(validation_conditions))
 
+
 #! Callabe
-# number = 24
+
+
 # for a in number:
     # print(a)
     
 # number
-# print(   callable(print)   )
+
+# t = print("heketon")
+
+
+# t("salam baki ")
+
+
+print(   callable()   )
 
 # a = int(number)
-
 
 
 
@@ -207,42 +319,39 @@ x = 1.1 + 2.2
 # a = 35
 # b = 25
 # c = 12
+ 
 
+# if   # elif  #else:
 
-# if a == 25:
-#     a = 20  
+# a = int(input("a: "))
+
+# if a > 10:
+#     print("a 10 dan boyukdur")
     
-# elif  a!=25:
-#     a = 28
-
+# elif a> 5 :
+#     print("a 5 den boyukdur")
+    
 # else:
-#     a = 40
-
-
-# print(a)
-# a = input()
-# b = int(input())
-
-# c = ["Salam",a, "!", b, "yasindasan"]
-
-# c = [str(item) for item in c]
-# d = " ".join(c)
-
-
-# list_a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
-# any()
-# all()
-
-# list_b = [item for item in list_a if item % 2 == 0]
-# print(list_b)
+#     print("a ne 5 dan ne de 10dan boyuk deyil")
+    
 
 
 #! Short life cycle
+
+
 # number_a = "salam" and "sagol" and "" and "Yox"
 
 # number_b = 2 > 4 and 2
 # print(number_b)
 
+
+# a = int(input("a :"))
+
+# if  a > 10 and a> 15 and a % 2 == 0 :
+#     print("Salam")
+
+# if  a > 10 or a> 15 or a % 2 == 0 :
+#     print("Sagol")
 
 # default_country = "Canada"
 
@@ -257,7 +366,14 @@ x = 1.1 + 2.2
 # print(var_a)
 # number = 0
 
-# Qaldiq 221
+# A = []
+# zero = 0
+# if zero:
+#     print("Salam")
+
+
+
+
     
 # a = ""
 # a = ''
@@ -271,20 +387,17 @@ x = 1.1 + 2.2
 
 
 #! Is keyword
-# x = y
-# y = x
+# x = 252
+# y = 14242
 
-# print(id(x))
-# print(id(y))
-
-# y = 1001
-
-# print(x is y)
+# print(x or y or 3)
 
 
 #! In keyword
+# list_a = [1,2,3,4,5,6]
+# a = "Salam"
+# print("l" in a)
 
-# print(1 not in list_a)
 
 
 #! IF ELIF

@@ -48,31 +48,44 @@ c = None # Nonetype
 #! Lists
 
 
-# var_a = [ 2 , 4, 20]
+# var_a = [ 2, 4, 20]
+#         0   1 2
+# 0 2
+# 1 4
+# 2 20
 
-var_b =  ["salam", "necesen", "neynirsen"]
+# print(var_a)
+# var_b =  ["salam", "necesen", "neynirsen"]
+# print(var_b)
 
-print(var_b[-3])
-print(var_b[2])
+
+# print(var_a[1])
+# print(var_a[-1])
 
 
 
 # print(type(var_a))
+
 
 # var_a = [1, 2, 3, 4, 5]
 # var_b = [2,4,5,6,8]
 
 
-
 # print(var_a)
-# print(type(var_a))
+# # print(type(var_a))
+# print(  len(var_a)  )
 # print(len(var_a))
 # print( var_a[-5] )
 # var_a[0] = 12
 # var_a[3] = 223232
 # print(      var_a[::-1]                   )
+
+# var_a = 10*[0]
+# print(var_a)
+# var_b = [2,4,5,6,8]
 # var_c = var_a + var_b
 
+# print(var_c)
 # list_a = [1,2,3,4,5,6,7,8,90]
 # list_b = [6,7,8,90]
 
@@ -83,26 +96,35 @@ print(var_b[2])
 
 # print ( len)
 
-# print(  max(var_a))
-# print(  min(var_a))
-# print(  sum(range(0,30,21)))
+# print(  max(list_a))
+# print(  min(list_b))
+# print(  sum(list_a))
 
-
+#! Append
 # list_a = [2,3,4,5,6] 
-
 # list_a.append(12)
 # list_a.append(13)
 # list_a.append(14)
-# list_a.append(16)
-
 # print(list_a)
 
-# list_a  = [True,2.5,"Salam",5j,[12,2,4,12,12]]
 
+
+# list_a  = [True, 2.5 ,"Salam", 5j,  [12,2,4,12,12] ]
+# print(list_a)
+
+
+
+#! COPY
 # list_b = [12,13,15,16]
-# list_a = [2,3,4,5,6] 
 
+# list_a = [2,3,4,5,6] 
 # list_b = list_a.copy()
+
+# list_b[0] = 20
+# list_b[1] = 35
+ 
+# print(list_b)
+# print(list_a)
 
 # list_b.append(1221)
 # list_b[0] = True
@@ -118,19 +140,30 @@ print(var_b[2])
 # print(list_a)
 # print(list_b)
 
-# list_a = [2,3,4,5,6,2,2,2,12] 
-# list_b = [23,23,4,2321,12] 
 
+
+
+#! Extend
+list_a = [2,3,4,5,6,2,2,2,12] 
+list_b = [23,23,4,2321,12] 
+
+# # list_a = list_a + list_b
 # list_a.extend(list_b)
 # print(list_a)
-# print(list_a.index(2,3))
+
+#! Index
+# print(list_a.index(12))
 # Listin icinde verilen ededin butun indekslerini tapan proqram yazin!
+
+#! Balcalarlar burda qaldiq 22 dekabr
+#! Insert 
 # list_a.insert(5,1212121)
 # print(list_a.pop())
 # print(list_a)
 # list_a.remove(5)
 # print(list_a)
 # var_a = list_a.count(2)
+
 
 # print(list_a)
 # print(var_a)
