@@ -4,7 +4,7 @@ print("hello world")
 # # arr=np.array([12,31,434,506,16])
 # arr=np.array([[12,31,434,506,16],[12,31,434,506,16],[12,31,434,506,16]])
 
-# kitab 10 
+# kitab 10
 # defter 3
 # qelem 0.5
 
@@ -23,8 +23,6 @@ print("hello world")
 #                     print(a, b,c)
 
 
-
-
 # cumle = "The quick brown fox jumps over the lazy dog"
 # for a in cumle:
 #     print(a, end=" ")
@@ -38,10 +36,45 @@ print("hello world")
 # for herif in elifba:
 #     if herif not in cumle:
 #         check = False
-        
-        
+
+
 # if check:
 #     print("Bu cümlə panaqramdir")
 # else:
 #     print("Bu cümlə panaqram deyil")
+
+
+# import numpy as np
+
+# arr = np.array([[1, 2, 3, 4],
+#                 [5, 6, 7, 8],
+#                 [9, 8, 7, 6],
+#                 [5, 4, 3, 2]])
+
+
+# for i in range(4):
+#     arr[i,0],arr[i,3] = arr[i,3], arr[i,0]
+#     arr[i,1],arr[i,2] = arr[i,2], arr[i,1]
     
+# print(arr)
+
+
+# text = "Buralar cox soyuqdur."
+
+# lower_count = 0
+# upper_count = 0
+
+# for a in text:
+#     if a.islower():
+#         lower_count+=1
+        
+#     if a.isupper():
+#         upper_count+=1
+
+
+# print(lower_count)
+# print(upper_count)
+    
+
+
+

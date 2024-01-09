@@ -2,14 +2,14 @@
 import pandas as pd
 
 #! Exmple 1 
-# import pandas
 
 # mydataset = {
 #   'cars': ["BMW", "Volvo", "Ford"],
 #   'passings': [3, 7, 2]
 # }
 
-# myvar = pandas.DataFrame(mydataset)
+
+# myvar = pd.DataFrame(mydataset)
 
 # print(myvar)
 
@@ -24,12 +24,14 @@ import pandas as pd
 # a = [1, 7, 2]
 
 # myvar = pd.Series(a)
-
 # print(myvar) 
+# print(myvar[0]) 
 
 
 #! Specific indexing
 # myvar = pd.Series(a, index = ["x", "y", "z"])
+# print(myvar)
+# print(myvar["y"])
 
 
 #! Dict to series 
@@ -50,10 +52,11 @@ import pandas as pd
 
 # df = pd.DataFrame(data)
 
-# # print(myvar)
+# print(df)
 
 #! Indexing vs loc
-# print(df["calories"])
+# print(df["calories"][2])
+
 # print(df["calories"][0])
 
 
@@ -62,13 +65,18 @@ import pandas as pd
 
 
 #! Multi index in loc
-# print(df.loc[[0,1]])
+# print(   df.loc[[0,1]]    )
+
+# test = [1,2,3,4,5,6,7,8,9]
+# print(test[0:2])
+
 
 #! Example loc
-# df.loc[0:4, ['Name', 'Age', 'State']]
+# data = df.loc[0:1, ['calories']]
+# print(data)
+
 
 #! Dataframe with index
-
 # data = {
 #   "calories": [420, 380, 390],
 #   "duration": [50, 40, 45]
@@ -89,17 +97,18 @@ import pandas as pd
 
 df = pd.read_csv('Codes/Lesson Subjects/data.csv')
 
-# print(df.to_string()) 
+# print(df) 
+
 
 # pd.options.display.max_rows = 100
 # pd.set_option('display.max_rows', x)
 
 
-# pd.options.display.min_rows = 100
+# pd.options.display.min_rows = 20
 # print(df) 
 
 #! get.options to return the current value
-# pd.get_option("display.max_rows")
+# print(pd.get_option("display.min_rows"))
 
 
 #! Read json
@@ -149,7 +158,7 @@ df = pd.read_csv('Codes/Lesson Subjects/data.csv')
 
 #! Analyzing
 #! Top 5 rows
-# print(df.head()
+# print(df.head())
 # print(df.head(10))
 
 #! Last 5 rows
@@ -171,28 +180,34 @@ df = pd.read_csv('Codes/Lesson Subjects/data.csv')
 # Wrong data
 # Duplicates
 
+
 #! Cleaning null data
 # new_df = df.dropna()
 # print(new_df.to_string())
+# new_df.info()
+# df.info()
+
 
 #! inplace True
 # df.dropna(inplace = True)
+# df.info()
 
 #! Replace Empty Values
-# df.fillna(130, inplace = True)
+# df.fillna(13000, inplace = True)
 
 
 #! Replace Only For Specified Columns
 # df["Calories"].fillna(130, inplace = True)
+# print(df.to_string())
 
 
 #! Replace Using Mean, Median, or Mode
-# x = df["Calories"].mean()
+x = df["Calories"].mean()
 # x = df["Calories"].median()
 # x = df["Calories"].mode()[0]
 
-# df["Calories"].fillna(x, inplace = True)
-
+# new_df = df["Calories"].fillna(x)
+# print(df.to_string())
 
 
 #! Pandas - Cleaning Data of Wrong Format
@@ -200,8 +215,9 @@ df = pd.read_csv('Codes/Lesson Subjects/data.csv')
 # df['Date'] = pd.to_datetime(df['Date'])
 # print(df.to_string())
 
-
+#! F1 Qrupu ile burda qaldiq 3 yanvar
 #! Removing wrong format Rows
+
 # df.dropna(subset=['Date'], inplace = True)
 
 
@@ -212,23 +228,28 @@ df = pd.read_csv('Codes/Lesson Subjects/data.csv')
 # for x in df.index:
 #   if df.loc[x, "Duration"] > 120:
 #     df.loc[x, "Duration"] = 120
+# print(df.to_string())
 
 #! Removing wrong data
 # for x in df.index:
 #   if df.loc[x, "Duration"] > 120:
 #     df.drop(x, inplace = True)
 
+# print(df.to_string())
+
 
 #! Duplicates
-# print(df.duplicated())
+# print(df.duplicated().to_string())
 
 
 # Remove all duplicates:
 # df.drop_duplicates(inplace = True)
+# print(df.to_string())
+# 1 duplicates birinci saxlayan funksiya
 
 
 #! Dataframe size
-# df = pd.DataFrame({'col1': [1, 2], 'col2': [3, 4]})
+# df = pd.DataFrame({'col1': [1, 2,None], 'col2': [3, 4,6]})
 # print(df.size)
 
 
@@ -252,9 +273,10 @@ df = pd.read_csv('Codes/Lesson Subjects/data.csv')
 # }
 # df2 = pd.DataFrame(data2)
 
-# newdf = df1.append(df2)
+# newdf = df1._append(df2)
 
-
+# print(newdf.to_string())
+# print(pd.__version__)
 
 #! Add is not equal to append
 # data = {

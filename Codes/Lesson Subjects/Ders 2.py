@@ -1,11 +1,19 @@
 
 #! Data types
-x = 1    # int  # integer 
-y = 2.8  # float  
-z = 1j   # complex
-a = "salam" # string 
-b = True # boolean
-c = None # Nonetype
+# x = 0    # int  # integer 
+# y = 2.8  # float  
+# z = 1j   # complex
+# a = "salam" # string 
+# b = True # boolean
+# c = None # Nonetype
+
+# print(type(x))
+# a = complex(x)
+# print(a)
+# print(type(a))
+
+# a  = 23.
+# print(type(a))
 
 
 # a = 20
@@ -45,8 +53,23 @@ c = None # Nonetype
 
 
 
+# a = 23 
+# b = int(input("B ni  daxil edin: "))
+
+# print(a>b)
+
+
 #! Lists
 
+# c = [2,4,6,8,10]
+
+#   0,1,2,3,4 
+# print(c)
+# print(type(c))
+
+# print(  c[-12]    )
+
+# index 
 
 # var_a = [ 2, 4, 20]
 #         0   1 2
@@ -59,49 +82,60 @@ c = None # Nonetype
 # print(var_b)
 
 
-# print(var_a[1])
+# print(var_b[1])
 # print(var_a[-1])
 
 
 
-# print(type(var_a))
+# print(type(var_b))
 
 
-# var_a = [1, 2, 3, 4, 5]
-# var_b = [2,4,5,6,8]
-
+var_a = [1, 2, 3, 4, 5]
+var_b = [2, 4, 5, 6, 8]
 
 # print(var_a)
 # # print(type(var_a))
-# print(  len(var_a)  )
+
+#Length 
+# print(  len(var_b)  )
+
 # print(len(var_a))
 # print( var_a[-5] )
+
 # var_a[0] = 12
-# var_a[3] = 223232
-# print(      var_a[::-1]                   )
+# var_a[2] = 23
 
-# var_a = 10*[0]
 # print(var_a)
+
+
+#! Slice 
+# var_a = [1, 2, 3, 4, 5,6,7,8,9,10]
+# list_c = var_a[:4]
+# list_c = var_a[::-1]
+
+# print(  list_c    )
+
+# var_a = 101*[1]
+# print(var_a)
+
+# var_a = ["a","b","c","d"]
 # var_b = [2,4,5,6,8]
+
 # var_c = var_a + var_b
-
-# print(var_c)
-# list_a = [1,2,3,4,5,6,7,8,90]
-# list_b = [6,7,8,90]
-
-
-# print(list_a)
-
 # print(var_c)
 
-# print ( len)
+list_a = [1,2,3,4,5,6,7,8,90]
+list_b = [6,7,8,290]
 
-# print(  max(list_a))
+# print(  max(list_a)   )
 # print(  min(list_b))
 # print(  sum(list_a))
 
+
 #! Append
-# list_a = [2,3,4,5,6] 
+
+list_a = [2,3,4,5,6] 
+
 # list_a.append(12)
 # list_a.append(13)
 # list_a.append(14)
@@ -109,16 +143,18 @@ c = None # Nonetype
 
 
 
-# list_a  = [True, 2.5 ,"Salam", 5j,  [12,2,4,12,12] ]
-# print(list_a)
+# list_a  = [[1,3,5,7,9,11], [2,4,6,8,10] ]
+# print(list_a[1][3])
 
 
 
 #! COPY
-# list_b = [12,13,15,16]
-
 # list_a = [2,3,4,5,6] 
 # list_b = list_a.copy()
+
+# print(id(list_a))
+# print(id(list_b))
+
 
 # list_b[0] = 20
 # list_b[1] = 35
@@ -144,27 +180,34 @@ c = None # Nonetype
 
 
 #! Extend
-list_a = [2,3,4,5,6,2,2,2,12] 
+list_a = [2,3,4.4,5,6,2,12] 
 list_b = [23,23,4,2321,12] 
 
-# # list_a = list_a + list_b
+# list_c = list_a + list_b
 # list_a.extend(list_b)
 # print(list_a)
 
 #! Index
-# print(list_a.index(12))
+# print( list_a.index(2)  )
 # Listin icinde verilen ededin butun indekslerini tapan proqram yazin!
 
 #! Balcalarlar burda qaldiq 22 dekabr
 #! Insert 
-# list_a.insert(5,1212121)
+
+# list_a.insert(5,"Salam")
+
 # print(list_a.pop())
 # print(list_a)
-# list_a.remove(5)
+# print(list_a.pop())
+# print(list_a)
+# print(list_a.pop())
+# print(list_a)
+# print(list_a)
+# deyer = list_a.remove(4.4)
 # print(list_a)
 # var_a = list_a.count(2)
 
-
+#! Axsam and F3 birge teskilactilici ile dersimiz basa catir
 # print(list_a)
 # print(var_a)
 

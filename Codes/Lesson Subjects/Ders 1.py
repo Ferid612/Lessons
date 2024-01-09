@@ -307,7 +307,7 @@ a= 4
 # t("salam baki ")
 
 
-print(   callable()   )
+# print(   callable()   )
 
 # a = int(number)
 
@@ -316,10 +316,25 @@ print(   callable()   )
 
 # print("Hello, world!")
 
-# a = 35
+
+# a = 22
 # b = 25
 # c = 12
+
+# and, or, not
  
+# if a > 20 and a % 2 == 0 :
+#     print(a)
+#     print(b)
+
+# if a > 20 or a % 2 == 0 :
+#     print(a)
+#     print(b)
+
+# if not a > 20:
+#     print("test") 
+
+
 
 # if   # elif  #else:
 
@@ -336,29 +351,70 @@ print(   callable()   )
     
 
 
+# a = int(input("yasinizi girin: "))
+
+
+# if a >= 18:
+#     print("Xos gelmissinizdir")
+# else:
+#     print("Ay usaq ged oyanda oyna")
+
+
 #! Short life cycle
 
+# and or not
 
-# number_a = "salam" and "sagol" and "" and "Yox"
+# a = int(input("a: "))
+
+# if  a > 10 and a > 15 and a % 2 == 0:
+#     print("Salam")
+    
+
+# if  a > 10 or a > 15 or a % 2 == 0:
+#     print("Salam")
+
+# a = bool((3,1)) #True
+# print(a)
+
+# a = "Salam" and "" and "Baki"
+# b = "" or "" or "Baki"
+
+
+# print(a)
+# print(b)
+
+
+# b =  any(("" , [] , '' , 0 , 0.0 , None))
+# c =  all(("Salam" , [21] , 'Tekeme' , 42, 0 , True))
+
+# a = 10
+# print(c)
+
+
+# eziz = "salam" or "sagol" or 12 or "Yox"
+# print(eziz)
+
 
 # number_b = 2 > 4 and 2
 # print(number_b)
 
 
-# a = int(input("a :"))
-
-# if  a > 10 and a> 15 and a % 2 == 0 :
-#     print("Salam")
-
 # if  a > 10 or a> 15 or a % 2 == 0 :
 #     print("Sagol")
 
+
+# choose_country = input("Olke sec: ")
+
 # default_country = "Canada"
 
-# country = "" or default_country
+# country = choose_country or default_country
 
 # print(country)
 
+
+# data_is_not_clean and clean_data()
+
+# print()
 # deyisgen = "12"
 
 
@@ -386,42 +442,28 @@ print(   callable()   )
 #     print("Bura isledi")
 
 
+#! Axsam qrupu 4 yanvar
+
 #! Is keyword
-# x = 252
-# y = 14242
+# x = 12121121
+# y = 12121121
+
+# print(id(x))
+# print(id(y))
+
+# print(x is y)
+
 
 # print(x or y or 3)
 
 
 #! In keyword
 # list_a = [1,2,3,4,5,6]
+# list_a = ["Salam", "baki","necesen"]
+
 # a = "Salam"
-# print("l" in a)
+# print(a in list_a)
 
-
-
-#! IF ELIF
-
-# if number:
-#     print("true qayitdi")
-# else:
-#     print("false qayitdi")
-
-
-# ifade = ""
-
-# if ifade: 
-#     print("Working")
-# else:
-#     print("Not working")
-
-# print ( bool(ifade))
-
-
-# netice = "musbet" if number_a>0 else "menfi" if number_a<0 else "sifir" 
-# print(netice)
-
-# number_b = "23"
 
 
 
@@ -472,12 +514,12 @@ print(   callable()   )
 
 #! Random library
 # import random
-# x = random.randrange(1, 10)
+# x = random.randrange(1, 23232)
 # print(x)
 
+# 1 2 3 4 5 6 = 21 /6 = 3.5  
 
-
-# count = 10000000
+# count = 100000
 
 # i = 0
 # cem = 0
@@ -486,8 +528,7 @@ print(   callable()   )
 #     cem += x 
 #     i += 1        
     
-
 # print(cem/count)
     
-    
-    
+
+# print("-".join(input().split()))
