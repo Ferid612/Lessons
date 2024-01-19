@@ -191,63 +191,138 @@ list_b = [23,23,4,2321,12]
 # print( list_a.index(2)  )
 # Listin icinde verilen ededin butun indekslerini tapan proqram yazin!
 
-#! Balcalarlar burda qaldiq 22 dekabr
 #! Insert 
+# list_a = [1,2,3,4,5]
+
+# list_a.insert(5,13)
+# print(list_a)
 
 # list_a.insert(5,"Salam")
 
-# print(list_a.pop())
 # print(list_a)
 # print(list_a.pop())
 # print(list_a)
 # print(list_a.pop())
 # print(list_a)
-# print(list_a)
-# deyer = list_a.remove(4.4)
-# print(list_a)
-# var_a = list_a.count(2)
 
-#! Axsam and F3 birge teskilactilici ile dersimiz basa catir
 # print(list_a)
+# list_a.remove(4)
+# print(list_a)
+
+# list_a = [1,2,3,4,5,2,2,2,2,2]
+# var_a = list_a.count(2)
 # print(var_a)
 
 
-# x = range(2,20)
+
+
+
+# list_a = [1,2,3,4,5,2,2,2,2,2]
+# list_a.insert(5,13)
+# print(list_a.pop())
+# list_a.remove(4)
+# var_a = list_a.count(2)
+
+list_a  = list( range(1, 100, 2) )
+
+    
+#! Range Lazy memory
+
+list_a =  range(20, 41000000)
+# list_a =  range(20, 41000000, 2)
+# list_a =  range(20, 41000000, 2)
+# list_a =  range(20, 41000000, 2)
+# print(list_a[2])
+list_a = list_a[::3]
+print(list_a)
+
+# print(list_a)
+# x = range(21,200)[5]
+# print(x)
+# print(type(x))
+
+
+
+
 # y = x[::3]
 # print(y)
 
 # print(list(range(3,20,3)) + list(range(20,3,-3)) )
-# a= 3
-# b = 20
+# a= 20
+# b = 3
 # k =1
-# list(range(a,b,k*-3))
+# d = list(range(a,b,-3))
+# print(d)
 # a,b 
 
+
+
+
 #! LOOPS
+#! Iterate etmek 
+#! Iterable object
 
-# for item in list_a:
+
+# ededler = [1,2,3,4,5,6,7,8,9]
+
+# for a in ededler:
+#     print("a:", a)
+
+# for eded in ededler:
+#     print(eded*33)
+
+# [print(eded) for eded in [1,2,3,4,5,6,7,8,9]]    
+
+# adlar = ["Eziz","Ramiz","Lale","Baleeli"]
+
+# for ad in adlar:
+#     print(ad)
+    
+#! Range
+
+
+# for item in range(1,151):
 #     print(item)
 
-# for item in range(12,30,3):
-#     print(item)
 
 
-# for i in range(  len(list_a) ):
-#     print(list_a[i])
-# list_a = [2,3,4,5,6] 
+# adlar = ["Eziz","Ramiz","Lale","Baleeli"]
+# print(len(adlar)) #-- listlerin uzunlugunu olcusunu length 
+# for item in range(len(adlar)):
+#     print(item, adlar[item])
+
+# ededler = [1,2,3,4,5,6,7,8,9]
+# for i in range( len(ededler)  ):
+#     print(i, ededler[i])
+    
 
 
+
+# print(len(a))
+
+
+# a = "Hello, World!"
+# for x in a:
+#   print(x)
+
+
+
+
+# while True:
+#     ad = input("Adinizi daxil edin: ")
+#     print(f"Salam {ad}")
+#     if ad == "Mustafa":
+#         break
 
 # while list_a:
 #     print(list_a.pop())
 
-
-# for a in range(1,101):
-#     print()
-
-# netice = 12 not in list_a 
-
-# print(netice)
+# list_a = [2,3,4,5,6] 
+   
+# i = 0
+# while i < len(list_a):
+#     print(list_a[i])
+#     i = i+ 1
 
 
 # list_a = [2,3,4,2]
@@ -255,5 +330,18 @@ list_b = [23,23,4,2321,12]
 # list_a = set([2,3,4,2])
 # print(list_a)
 
+# a= 10
 
+# if a>5:
+#     b = 20
+# elif a< 3:
+#     b = 30
+# else:
+#     b = 40
 
+# b = 20 if a > 5 else 30 if a<3 else 40
+
+# a = 9
+# print(a**(1/2))
+# 81 ustu 0.5
+# 81 kokalti 9 

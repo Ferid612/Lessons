@@ -1,0 +1,17 @@
+0. Datani csv faylindan oxu
+    kolum adlari:
+        ad,soyad,card-number
+        
+1. Proqram başlayan kimi müştərinin kard nömrəsinin son 8 xanasını istəyir
+2. Kartın passwordunu teleb edir
+3. Xos geldiniz musterinin adi soyadi
+4. Qarsisina 6 secim cixir
+    Ne etmek isteyirsiniz
+    1. Balansi goster
+    2. Pulu cixar
+    3. parolu deyisdir
+    4. pul daxil et
+    5. kredit gotur
+    6. karti cixar
+    
+

@@ -119,15 +119,18 @@
 #! Strings
 
 # Multiline Strings
+# str_b = "Salam"
+# str_c = 'Salam'
 
 # string_a = """Salam baki necesen.
 # Neynirsen?
 # Halin ehvalin."""
+
 # print(string_a)
 # print(type(string_a))
 
-# for herf in "SalamBaki":
-#     print(herf)
+# for herf in "Salam Baki":
+#     print(herf, end=" ")
 
 
 #! indexing in string
@@ -140,22 +143,25 @@
 #! in keyword in strings
 
 
-from pprint import pprint 
-
-
-txt = "The best things in life are Free!"
+# txt = "The best things in life are Free!"
 # new_txt = txt.
-
 # print(new_txt)
+
 # list_a = ["Farid", "Mahammad","Muhammad","Nicat"]
 
-
 # new_text = ",".join(list_a)
-
 # print(new_text)
 
-# print(txt.find("in",12))
 
+
+# print(new_text.find("M",7))
+
+
+# print(text.find("Be",4))
+# print(text.lower())
+
+# if "Iphone".lower() == "iphone".lowe():
+#   print("data")
 # print(txt.upper().count("F"))
 
 
@@ -164,15 +170,14 @@ txt = "The best things in life are Free!"
 #*split
 #*strip
 #*format
-
 #*startswith
 #*endswith
 #*count
-
 #*find
 #*join
 #*repleca
 
+text_2 = "Xizidan yazan sairin dilinde qusur tutmayin. Qafiye daglilardadır Müşviqdən cəhiz."
 
 
 #*encode
@@ -260,26 +265,22 @@ txt = "The best things in life are Free!"
 # print(list_a)
 
 
+
 #! TUPLE
 
 # thislist = ["apple", "banana", "cherry", "cherry"]
-# thistuple = ("apple", "banana", "cherry", "cherry")
+thistuple = ("apple", "banana", "cherry", "cherry")
 
-# list_a = [0]
 
-# print(list_a)
-# print(type(list_a))
+# print(thistuple)
+# print(type(thistuple))
 
-# thislist[0] = "Lemon"
+#! Not assignment
+# thistuple[0] = "Lemon"
 # print(thislist[0])
-# print(thislist)
-
-# thistuple[0] = "KIWI"
-# print(thistuple[0])
 
 
-
-# Dublicate
+#! Dublicate
 # thistuple = ("apple", "banana", "cherry", "apple", "cherry")
 # print(thistuple)
 #
@@ -288,14 +289,12 @@ txt = "The best things in life are Free!"
 # thistuple = ("apple", "banana", "cherry","Test")
 # print(len(thistuple))
 
-# verilen_string = "Salam frontend , backend , Broend 
-# , locked"
-# Some tuples
 
+#! Different data types tupples
 # tuple1 = ("apple", "banana", "cherry")
 # tuple2 = (1, 5, 7, 9, 3)
 # tuple3 = (True, False, False)
-# tuple1 = ("abc", 34, True, 40, "male")
+# tuple4 = ("abc", 34, True, 40, "male")
 
 #Access
 # thistuple = ("apple", "banana", "cherry", "cherry", "cherry")
@@ -305,7 +304,6 @@ txt = "The best things in life are Free!"
 
 
 #! Update Tupple
-
 
 # x = ("apple", "banana", "cherry")
 # y = list(x)
@@ -323,15 +321,12 @@ txt = "The best things in life are Free!"
 
 
 
-
-
-
 #* Append method to tuple
 
 # tupla_a.append("orange")
 
 # tupla_a = ("apple", "banana", "cherry")
-# y = ("orange",)
+# tupla_a = tupla_a + ("orange",)
 
 # print(y)
 # print(type(y))
@@ -355,11 +350,11 @@ txt = "The best things in life are Free!"
 
 
 
-
+#! Unboxing
 # list_a = [1,2,3,3,4,5,5,7,7,9]
 # b, *c  = list_a
 
-
+# print(c)
 
 # print("a:",a)
 # print("b:",b)
@@ -395,7 +390,7 @@ txt = "The best things in life are Free!"
 # print(myset)
 
 # print(type(myset))
-# print(myset)
+# print(myset)b  
 # # str.upper()
 
 # thisset = {"apple", "banana", "cherry", "apple"}
@@ -856,7 +851,7 @@ myfamily = {
   "child3" : child3
 }
 
-print(child2['name'])
+# print(child2['name'])
 
 
 
