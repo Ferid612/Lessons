@@ -1,6 +1,5 @@
 0. Datani csv faylindan oxu
-    kolum adlari:
-        ad,soyad,card-number
+  
         
 1. Proqram başlayan kimi müştərinin kard nömrəsinin son 8 xanasını istəyir
 2. Kartın passwordunu teleb edir

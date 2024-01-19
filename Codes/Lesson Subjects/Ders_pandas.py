@@ -95,9 +95,9 @@ import pandas as pd
 #! CSV 
 # Reading csv
 
-df = pd.read_csv('Codes/Lesson Subjects/data.csv')
+df = pd.read_csv('Codes/Lesson Subjects/users.csv')
+print(df) 
 
-# print(df) 
 
 
 # pd.options.display.max_rows = 100
@@ -202,7 +202,7 @@ df = pd.read_csv('Codes/Lesson Subjects/data.csv')
 
 
 #! Replace Using Mean, Median, or Mode
-x = df["Calories"].mean()
+# x = df["Calories"].mean()
 # x = df["Calories"].median()
 # x = df["Calories"].mode()[0]
 
