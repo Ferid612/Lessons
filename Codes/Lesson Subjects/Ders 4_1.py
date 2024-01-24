@@ -2,6 +2,50 @@
 #! Funksiyalar 
 
 
+# def mehsul_al(x):
+#     print(f"{x} mehsulu alindi")   
+
+
+# def cemini_tap(x , y):
+#     cem = x + y
+#     return cem
+
+
+# netice = cemini_tap(3,5)
+# netice_2 = cemini_tap(8,10)
+
+
+
+
+# def mehsul_al(mehsul_adi="Corek", qiymet=40):
+#     print(f"{mehsul_adi} mehsulu {qiymet} qepiye alindi")   
+
+
+# mehsul_al(mehsul_adi="Yumurta", qiymet=20)
+
+
+
+# def kvadratini_tap(*x):
+#     list_a = []
+#     for i in x:
+#         list_a.append(i**2)
+#     return 1,True,"Salam", 2.3, 5j, [22,1,12,1,2]
+
+
+# netice_1,*netice_2 = kvadratini_tap(4,3,1,12,32,2,3121,31,32)
+
+
+
+# print(netice_1)
+# print(netice_2)
+# list_a = [1,2,3,4,5,5,6,787]
+
+# a, *b = list_a
+# print(a)
+# print(b)
+
+
+
 # def funksiya_a(item,item_3 ,  item_2 = "Mehemmed" ,  ):
 #     print(f"Salam {item}")
 #     print(f"Salam {item_2}")
@@ -23,10 +67,22 @@
 #         return number_1 / number_2
 
 
+# def duzbucaqlidirmi(a,b,c):
+#     if (c**2 == a**2 + b**2) or (a**2 == c**2 + b**2) or (b**2 == a**2 + c**2) :
+#         print("Bu ucbucaq duzbucaqlidir")
+#     else:
+#         print("Bu ucbucaq duzbucaqli deyil")
 
-# cem_1 = canculator(1, 2, "+") 
-# cem_2 = canculator(3, 4, "+") 
+# duzbucaqlidirmi(8,10,6)
 
+
+
+
+
+# netice_1 = canculator(1, 2, "+") 
+# netice_2 = canculator(3, 4, "*") 
+
+# print(netice_1-netice_2)
 
 # print(type(cem_1))
 # print(type(cem_2))
@@ -129,9 +185,8 @@
 
 
 # f(-3)
-# print(f(105))
+# f(105)
 # f(64)
-# 64
 
 
 #Funksiya hər şey return edə bilər
@@ -145,7 +200,9 @@
 
 # print(f()[::-1])
 
-
+# dict_a= {
+#     "key":"value"
+# }
 
 # Python dict as an argument
 # def f(**kwargs):
@@ -478,45 +535,45 @@
 
 
 
-class Human:
-    def __init__(self,name,last,age):
-        self.name = name
-        self.last = last
-        self.age = age
+# class Human:
+#     def __init__(self,name,last,age):
+#         self.name = name
+#         self.last = last
+#         self.age = age
         
 
-    def yemek_yemek(self):
-        print(f"{self.name} yemek yedi.")
+#     def yemek_yemek(self):
+#         print(f"{self.name} yemek yedi.")
 
-    def yas_artmaq(self):
-        self.age = self.age + 1
-        print(f"{self.name} yas artdi. yeni yas:{self.age}")
-
-
-    def __str__(self):
-        return self.name + " " + self.last
+#     def yas_artmaq(self):
+#         self.age = self.age + 1
+#         print(f"{self.name} yas artdi. yeni yas:{self.age}")
 
 
-class Hekim(Human):
-    def __init__(self,name,last, age):
-        super().__init__(name,last,age)
+#     def __str__(self):
+#         return self.name + " " + self.last
+
+
+# class Hekim(Human):
+#     def __init__(self,name,last, age):
+#         super().__init__(name,last,age)
     
 
 
-class Muellim(Human):
-    def __init__(self,name,last, age, academic_level):
-        super().__init__(name,last,age)
-        self.academic_level = academic_level
+# class Muellim(Human):
+#     def __init__(self,name,last, age, academic_level):
+#         super().__init__(name,last,age)
+#         self.academic_level = academic_level
     
-    def get_def(self,deyisgen):
-        return self.name + " " + self.last + " " + self.academic_level
+#     def get_def(self,deyisgen):
+#         return self.name + " " + self.last + " " + self.academic_level
    
     # Override
     # Overloading 
     
-hekim_a = Hekim("Ali","Sahib", 24)
-muellim_a = Muellim("Ali","Sahib", 24,"ProfessorDoktor")
-print(hekim_a)     
-print(muellim_a)     
+# hekim_a = Hekim("Ali","Sahib", 24)
+# muellim_a = Muellim("Ali","Sahib", 24,"ProfessorDoktor")
+# print(hekim_a)     
+# print(muellim_a)     
 
 
