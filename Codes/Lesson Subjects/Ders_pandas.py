@@ -225,9 +225,10 @@ print(df)
 # df.loc[7, 'Duration'] = 45
 
 #! Example replacing wrong data
+
 # for x in df.index:
-#   if df.loc[x, "Duration"] > 120:
-#     df.loc[x, "Duration"] = 120
+#   if df.loc[x, "card_number"].endswith(user_input):
+#       user =     df.loc[x] 
 # print(df.to_string())
 
 #! Removing wrong data

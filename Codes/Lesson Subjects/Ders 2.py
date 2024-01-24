@@ -90,8 +90,8 @@
 # print(type(var_b))
 
 
-var_a = [1, 2, 3, 4, 5]
-var_b = [2, 4, 5, 6, 8]
+# var_a = [1, 2, 3, 4, 5]
+# var_b = [2, 4, 5, 6, 8]
 
 # print(var_a)
 # # print(type(var_a))
@@ -124,8 +124,8 @@ var_b = [2, 4, 5, 6, 8]
 # var_c = var_a + var_b
 # print(var_c)
 
-list_a = [1,2,3,4,5,6,7,8,90]
-list_b = [6,7,8,290]
+# list_a = [1,2,3,4,5,6,7,8,90]
+# list_b = [6,7,8,290]
 
 # print(  max(list_a)   )
 # print(  min(list_b))
@@ -134,7 +134,7 @@ list_b = [6,7,8,290]
 
 #! Append
 
-list_a = [2,3,4,5,6] 
+# list_a = [2,3,4,5,6] 
 
 # list_a.append(12)
 # list_a.append(13)
@@ -180,8 +180,8 @@ list_a = [2,3,4,5,6]
 
 
 #! Extend
-list_a = [2,3,4.4,5,6,2,12] 
-list_b = [23,23,4,2321,12] 
+# list_a = [2,3,4.4,5,6,2,12] 
+# list_b = [23,23,4,2321,12] 
 
 # list_c = list_a + list_b
 # list_a.extend(list_b)
@@ -223,18 +223,18 @@ list_b = [23,23,4,2321,12]
 # list_a.remove(4)
 # var_a = list_a.count(2)
 
-list_a  = list( range(1, 100, 2) )
+# list_a  = list( range(1, 100, 2) )
 
     
 #! Range Lazy memory
 
-list_a =  range(20, 41000000)
+# list_a =  range(20, 41000000)
 # list_a =  range(20, 41000000, 2)
 # list_a =  range(20, 41000000, 2)
 # list_a =  range(20, 41000000, 2)
 # print(list_a[2])
-list_a = list_a[::3]
-print(list_a)
+# list_a = list_a[::3]
+# print(list_a)
 
 # print(list_a)
 # x = range(21,200)[5]
@@ -305,8 +305,20 @@ print(list_a)
 # for x in a:
 #   print(x)
 
+# input_a = ""
+# while input_a !=  "Sagol":
+#     input_a = input()
+#     print("musteri input "+ input_a)
 
 
+# list_a = [1,2,3,4,65,7,8,8,90]
+
+# i = 0
+# while i < len(list_a):
+#     print(list_a[i])
+#     i+=1
+    
+#     sum()
 
 # while True:
 #     ad = input("Adinizi daxil edin: ")
