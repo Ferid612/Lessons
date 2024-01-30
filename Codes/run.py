@@ -1,4 +1,5 @@
-list_a = [1,2,3,4,5,6,643,332,32,32,32,32,32]
+test_a = [1,3,5,7,9,11]
+test_b = [2,4,6,8,10]
 
-for a in list_a:
-    print(a)
+test_a.append(12)
+test_a.extend(test_b)

@@ -1,6 +1,38 @@
 
 #! Funksiyalar 
 
+ad_1 = "Hesen"
+ad_2 = "Ali"
+ad_3 = "Mamed"
+ad_4 = "Arif"
+
+
+# print(f"Salam {ad_1}, necesen?")
+# print(f"Salam {ad_2}, necesen?")
+# print(f"Salam {ad_3}, necesen?")
+# print(f"Salam {ad_4}, necesen?")
+
+# deyisgenlerin adi ve funksiyalarin pep8 snake_case  standarti ile yazilir
+
+# def say_hello(ad, prefix = "insan", ardicil_cumle = "necesen. Ne var ne yox?"):
+#     print(f"Salam {ad} {prefix}, {ardicil_cumle}")
+
+    
+# say_hello(ad_4, "Adam")
+# say_hello(ad=ad_1, prefix="bey", ardicil_cumle="necesen menim qardasim?")
+# say_hello(prefix="muellim", ad=ad_2, ardicil_cumle="ders gecikirsen")
+# say_hello(ad_3, "usta")
+
+
+print(f"Salam {ad_1}")
+
+# say_hello()
+# say_hello()
+# say_hello()
+# say_hello()
+# say_hello()
+
+    
 
 
 
