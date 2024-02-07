@@ -133,6 +133,46 @@ print(f"Salam {ad_1}")
 
 # funksiya_a(23)
 
+# def hesabla(eded_1,eded_2):
+#     c = 4*eded_1 + 0.20
+#     e = 5*c
+#     x = 10*eded_2*e
+
+# def ucbucagin_perimetrini_hesable(a,b,c):
+#     perimeter = a +  b + c
+#     return True
+    
+    
+# netice_1 = ucbucagin_perimetrini_hesable(3,4,5)
+# netice_2 = ucbucagin_perimetrini_hesable(6,7,8)
+# netice_3 = ucbucagin_perimetrini_hesable(8,9,10)
+
+# print(netice_1 + netice_2 + netice_3)
+
+
+# def musterilerin_adini_ver():
+#     return "Hesen,Ali"
+    
+    
+    
+# a = 5 
+# b = 3 
+# hesabla(eded_1=a, eded_2=b)
+
+
+# d = 8
+# v = 10
+
+
+# hesabla(eded_1=d,eded_2=v)
+
+# p = 32
+# o =23
+
+
+
+
+# hesabla(eded_1=p, eded_2=o)
 
 # def factorial(n):
 #     if n == 0:
@@ -164,14 +204,13 @@ print(f"Salam {ad_1}")
 
 
 # f(-3)
-# print(f(105))
+# f(105)
 # f(64)
-# 64
 
 
 #Funksiya hər şey return edə bilər
-# def f():
-#     return ['foo', 'bar', 'baz', 'qux']
+def f():
+    return ['foo', 'bar', 'baz', 'qux']
  
 
 # print(f())
@@ -264,28 +303,29 @@ print(f"Salam {ad_1}")
 # user_password = "Bakugan612"
 
 # # login for teleqram
-# def login(username, password, age) -> bool:
-#     """Bu funksiya instarame giris ucundur
+
+def login(username:str, password:int, age:bool) -> bool:
+    """Bu funksiya instarame giris ucundur
     
-#     Args:
-#         username (str): istifadecinin instagram  istifadeci adi
-#         password (str): intifadecinin instagram sifresi
-#         age (int): istifadecinin yasi
+    Args:
+        username (str): istifadecinin instagram  istifadeci adi
+        password (str): intifadecinin instagram sifresi
+        age (int): istifadecinin yasi
 
-#     Returns:
-#         bool: neticeniin true ve ya false olaraq return edir 
-#         """
+    Returns:
+        bool: neticeniin true ve ya false olaraq return edir 
+        """
 
 
-#     if age>18:
-#         print("xos gelmisiniz")
+    if age>18:
+        print("xos gelmisiniz")
     
     
     
 #     return 23
 
 
-# login("u","p", "salam")
+login("a","b",12)
 
 # def foo(bar=0, baz=1):
 #     """Perform a foo transformation.

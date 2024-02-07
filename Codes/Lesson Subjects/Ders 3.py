@@ -177,7 +177,10 @@
 #*join
 #*repleca
 
-text_2 = "Xizidan yazan sairin dilinde qusur tutmayin. Qafiye daglilardadır Müşviqdən cəhiz."
+import pprint
+
+
+# text_2 = "Xizidan yazan sairin dilinde qusur tutmayin. Qafiye daglilardadır Müşviqdən cəhiz."
 
 
 #*encode
@@ -382,14 +385,14 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 # print(red)
 
 
-
-
 #! SET
+
 # myset = {"apple", "banana", "cherry","apple", "banana"}
 
 # print(myset)
 
 # print(type(myset))
+
 # print(myset)b  
 # # str.upper()
 
@@ -398,8 +401,7 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 
 #! Attention 1  and True
 
-# thisset = {"apple", "banana", "cherry",  True,1, 0, 2}
-# print(thisset)
+# thisset = {2, 3, 4, "apple", "banana", "cherry",  True}
 
 
 
@@ -408,14 +410,14 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 # Deyismek olmur
 
 
-# thisset = {"apple", "banana", "cherry"}
+thisset = {"apple", "banana", "cherry"}
 
 # for x in thisset:
 #   print(x)
 
+# print(thisset.pop())
+# print(thisset.pop())
 
-# thisset.pop()
-# thisset.pop()
 
 # print("thisset:", thisset)
 
@@ -431,7 +433,6 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 # #* Add items
 
 # thisset = {"apple", "banana", "cherry"}
-# thisset.add("banana")
 # print(thisset)
 
 
@@ -439,17 +440,17 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 
 # thisset = {"apple", "banana", "cherry"}
 # tropical = {"pineapple", "mango", "papaya","cherry"}
-# # Or
+# # # Or
 
 # mylist = ["kiwi", "orange","banana"]
-# thisset.update(mylist)
+# thisset.update(tropical)
 # print(thisset)
 
 
 
 #*Remove
 
-# thisset = {"apple", "banana", "cherry"}
+thisset = {"apple", "banana", "cherry"}
 # thisset.remove("banana")
 # thisset.remove("banana")
 
@@ -459,7 +460,7 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 # thisset.discard("banana")
 # thisset.discard("banana")
 # thisset.discard("banana")
-# var_b = thisset.discard("banana")
+# thisset.discard("banana")
 
 # print(var_a)
 # print(var_b)
@@ -499,11 +500,6 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 # print(result_a)
 
 
-# result = x.intersection(y)
-# print(result)
-
-# print( x)
-# print( result)
 
 # files = ["test.jpg","data.txt","var_a.jpg"]
 
@@ -526,8 +522,8 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 # y = {"a", "b", "c"}
 # x = {"f", "e","a", "d", "c", "b"}
 
-# z = y.issubset(x)
-# z = y.issuperset(x)
+# # z = y.issubset(x)
+# z = x.issuperset(y)
 # print(z)
 
 
@@ -564,19 +560,14 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 
 
 #! DICT
-#
 
+car = {
+  "brand": "Ford",
+  "model": "S-class",
+  "year": 2012
+  }
 
-
-
-
-# car = {
-#   "brand": "Ford",
-#   "model": "S-class",
-#   "year": 2012
-#   }
-
-
+# print(car.values())
 
 # english_levels = {
 #     "a1":"beginner",
@@ -585,7 +576,7 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 #     "b2":"intermadate",
 #     "c1":"pre-intermadate2",
 # }
-
+# print(english_levels["c1"])
 
 # list_a = [12,12]
 
@@ -600,37 +591,31 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 #   print()
 
 
-#*Duplicates
-# thisdict = {
-#   "brand": "Ford",
-#   "model": "Mustang",
-#   "year": 1964,
-#   "year": 2020,
-#   "oil_type" : "dizel"
-# }
+#! Duplicates
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "year": 2020,
+  "oil_type" : "dizel"
+}
 
 # pprint.pprint(thisdict, width=1)
 
 
 # print(thisdict.keys())
-# for a in thisdict:
-#   print(a)
-
-
-
-# print(thisdict.get('oil_type',"benzin"))
-
-
+# for c, b in thisdict.items():
+  
+#   print("key",c)
+#   print("value",b)
 
 
 # Attension
 
 
 # matris_a = [[0,1,21],[2,3,4],[5,6,7],[8,9,10]]
-
-
 # print  (  matris_a[2][2]    )
-
 # print(           matrix_a[1][2]         )
 
 
@@ -659,12 +644,6 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 
 # print(x)
 
-# print(x)
-
-
-
-# print(x)
-
 
 # thisdict = {
 #   "brand": "Ford",
@@ -684,9 +663,20 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 #   print(index,item)
   
   
+# for item in range(len(list_adam_adlari)):
   
-# dict_2  = thisdict.copy()
+#   print(item, list_adam_adlari[item])
+  
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964,
+#   "year": 2020,
+#   "oil_type" : "dizel"
+# }
 
+
+# dict_2  = thisdict.copy()
 # dict_2["brand"] = "BMW"
 
 # print(dict_2)
@@ -782,7 +772,7 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 #   "year": 1964
 # }
 #print(thisdict)
-# pprint(thisdict.popitem())
+# pprint.pprint(thisdict.popitem())
 
 
 # print(thisdict)
@@ -851,7 +841,7 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 #   "child3" : child3
 # }
 
-# print(child2['name'])
+# print(myfamily['child2']['name'])
 
 
 
@@ -881,28 +871,10 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 # print(b)
 
 
-# Mediani tapma proqrami
-# list_str = input("Listi daxil edin")
-# list_str = input("Listi daxil edin: ")
-# list_a = list_str.split(" ")
 
-# list_a = [int(item) for item in list_a]
-
-# list_a =[9, 8 , 7, 6, 5, 4, 3, 2, 1,0]
-# list_a.sort()
-
-# median = None
-# if len(list_a)%2 != 0:
-#     ortadaki_index = len(list_a) // 2
-#     median = list_a[ortadaki_index]
-# else:
-#   ortadaki_index = len(list_a) // 2
-#   median = (list_a[ortadaki_index] + list_a[ortadaki_index + 1])/2
-  
-  
-# print(median)
-
-
+#! Median, Ededi orta
+#! Sade olub olmadigini yoxlamaq 
+#! Listin icinden sade olanlari ekrana verin. Ve yaxud araliqlar icinde sade olanlari  
 
 # Sade olub olmadigini yoxlamaq
 # list_a = [1,2,3,4,5,6,7,8,9,10,11,12]
