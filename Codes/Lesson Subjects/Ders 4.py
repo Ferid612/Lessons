@@ -1,10 +1,10 @@
 
 #! Funksiyalar 
 
-ad_1 = "Hesen"
-ad_2 = "Ali"
-ad_3 = "Mamed"
-ad_4 = "Arif"
+# ad_1 = "Hesen"
+# ad_2 = "Ali"
+# ad_3 = "Mamed"
+# ad_4 = "Arif"
 
 
 # print(f"Salam {ad_1}, necesen?")
@@ -24,17 +24,13 @@ ad_4 = "Arif"
 # say_hello(ad_3, "usta")
 
 
-print(f"Salam {ad_1}")
+# print(f"Salam {ad_1}")
 
 # say_hello()
 # say_hello()
 # say_hello()
 # say_hello()
 # say_hello()
-
-    
-
-
 
 
 # def funksiya_a(item,item_3 ,  item_2 = "Mehemmed" ,  ):
@@ -123,13 +119,12 @@ print(f"Salam {ad_1}")
 
 #! Rekursiv funksiya
 
-# n = int(input())
 
 
 # def funksiya_a(t):
-#     print("emeliyat yerine yetirildi")
+#     print("emeliyat yerine yetirildi:",t)
 #     funksiya_a(2)
-
+    
 
 # funksiya_a(23)
 
@@ -173,6 +168,28 @@ print(f"Salam {ad_1}")
 
 
 # hesabla(eded_1=p, eded_2=o)
+# n = int(input("n: "))
+
+# fakt = 1 
+# while n!=0:
+#     fakt=fakt*n
+#     n=n-1
+
+# print(fakt)
+
+# 5! = 5 * 4! 
+# 4! = 4 * 3!
+
+
+# def factorial_n(number_a):
+#     if number_a == 0:
+#         return 1    
+#     else:
+#         return number_a*factorial_n(number_a-1)
+    
+
+# print(factorial_n(5))
+
 
 # def factorial(n):
 #     if n == 0:
@@ -296,6 +313,8 @@ def f():
 #! Docstring
 
 
+
+
 # Instagran user passowrd
 
 
@@ -316,13 +335,12 @@ def login(username:str, password:int, age:bool) -> bool:
         bool: neticeniin true ve ya false olaraq return edir 
         """
 
-
     if age>18:
         print("xos gelmisiniz")
     
     
     
-#     return 23
+    return True or False
 
 
 login("a","b",12)
@@ -340,10 +358,19 @@ login("a","b",12)
 # print(foo.__doc__)   
 
 
-#! Lambda 
-x = lambda a : a + 10
+# #! Lambda 
+# def on_ile_topla(eded):
+#     eded = eded+10
+#     return eded
 
-uce_vur = lambda x : 1 if x== 0 else x* uce_vur(x-1)
+
+# on_ile_topla = lambda eded, eded_2 : eded + eded_2
+    
+# print(on_ile_topla(20))
+    
+# x = lambda a : a + 10
+
+# uce_vur = lambda x : 1 if x== 0 else x* uce_vur(x-1)
 
 
 # def uce_vur(a):
@@ -355,8 +382,15 @@ uce_vur = lambda x : 1 if x== 0 else x* uce_vur(x-1)
 # print(x(5))
 
 
+# def factorial_n(number_a):
+#     if number_a == 0:
+#         return 1    
+#     else:
+#         return number_a*factorial_n(number_a-1)
+    
 
-
+# faktorial_tap = lambda x: 1 if x==0 else x * faktorial_tap(x-1)
+# print(faktorial_tap(6))
 
 
 # def func(a):
@@ -412,24 +446,23 @@ uce_vur = lambda x : 1 if x== 0 else x* uce_vur(x-1)
 
 
 # Calculator
-# def hesabla(eded_1, eded_2, parametr ):    
 
-#     birinci_eded = int(input('birinci_eded: '))
-#     ikinci_eded = int(input('ikinci_eded: '))
+
+# def hesabla(eded_1, eded_2, parametr ):    
 #     netice = 0
 #     if parametr == "+":
-#         netice = birinci_eded+ikinci_eded
+#         netice = eded_1 + eded_2
     
 #     if parametr == "-":
-#         netice = birinci_eded-ikinci_eded
+#         netice = eded_1 - eded_2
       
 #     if parametr == "*":
-#         netice = birinci_eded*ikinci_eded
+#         netice = eded_1 * eded_2
     
 #     if parametr == "/":
-#         netice = birinci_eded/ikinci_eded
+#         netice = eded_1 / eded_2
       
-#     return birinci_eded,ikinci_eded,parametr, netice
+#     return netice
 
 
 
@@ -441,9 +474,9 @@ uce_vur = lambda x : 1 if x== 0 else x* uce_vur(x-1)
 
 # def best():
 #   print("Salam dunyani")
-  
 
 #! OOP 
+
 # Object  orianted programing
 # Esya yonumlu proqramlasdirma
 

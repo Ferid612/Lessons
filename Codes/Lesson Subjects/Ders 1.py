@@ -13,8 +13,9 @@
 
 
 #! Unboxing
-# list_a = [2,3,4,5]
-# a, b, c, d = list_a
+list_a = [2,3,4,5]
+a, b, c, d = list_a
+
 
 # print(a)
 # print(b)
