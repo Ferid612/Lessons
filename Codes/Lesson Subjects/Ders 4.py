@@ -477,11 +477,12 @@ login("a","b",12)
 
 #! OOP 
 
+
 # Object  orianted programing
 # Esya yonumlu proqramlasdirma
 
 # class esyamizin tipi. classdan yaranan butun obyektle 
-# hemin class in daxilindeki fieldlere ve methodlara  sahib olmus olur
+# hemin class in daxilindeki field-attribute-properties ve methodlara  sahib olmus olur
 
 # object - esyamizin classdan yaradiriq 
 
@@ -518,25 +519,43 @@ login("a","b",12)
 # sinif["useqlar"][0]
 
 
+# yas 
+# ad
+# soyad 
 
 
 # class Human:
-#     # constructor 
-#     name_in_god = "Bende"
-#     def __init__(self, name, lastname):
-#         self.name = name
-#         self.lastname = lastname
-#         self.fullname = name + " " + lastname
-        
-        
-    # def __str__(self):
-    #     return  self.fullname
-        
-        
-    # def __repr__(self):
-    #     return  self.fullname + " tanrının yanında: " + self.name_in_god 
+#     name_in_god_level = "Bende"
+#     pull_migdari = 0
+#     def __init__(self, name_1, lastname_1):
+#         self.name = name_1
+#         self.lastname =lastname_1
+#         self.fullname = name_1 + " " + lastname_1
     
-    
+#     def isle(self, mebleg):
+#         self.pull_migdari += mebleg
+        
+        
+# ramiz_obj =  Human("Ramiz", "Zulfuqarov")
+# farid_obj =  Human("Farid", "Habibli")
+        
+        
+# print(farid_obj.fullname)
+# print(farid_obj.pull_migdari)
+# farid_obj.isle(10)
+# farid_obj.isle(20)
+
+# print(ramiz_obj.fullname)
+# print(ramiz_obj.pull_migdari)
+# ramiz_obj.isle(40)
+
+
+
+# print(farid_obj.fullname)
+# print(farid_obj.pull_migdari)
+# print(ramiz_obj.fullname)
+# print(ramiz_obj.pull_migdari)
+
 
 # farid_obj = Human("Farid","Habibli")
 # mahammad_obj = Human("Farid","Habibli")
@@ -546,8 +565,8 @@ login("a","b",12)
 # print(mahammad_obj)
 
 # print(farid_obj)
-
-# print(type(farid_obj))
+# a:int = 12
+# print(type(12))
 
 
 
@@ -556,6 +575,7 @@ login("a","b",12)
 #     def __init__(self, x,y): 
 #         self.x = x
 #         self.y = y
+        
         
 #     def get_user_data(self):
         
@@ -585,46 +605,50 @@ login("a","b",12)
 
 
 
-# class Human:
-#     def __init__(self,name,last,age):
-#         self.name = name
-#         self.last = last
-#         self.age = age
+class Human:
+    def __init__(self,name,last,age):
+        self.name = name
+        self.last = last
+        self.age = age
         
 
-#     def yemek_yemek(self):
-#         print(f"{self.name} yemek yedi.")
+    def yemek_yemek(self):
+        print(f"{self.name} yemek yedi.")
 
-#     def yas_artmaq(self):
-#         self.age = self.age + 1
-#         print(f"{self.name} yas artdi. yeni yas:{self.age}")
-
-
-#     def __str__(self):
-#         return self.name + " " + self.last
+    def yas_artmaq(self):
+        self.age = self.age + 1
+        print(f"{self.name} yas artdi. yeni yas:{self.age}")
 
 
-# class Hekim(Human):
-#     def __init__(self,name,last, age):
-#         super().__init__(name,last,age)
+    def __str__(self):
+        return self.name + " " + self.last
+
+
+
+
     
 
+class Hekim(Human):
+    def __init__(self,name,last, age):
+        super().__init__(name,last,age)
+        
 
-# class Muellim(Human):
-#     def __init__(self,name,last, age, academic_level):
-#         super().__init__(name,last,age)
-#         self.academic_level = academic_level
+class Muellim(Human):
+    def __init__(self,name,last, age, academic_level):
+        super().__init__(name,last,age)
+        self.academic_level = academic_level
     
-#     def get_def(self,deyisgen):
-#         return self.name + " " + self.last + " " + self.academic_level
-   
-#     # Override
-#     # Overloading 
+
+    # Override
+    # Overloading 
     
-# hekim_a = Hekim("Ali","Sahib", 24)
-# muellim_a = Muellim("Ali","Sahib", 24,"ProfessorDoktor")
+    
+hekim_a = Hekim("Ali","Sahib", 24)
+muellim_a = Muellim("Ali","Sahib", 24,"ProfessorDoktor")
 
 
-# a = 10 
-# print(isinstance(a, int))
+
+print( type(hekim_a)  == Hekim)
+
+print( isinstance(muellim_a,Muellim))
 
