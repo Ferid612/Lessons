@@ -1,3 +1,9 @@
+from math import sqrt
+from Ders_4 import say_hello
+
+
+print(sqrt(81))
+
 # class Dog:
 #     species = "Canis familiaris"
 

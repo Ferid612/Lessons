@@ -652,3 +652,6 @@ print( type(hekim_a)  == Hekim)
 
 print( isinstance(muellim_a,Muellim))
 
+
+def say_hello(arg):
+    print(f"Hello {arg}")
