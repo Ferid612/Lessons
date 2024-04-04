@@ -13,9 +13,18 @@
 
 # netice = cemini_tap(3,5)
 # netice_2 = cemini_tap(8,10)
+# a  = 1,2,3 
+# b = 1,2,4
+# c = 2,4,7
+# d = 5,6
+# list_a [a,b,c, d]
 
+# list_a = [[1,2,3],[1,2,4],[2,4,6]]
 
+# arr = np.array([12,3][2,4][4,5]])
 
+# a = 12,3,2,4,4,5 fdsfdskfds
+# c= 13
 
 # def mehsul_al(mehsul_adi="Corek", qiymet=40):
 #     print(f"{mehsul_adi} mehsulu {qiymet} qepiye alindi")   
