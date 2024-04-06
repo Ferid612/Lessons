@@ -1,21 +1,35 @@
-using namespace std;
+#include <cmath>
+#include <cstdio>
+#include <vector>
 #include <iostream>
+#include <algorithm>
+using namespace std;
 
-int main(int argc, char *argv[]) {
-   
-    int a = 10;
-    int b = 15;
 
-    cout << std::boolalpha;
+int main() {
+    int n; cin>>n; 
+    int a = n / 100;
+    int b = n %100;
+    b = (b%10)*10 + b/10;
+    a == b ? cout << "Palindrome" :  cout<< "Not Palindrome";
+    return 0;
+}
 
-    cout << "a = " << a << ", b = " << b << endl;
 
-    cout << "(a < b):  " << (a < b) << endl;
-    cout << "(a > b):  " << (a > b) << endl;
-    cout << "(a == b): " << (a == b) << endl;
-    cout << "(a != b): " << (a != b) << endl;
-    cout << "(a <= b): " << (a <= b) << endl;    // (a < b) || (a == b)
-    cout << "(a >= b): " << (a >= b) << endl;
+// polindrom
 
+
+
+
+// 18. Digit Sum Difference
+
+int main() {
+    int n; cin>>n;
+    int a = n / 1000;
+    int sum_a = a%10 + a/10;
+    int b = n % 100;
+    int sum_b = b%10 + b/10;
+    cout<< sum_a - sum_b;
     
+    return 0;
 }
