@@ -6,14 +6,59 @@
 using namespace std;
 
 
+
+
 int main() {
-    int n; cin>>n; 
-    int a = n / 100;
-    int b = n %100;
-    b = (b%10)*10 + b/10;
-    a == b ? cout << "Palindrome" :  cout<< "Not Palindrome";
+    char a,b; cin>>a>>b; 
+    a = a+b;
+    b = a-b; 
+    a = a-b;
+    cout << a <<b;
     return 0;
 }
+// int main() {
+//     int n; cin>>n; 
+//     int a = n/ 10000;
+//     int b = n/1000%10;
+//     int c = n/100%10;
+//     int d = n/10%10;
+//     int e = n%10;
+
+//     cout << a <<b<<c<<d<<e<<t<<endl;
+//     if (a<=b and b<=c and c<=d and d<=e){
+//         cout << "Ascending";
+//     }else{
+//         cout<<"Not Ascending";
+//     }
+//     return 0;
+// }
+
+
+
+// int main() {
+//     int n; cin>>n; 
+//     int a = n/ 10000;
+//     int b = n/1000%10;
+//     int c = n/100%10;
+//     int d = n/10%10;
+//     int e = n%10;
+//     if (a==b || a==c || a==d || a==e || b ==c || b==d ||  b==e  || c ==d || c==e || d==e){
+//         cout<<"Identical Digits Found";
+//     }else{
+//         cout<<"No Identical Digits";        
+//     }
+//     return 0;
+// }
+
+
+// int main() {
+//     int n; cin>>n; 
+//     int a = n / 100;
+//     int b = n %100;
+//     b = (b%10)*10 + b/10;
+//     a == b ? cout << "Palindrome" :  cout<< "Not Palindrome"<<endl<<endl;
+//     return 0;
+// }
 
 
 // polindrom
@@ -23,13 +68,13 @@ int main() {
 
 // 18. Digit Sum Difference
 
-int main() {
-    int n; cin>>n;
-    int a = n / 1000;
-    int sum_a = a%10 + a/10;
-    int b = n % 100;
-    int sum_b = b%10 + b/10;
-    cout<< sum_a - sum_b;
+// int main() {
+//     int n; cin>>n;
+//     int a = n / 1000;
+//     int sum_a = a%10 + a/10;
+//     int b = n % 100;
+//     int sum_b = b%10 + b/10;
+//     cout<< sum_a - sum_b;
     
     return 0;
 }
@@ -138,3 +183,26 @@ int main() {
     cout<<k; 
     return 0;
 }
+//     return 0;
+// }
+// int main() {
+//         /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+//         float a,b,c,d; cin>>a>>b>>c>>d;
+//         if (a < b && b< c && c< d){
+//             cout<< a<<" "<<b<<" " <<c<<" "<<d;
+//         }else if(a >= b && b>= c && c>= d){
+//             float max_t = a>b?a:b;
+//             max_t = max_t>c?max_t:c;
+//             max_t = max_t>d?max_t:d;
+
+//             cout<< max_t<<" "<<max_t<<" " <<max_t<<" "<<max_t;
+
+//         }else{
+//             cout<< a*a<<" "<<b*b<<" "<<c*c<<" "<<d*d;
+//         }
+//         return 0;
+//     }
+
+// float a,b,c,d; cin>>a>>b>>c>>d;
+// float max_t = a>b?a>c?a>d?a:d:c>d?c:d:b>c?b>d?b:d:c>d?c:d;
+        
