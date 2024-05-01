@@ -12,10 +12,6 @@
 
 
 
-#! Unboxing
-list_a = [2,3,4,5]
-a, b, c, d = list_a
-
 
 # print(a)
 # print(b)
@@ -71,8 +67,6 @@ a, b, c, d = list_a
 # snake_case
 # kabab-case
 
-
-
 # PEP8
 
 
@@ -126,7 +120,7 @@ a, b, c, d = list_a
 # Ondaliq ededler uzerinde emeliyyatlar 
 
 # from math import isclose
-# print(  isclose(6, 8, rel_tol=0.2 )  )
+# print(  isclose(6, 7 ,rel_tol=0.5 )  )
 
 
 # x = 1.1 + 2.2
@@ -259,6 +253,9 @@ a, b, c, d = list_a
 a= 4
 
 # print(        a > 3  and a % 2 ==  0 and a<100 and a==5      )
+# if (any(3>4, 4>5, 6>7) ):
+#     print()
+
 # print(  all(( a > 3, a % 2 ==  0, a<100, a==5))    )
 
 # print(        a > 3  or a % 2 ==  0 or a<100 or a==5      )
@@ -294,9 +291,8 @@ a= 4
 # print(all(validation_conditions))
 
 
+
 #! Callabe
-
-
 # for a in number:
     # print(a)
     
@@ -365,10 +361,17 @@ a= 4
 
 # and or not
 
-# a = int(input("a: "))
+# def funk_a(a):
+#     print("Teraterm")
+#     return True
 
-# if  a > 10 and a > 15 and a % 2 == 0:
-#     print("Salam")
+# a = int(input("a: "))
+# if a != 0 and funk_a(a):
+#     print("Funksiya ugurla basa catdi")
+    
+    
+
+    
     
 
 # if  a > 10 or a > 15 or a % 2 == 0:
@@ -413,7 +416,7 @@ a= 4
 # print(country)
 
 
-# data_is_not_clean and clean_data()
+# data_is_not_clean() and clean_data()
 
 # print()
 # deyisgen = "12"
@@ -446,8 +449,12 @@ a= 4
 #! Axsam qrupu 4 yanvar
 
 #! Is keyword
-# x = 12121121
-# y = 12121121
+
+# x = ["apple", "banana", "cherry"]
+
+# y = ["apple", "banana", "cherry"]
+
+# x=y.copy()
 
 # print(id(x))
 # print(id(y))
@@ -511,16 +518,14 @@ a= 4
 # print(variable_a)
 
 
-
-
 #! Random library
 # import random
-# x = random.randrange(1, 23232)
-# print(x)
+# # x = random.randrange(1, 23232)
+# # print(x)
 
-# 1 2 3 4 5 6 = 21 /6 = 3.5  
+# # 1 2 3 4 5 6 = 21 /6 = 3.5  
 
-# count = 100000
+# count = 10000
 
 # i = 0
 # cem = 0

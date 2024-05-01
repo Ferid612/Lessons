@@ -39,7 +39,7 @@
 
 
 02.02.2020
-1) 0 dan +N ə cən 7ə tam bölünən ədədləri ekrana çıxaran programı tərtib edin.N i müştəri daxil edəcək. 
+1) 0 dan N-ə cən 7ə tam bölünən ədədləri ekrana çıxaran programı tərtib edin.N i müştəri daxil edəcək. 
 2) 0dan N-ə dək 3 və 7 ə bölünən bütün ədədlərin cəmini tapan program tərtib edin.N i müştəri daxil edəcək. 
 4) N! hesablayan programı tərtib edin. 
 5) 1 den 100 dek ededleri yoxlayaraq n^m=m^n bərabərliyini ödəyən ededleri tapan programı tərtib edkn. (İpuci İç içə while funksiyalarından istifadə edəcəksiniz).

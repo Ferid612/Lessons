@@ -17,11 +17,46 @@
         "documentation": {}
     },
     {
+        "label": "sqrt",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
         "label": "pprint",
+        "kind": 6,
+        "isExtraImport": true,
         "importPath": "pprint",
         "description": "pprint",
-        "isExtraImport": true,
         "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "say_hello",
+        "importPath": "Ders_4",
+        "description": "Ders_4",
+        "isExtraImport": true,
+        "detail": "Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
         "documentation": {}
     },
     {
@@ -96,201 +131,66 @@
         "documentation": {}
     },
     {
-        "label": "x",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 1",
-        "description": "Codes.Lesson Subjects.Ders 1",
-        "peekOfCode": "x = 1.1 + 2.2\n# print(x)\n# print(x == 3.3)\n# from math import isclose\n# print(  isclose(6,10, rel_tol=0.2)  )\n# x = 1.1 + 2.2\n# print( isclose(x,3.3))\n# x y arasindaki ferq 20 faizden den cox deyilse bunlari beraber kimi qebul et\n# print( isclose(6, 7, rel_tol=0.2))\n#! Boolean cheking ",
-        "detail": "Codes.Lesson Subjects.Ders 1",
-        "documentation": {}
-    },
-    {
-        "label": "x",
+        "label": "list_a",
         "kind": 5,
         "importPath": "Codes.Lesson Subjects.Ders 2",
         "description": "Codes.Lesson Subjects.Ders 2",
-        "peekOfCode": "x = 1    # int  # integer \ny = 2.8  # float  \nz = 1j   # complex\na = \"salam\" # string \nb = True # boolean\nc = None # Nonetype\n# a = 20\n# b = 2.4\n# c = 30\n# d = None",
+        "peekOfCode": "list_a =  range(20, 410000)\n# list_a =  range(20, 41000000, 2)\n# list_a =  range(20, 41000000, 2)\n# list_a =  range(20, 41000000, 2)\n# print(list_a)\n# list_a = list_a[::3]\n# print(list_a)\n# print(list_a)\n# x = range(21,200)[5]\n# print(x)",
         "detail": "Codes.Lesson Subjects.Ders 2",
         "documentation": {}
     },
     {
-        "label": "y",
+        "label": "adlar",
         "kind": 5,
         "importPath": "Codes.Lesson Subjects.Ders 2",
         "description": "Codes.Lesson Subjects.Ders 2",
-        "peekOfCode": "y = 2.8  # float  \nz = 1j   # complex\na = \"salam\" # string \nb = True # boolean\nc = None # Nonetype\n# a = 20\n# b = 2.4\n# c = 30\n# d = None\n# print(a<d)",
+        "peekOfCode": "adlar = [\"Eziz\",\"Ramiz\",\"Lale\",\"Baleeli\"]\n# print(len(adlar)) #-- listlerin uzunlugunu olcusunu length \nfor item in range(len(adlar)):\n    print(item, adlar[item])\n# ededler = [1,2,3,4,5,6,7,8,9]\n# for i in range( len(ededler)  ):\n#     print(i, ededler[i])\n#! Nəzrinlə burada qaldıq \n# print(len(a))\n# a = \"Hello, World!\"",
         "detail": "Codes.Lesson Subjects.Ders 2",
         "documentation": {}
     },
     {
-        "label": "z",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 2",
-        "description": "Codes.Lesson Subjects.Ders 2",
-        "peekOfCode": "z = 1j   # complex\na = \"salam\" # string \nb = True # boolean\nc = None # Nonetype\n# a = 20\n# b = 2.4\n# c = 30\n# d = None\n# print(a<d)\n#convert from int to float:",
-        "detail": "Codes.Lesson Subjects.Ders 2",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 2",
-        "description": "Codes.Lesson Subjects.Ders 2",
-        "peekOfCode": "a = \"salam\" # string \nb = True # boolean\nc = None # Nonetype\n# a = 20\n# b = 2.4\n# c = 30\n# d = None\n# print(a<d)\n#convert from int to float:\n# x = \"100\"",
-        "detail": "Codes.Lesson Subjects.Ders 2",
-        "documentation": {}
-    },
-    {
-        "label": "b",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 2",
-        "description": "Codes.Lesson Subjects.Ders 2",
-        "peekOfCode": "b = True # boolean\nc = None # Nonetype\n# a = 20\n# b = 2.4\n# c = 30\n# d = None\n# print(a<d)\n#convert from int to float:\n# x = \"100\"\n# x = int(x)",
-        "detail": "Codes.Lesson Subjects.Ders 2",
-        "documentation": {}
-    },
-    {
-        "label": "c",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 2",
-        "description": "Codes.Lesson Subjects.Ders 2",
-        "peekOfCode": "c = None # Nonetype\n# a = 20\n# b = 2.4\n# c = 30\n# d = None\n# print(a<d)\n#convert from int to float:\n# x = \"100\"\n# x = int(x)\n# print(type(x))",
-        "detail": "Codes.Lesson Subjects.Ders 2",
-        "documentation": {}
-    },
-    {
-        "label": "var_b",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 2",
-        "description": "Codes.Lesson Subjects.Ders 2",
-        "peekOfCode": "var_b =  [\"salam\", \"necesen\", \"neynirsen\"]\nprint(var_b[-3])\nprint(var_b[2])\n# print(type(var_a))\n# var_a = [1, 2, 3, 4, 5]\n# var_b = [2,4,5,6,8]\n# print(var_a)\n# print(type(var_a))\n# print(len(var_a))\n# print( var_a[-5] )",
-        "detail": "Codes.Lesson Subjects.Ders 2",
-        "documentation": {}
-    },
-    {
-        "label": "txt",
+        "label": "thistuple",
         "kind": 5,
         "importPath": "Codes.Lesson Subjects.Ders 3",
         "description": "Codes.Lesson Subjects.Ders 3",
-        "peekOfCode": "txt = \"The best things in life are Free!\"\n# new_txt = txt.\n# print(new_txt)\n# list_a = [\"Farid\", \"Mahammad\",\"Muhammad\",\"Nicat\"]\n# new_text = \",\".join(list_a)\n# print(new_text)\n# print(txt.find(\"in\",12))\n# print(txt.upper().count(\"F\"))\n#*upper\n#*lower",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\", \"cherry\")\n# print(thistuple)\n# print(type(thistuple))\n#! Not assignment\n# thistuple[0] = \"Lemon\"\n# print(thislist[0])\n#! Dublicate\n# thistuple = (\"apple\", \"banana\", \"cherry\", \"apple\", \"cherry\")\n# print(thistuple)\n#",
         "detail": "Codes.Lesson Subjects.Ders 3",
         "documentation": {}
     },
     {
-        "label": "child1",
+        "label": "thisset",
         "kind": 5,
         "importPath": "Codes.Lesson Subjects.Ders 3",
         "description": "Codes.Lesson Subjects.Ders 3",
-        "peekOfCode": "child1 = {\n  \"name\" : \"Emil\",\n  \"year\" : 2004\n}\nchild2 = {\n  \"name\" : \"Tobias\",\n  \"year\" : 2007\n}\nchild3 = {\n  \"name\" : \"Linus\",",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\n# for x in thisset:\n#   print(x)\n# print(thisset.pop())\n# print(thisset.pop())\n# print(\"thisset:\", thisset)\n# print(thisset)\n# var = thisset.pop()\n# var_b = thisset.pop()\n# print(var)",
         "detail": "Codes.Lesson Subjects.Ders 3",
         "documentation": {}
     },
     {
-        "label": "child2",
+        "label": "thisset",
         "kind": 5,
         "importPath": "Codes.Lesson Subjects.Ders 3",
         "description": "Codes.Lesson Subjects.Ders 3",
-        "peekOfCode": "child2 = {\n  \"name\" : \"Tobias\",\n  \"year\" : 2007\n}\nchild3 = {\n  \"name\" : \"Linus\",\n  \"year\" : 2011,\n}\nmyfamily = {\n  \"child1\" : child1,",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\n# thisset.remove(\"banana\")\n# thisset.remove(\"banana\")\n# print(thisset)\n# #or\n# thisset.discard(\"banana\")\n# thisset.discard(\"banana\")\n# thisset.discard(\"banana\")\n# thisset.discard(\"banana\")\n# print(var_a)",
         "detail": "Codes.Lesson Subjects.Ders 3",
         "documentation": {}
     },
     {
-        "label": "child3",
+        "label": "car",
         "kind": 5,
         "importPath": "Codes.Lesson Subjects.Ders 3",
         "description": "Codes.Lesson Subjects.Ders 3",
-        "peekOfCode": "child3 = {\n  \"name\" : \"Linus\",\n  \"year\" : 2011,\n}\nmyfamily = {\n  \"child1\" : child1,\n  \"child2\" : child2,\n  \"child3\" : child3\n}\nprint(child2['name'])",
+        "peekOfCode": "car = {\n  \"brand\": \"Ford\",\n  \"model\": \"S-class\",\n  \"year\": 2012\n  }\n# print(car.values())\n# english_levels = {\n#     \"a1\":\"beginner\",\n#     \"a2\":\"elemetry\",\n#     \"b1\":\"pre-intermadate\",",
         "detail": "Codes.Lesson Subjects.Ders 3",
         "documentation": {}
     },
     {
-        "label": "myfamily",
+        "label": "thisdict",
         "kind": 5,
         "importPath": "Codes.Lesson Subjects.Ders 3",
         "description": "Codes.Lesson Subjects.Ders 3",
-        "peekOfCode": "myfamily = {\n  \"child1\" : child1,\n  \"child2\" : child2,\n  \"child3\" : child3\n}\nprint(child2['name'])\n# x = ('key1', 'key2', 'key3')\n# thisdict{\n#   ke\n# }",
+        "peekOfCode": "thisdict = {\n  \"brand\": \"Ford\",\n  \"model\": \"Mustang\",\n  \"year\": 1964,\n  \"year\": 2020,\n  \"oil_type\" : \"dizel\"\n}\n# pprint.pprint(thisdict, width=1)\n# print(thisdict.keys())\n# for c, b in thisdict.items():",
         "detail": "Codes.Lesson Subjects.Ders 3",
-        "documentation": {}
-    },
-    {
-        "label": "x",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 4",
-        "description": "Codes.Lesson Subjects.Ders 4",
-        "peekOfCode": "x = lambda a : a + 10\nuce_vur = lambda x : 1 if x== 0 else x* uce_vur(x-1)\n# def uce_vur(a):\n#     return  a*3\n# print(uce_vur(5))\n# print(x(5))\n# def func(a):\n#     return  a + 10",
-        "detail": "Codes.Lesson Subjects.Ders 4",
-        "documentation": {}
-    },
-    {
-        "label": "uce_vur",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 4",
-        "description": "Codes.Lesson Subjects.Ders 4",
-        "peekOfCode": "uce_vur = lambda x : 1 if x== 0 else x* uce_vur(x-1)\n# def uce_vur(a):\n#     return  a*3\n# print(uce_vur(5))\n# print(x(5))\n# def func(a):\n#     return  a + 10\n# func = lambda a, y: a * y",
-        "detail": "Codes.Lesson Subjects.Ders 4",
-        "documentation": {}
-    },
-    {
-        "label": "Human",
-        "kind": 6,
-        "importPath": "Codes.Lesson Subjects.Ders 4_1",
-        "description": "Codes.Lesson Subjects.Ders 4_1",
-        "peekOfCode": "class Human:\n    def __init__(self,name,last,age):\n        self.name = name\n        self.last = last\n        self.age = age\n    def yemek_yemek(self):\n        print(f\"{self.name} yemek yedi.\")\n    def yas_artmaq(self):\n        self.age = self.age + 1\n        print(f\"{self.name} yas artdi. yeni yas:{self.age}\")",
-        "detail": "Codes.Lesson Subjects.Ders 4_1",
-        "documentation": {}
-    },
-    {
-        "label": "Hekim",
-        "kind": 6,
-        "importPath": "Codes.Lesson Subjects.Ders 4_1",
-        "description": "Codes.Lesson Subjects.Ders 4_1",
-        "peekOfCode": "class Hekim(Human):\n    def __init__(self,name,last, age):\n        super().__init__(name,last,age)\nclass Muellim(Human):\n    def __init__(self,name,last, age, academic_level):\n        super().__init__(name,last,age)\n        self.academic_level = academic_level\n    def get_def(self,deyisgen):\n        return self.name + \" \" + self.last + \" \" + self.academic_level\n    # Override",
-        "detail": "Codes.Lesson Subjects.Ders 4_1",
-        "documentation": {}
-    },
-    {
-        "label": "Muellim",
-        "kind": 6,
-        "importPath": "Codes.Lesson Subjects.Ders 4_1",
-        "description": "Codes.Lesson Subjects.Ders 4_1",
-        "peekOfCode": "class Muellim(Human):\n    def __init__(self,name,last, age, academic_level):\n        super().__init__(name,last,age)\n        self.academic_level = academic_level\n    def get_def(self,deyisgen):\n        return self.name + \" \" + self.last + \" \" + self.academic_level\n    # Override\n    # Overloading \nhekim_a = Hekim(\"Ali\",\"Sahib\", 24)\nmuellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")",
-        "detail": "Codes.Lesson Subjects.Ders 4_1",
-        "documentation": {}
-    },
-    {
-        "label": "x",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 4_1",
-        "description": "Codes.Lesson Subjects.Ders 4_1",
-        "peekOfCode": "x = lambda a : a + 10\nuce_vur = lambda x : 1 if x== 0 else x* uce_vur(x-1)\n# def uce_vur(a):\n#     return  a*3\n# print(uce_vur(5))\n# print(x(5))\n# def func(a):\n#     return  a + 10",
-        "detail": "Codes.Lesson Subjects.Ders 4_1",
-        "documentation": {}
-    },
-    {
-        "label": "uce_vur",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 4_1",
-        "description": "Codes.Lesson Subjects.Ders 4_1",
-        "peekOfCode": "uce_vur = lambda x : 1 if x== 0 else x* uce_vur(x-1)\n# def uce_vur(a):\n#     return  a*3\n# print(uce_vur(5))\n# print(x(5))\n# def func(a):\n#     return  a + 10\n# func = lambda a, y: a * y",
-        "detail": "Codes.Lesson Subjects.Ders 4_1",
-        "documentation": {}
-    },
-    {
-        "label": "hekim_a",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 4_1",
-        "description": "Codes.Lesson Subjects.Ders 4_1",
-        "peekOfCode": "hekim_a = Hekim(\"Ali\",\"Sahib\", 24)\nmuellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")\nprint(hekim_a)     \nprint(muellim_a)",
-        "detail": "Codes.Lesson Subjects.Ders 4_1",
-        "documentation": {}
-    },
-    {
-        "label": "muellim_a",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 4_1",
-        "description": "Codes.Lesson Subjects.Ders 4_1",
-        "peekOfCode": "muellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")\nprint(hekim_a)     \nprint(muellim_a)",
-        "detail": "Codes.Lesson Subjects.Ders 4_1",
         "documentation": {}
     },
     {
@@ -327,6 +227,159 @@
         "description": "Codes.Lesson Subjects.Ders 5",
         "peekOfCode": "file_text_2 = open(\"Codes/netice.txt\",\"w\")\nfor item in list_a:\n    file_text_2.write(str(item)+\",\")\n# f = open(\"suallar_copy.txt\", \"r\")\n# print(f.read())  # returns the entire contents of a file as one string\n# for a in f:\n#     print(a)\n# f.write(\"pineapples\")\n# f.write(\"kiwis\")\n# for a in f:   ",
         "detail": "Codes.Lesson Subjects.Ders 5",
+        "documentation": {}
+    },
+    {
+        "label": "Human",
+        "kind": 6,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "class Human:\n    def __init__(self,name,last,age):\n        self.name = name\n        self.last = last\n        self.age = age\n    def yemek_yemek(self):\n        print(f\"{self.name} yemek yedi.\")\n    def yas_artmaq(self):\n        self.age = self.age + 1\n        print(f\"{self.name} yas artdi. yeni yas:{self.age}\")",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "Hekim",
+        "kind": 6,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "class Hekim(Human):\n    def __init__(self,name,last, age):\n        super().__init__(name,last,age)\nclass Muellim(Human):\n    def __init__(self,name,last, age, academic_level):\n        super().__init__(name,last,age)\n        self.academic_level = academic_level\n    # Override\n    # Overloading \nhekim_a = Hekim(\"Ali\",\"Sahib\", 24)",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "Muellim",
+        "kind": 6,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "class Muellim(Human):\n    def __init__(self,name,last, age, academic_level):\n        super().__init__(name,last,age)\n        self.academic_level = academic_level\n    # Override\n    # Overloading \nhekim_a = Hekim(\"Ali\",\"Sahib\", 24)\nmuellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")\nprint( type(hekim_a)  == Hekim)\nprint( isinstance(muellim_a,Muellim))",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 2,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "def f():\n    return ['foo', 'bar', 'baz', 'qux']\n# print(f())\n# print(f()[2])\n# print(f()[::-1])\n# Python dict as an argument\n# def f(**kwargs):\n#     print(kwargs)\n#     print(type(kwargs))\n#     for key, val in kwargs.items():",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "def login(username:str, password:int, age:bool) -> bool:\n    \"\"\"Bu funksiya instarame giris ucundur\n    Args:\n        username (str): istifadecinin instagram  istifadeci adi\n        password (str): intifadecinin instagram sifresi\n        age (int): istifadecinin yasi\n    Returns:\n        bool: neticeniin true ve ya false olaraq return edir \n        \"\"\"\n    if age>18:",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "say_hello",
+        "kind": 2,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "def say_hello(arg):\n    print(f\"Hello {arg}\")",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "hekim_a",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "hekim_a = Hekim(\"Ali\",\"Sahib\", 24)\nmuellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")\nprint( type(hekim_a)  == Hekim)\nprint( isinstance(muellim_a,Muellim))\ndef say_hello(arg):\n    print(f\"Hello {arg}\")",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "muellim_a",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "muellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")\nprint( type(hekim_a)  == Hekim)\nprint( isinstance(muellim_a,Muellim))\ndef say_hello(arg):\n    print(f\"Hello {arg}\")",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.Ders_pandas",
+        "description": "Codes.Lesson Subjects.Ders_pandas",
+        "peekOfCode": "df = pd.read_csv('Codes/Lesson Subjects/users.csv')\nprint(df) \n# pd.options.display.max_rows = 100\n# pd.set_option('display.max_rows', x)\n# pd.options.display.min_rows = 20\n# print(df) \n#! get.options to return the current value\n# print(pd.get_option(\"display.min_rows\"))\n#! Read json\n# df = pd.read_json('Codes/Lesson Subjects/data.json')",
+        "detail": "Codes.Lesson Subjects.Ders_pandas",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.Ders_requests",
+        "description": "Codes.Lesson Subjects.Ders_requests",
+        "peekOfCode": "b = a + 20\nresponse =  requests.get('https://api.github.com')\nprint(response)",
+        "detail": "Codes.Lesson Subjects.Ders_requests",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.Ders_requests",
+        "description": "Codes.Lesson Subjects.Ders_requests",
+        "peekOfCode": "response =  requests.get('https://api.github.com')\nprint(response)",
+        "detail": "Codes.Lesson Subjects.Ders_requests",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.ders_numpy",
+        "description": "Codes.Lesson Subjects.ders_numpy",
+        "peekOfCode": "a = np.array([1, 2, 3, 4, 5, 1, 2, 3, 4, 5])\nb = a[1:5]  # b, a'nın bir görünümüdür\nc = b[1:2]\n# b[2] = 10\n# print(b.base)\n# print(a)\n# print(b.base is a)  \n# print(c.base is a)  \n#! Arrayleri sütuna uyğun birlesdirmek\n# [1, 2, 3]  [4, 5, 6]  [7, 8, 9]",
+        "detail": "Codes.Lesson Subjects.ders_numpy",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.ders_numpy",
+        "description": "Codes.Lesson Subjects.ders_numpy",
+        "peekOfCode": "b = a[1:5]  # b, a'nın bir görünümüdür\nc = b[1:2]\n# b[2] = 10\n# print(b.base)\n# print(a)\n# print(b.base is a)  \n# print(c.base is a)  \n#! Arrayleri sütuna uyğun birlesdirmek\n# [1, 2, 3]  [4, 5, 6]  [7, 8, 9]\n# arr1 = np.array([1, 2, 3])",
+        "detail": "Codes.Lesson Subjects.ders_numpy",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.ders_numpy",
+        "description": "Codes.Lesson Subjects.ders_numpy",
+        "peekOfCode": "c = b[1:2]\n# b[2] = 10\n# print(b.base)\n# print(a)\n# print(b.base is a)  \n# print(c.base is a)  \n#! Arrayleri sütuna uyğun birlesdirmek\n# [1, 2, 3]  [4, 5, 6]  [7, 8, 9]\n# arr1 = np.array([1, 2, 3])\n# arr2 = np.array([4, 5, 6])",
+        "detail": "Codes.Lesson Subjects.ders_numpy",
+        "documentation": {}
+    },
+    {
+        "label": "arr1",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.ders_numpy",
+        "description": "Codes.Lesson Subjects.ders_numpy",
+        "peekOfCode": "arr1 = np.array([[1, 2],[3,4]])\narr2 = np.array([[4, 5], [6,7]])\narr = np.concatenate((arr1, arr2), axis = 1)\nprint(arr)\n# [1 2 3 4 5 6]\n# axis - 0 sətir boyunca birləşdirmə yəni dik birləşdirmə\n# axis - 1 sütun boyunca birləşdirmə yəni üfüqi birləşdirmə\n# 1 2     5  6  3 4     7  8 \n# arr1 = np.array([[1, 2], [3, 4]])\n# arr2 = np.array([[5, 6], [7, 8]])",
+        "detail": "Codes.Lesson Subjects.ders_numpy",
+        "documentation": {}
+    },
+    {
+        "label": "arr2",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.ders_numpy",
+        "description": "Codes.Lesson Subjects.ders_numpy",
+        "peekOfCode": "arr2 = np.array([[4, 5], [6,7]])\narr = np.concatenate((arr1, arr2), axis = 1)\nprint(arr)\n# [1 2 3 4 5 6]\n# axis - 0 sətir boyunca birləşdirmə yəni dik birləşdirmə\n# axis - 1 sütun boyunca birləşdirmə yəni üfüqi birləşdirmə\n# 1 2     5  6  3 4     7  8 \n# arr1 = np.array([[1, 2], [3, 4]])\n# arr2 = np.array([[5, 6], [7, 8]])\n# arr = np.concatenate((arr1, arr2), axis=1)",
+        "detail": "Codes.Lesson Subjects.ders_numpy",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.ders_numpy",
+        "description": "Codes.Lesson Subjects.ders_numpy",
+        "peekOfCode": "arr = np.concatenate((arr1, arr2), axis = 1)\nprint(arr)\n# [1 2 3 4 5 6]\n# axis - 0 sətir boyunca birləşdirmə yəni dik birləşdirmə\n# axis - 1 sütun boyunca birləşdirmə yəni üfüqi birləşdirmə\n# 1 2     5  6  3 4     7  8 \n# arr1 = np.array([[1, 2], [3, 4]])\n# arr2 = np.array([[5, 6], [7, 8]])\n# arr = np.concatenate((arr1, arr2), axis=1)\n# print(arr)",
+        "detail": "Codes.Lesson Subjects.ders_numpy",
         "documentation": {}
     },
     {
@@ -399,6 +452,33 @@
         "description": "Codes.numpy_examples.numpy_sum",
         "peekOfCode": "x = np.array([[0, 1], [2, 3]])\n# Printing a message indicating the original array 'x'\nprint(\"Original array:\")\nprint(x)\n# Calculating and printing the sum of all elements in the array 'x' using np.sum()\nprint(\"Sum of all elements:\")\nprint(np.sum(x))\n# Calculating and printing the sum of each column in the array 'x' using np.sum() with axis=0\nprint(\"Sum of each column:\")\nprint(np.sum(x, axis=0))",
         "detail": "Codes.numpy_examples.numpy_sum",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Codes.run",
+        "description": "Codes.run",
+        "peekOfCode": "a = (3,4,5,6 )\nb = [3,4,5,6]\n# a= 20\ndict_a = {\n    \"Salam\":\"Hello\",\n     a:40,\n     b: 60   \n}\nprint(dict_a)\n# Sert: Verilen ededlerden sade olanlari tapin.",
+        "detail": "Codes.run",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Codes.run",
+        "description": "Codes.run",
+        "peekOfCode": "b = [3,4,5,6]\n# a= 20\ndict_a = {\n    \"Salam\":\"Hello\",\n     a:40,\n     b: 60   \n}\nprint(dict_a)\n# Sert: Verilen ededlerden sade olanlari tapin.\n# import math",
+        "detail": "Codes.run",
+        "documentation": {}
+    },
+    {
+        "label": "dict_a",
+        "kind": 5,
+        "importPath": "Codes.run",
+        "description": "Codes.run",
+        "peekOfCode": "dict_a = {\n    \"Salam\":\"Hello\",\n     a:40,\n     b: 60   \n}\nprint(dict_a)\n# Sert: Verilen ededlerden sade olanlari tapin.\n# import math\n# def sade_ededleri_tap(list_a):    \n#     for num_a in list_a:",
+        "detail": "Codes.run",
         "documentation": {}
     }
 ]

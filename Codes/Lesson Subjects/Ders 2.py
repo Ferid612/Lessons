@@ -183,7 +183,7 @@
 # list_a = [2,3,4.4,5,6,2,12] 
 # list_b = [23,23,4,2321,12] 
 
-# list_c = list_a + list_b
+# list_a = list_a + list_b
 # list_a.extend(list_b)
 # print(list_a)
 
@@ -228,11 +228,11 @@
     
 #! Range Lazy memory
 
-# list_a =  range(20, 41000000)
+list_a =  range(20, 410000)
 # list_a =  range(20, 41000000, 2)
 # list_a =  range(20, 41000000, 2)
 # list_a =  range(20, 41000000, 2)
-# print(list_a[2])
+# print(list_a)
 # list_a = list_a[::3]
 # print(list_a)
 
@@ -286,16 +286,20 @@
 
 
 
-# adlar = ["Eziz","Ramiz","Lale","Baleeli"]
+adlar = ["Eziz","Ramiz","Lale","Baleeli"]
 # print(len(adlar)) #-- listlerin uzunlugunu olcusunu length 
-# for item in range(len(adlar)):
-#     print(item, adlar[item])
+
+for item in range(len(adlar)):
+    print(item, adlar[item])
 
 # ededler = [1,2,3,4,5,6,7,8,9]
 # for i in range( len(ededler)  ):
 #     print(i, ededler[i])
     
 
+
+
+#! Nəzrinlə burada qaldıq 
 
 
 # print(len(a))

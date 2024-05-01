@@ -1,3 +1,19 @@
+
+a = (3,4,5,6 )
+b = [3,4,5,6]
+
+a= 20 
+a = a+2
+
+dict_a = {
+    "Salam":"Hello",
+     a:40,
+     b: 60   
+}
+print(dict_a)
+
+
+
 # Sert: Verilen ededlerden sade olanlari tapin.
 # import math
 
