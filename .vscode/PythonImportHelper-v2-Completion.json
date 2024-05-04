@@ -185,15 +185,6 @@
         "documentation": {}
     },
     {
-        "label": "thisdict",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 3",
-        "description": "Codes.Lesson Subjects.Ders 3",
-        "peekOfCode": "thisdict = {\n  \"brand\": \"Ford\",\n  \"model\": \"Mustang\",\n  \"year\": 1964,\n  \"year\": 2020,\n  \"oil_type\" : \"dizel\"\n}\n# pprint.pprint(thisdict, width=1)\n# print(thisdict.keys())\n# for c, b in thisdict.items():",
-        "detail": "Codes.Lesson Subjects.Ders 3",
-        "documentation": {}
-    },
-    {
         "label": "file_text",
         "kind": 5,
         "importPath": "Codes.Lesson Subjects.Ders 5",
@@ -459,7 +450,7 @@
         "kind": 5,
         "importPath": "Codes.run",
         "description": "Codes.run",
-        "peekOfCode": "a = (3,4,5,6 )\nb = [3,4,5,6]\n# a= 20\ndict_a = {\n    \"Salam\":\"Hello\",\n     a:40,\n     b: 60   \n}\nprint(dict_a)\n# Sert: Verilen ededlerden sade olanlari tapin.",
+        "peekOfCode": "a = (3,4,5,6 )\nb = [3,4,5,6]\na= 20 \na = a+2\ndict_a = {\n    \"Salam\":\"Hello\",\n     a:40,\n     b: 60   \n}\nprint(dict_a)",
         "detail": "Codes.run",
         "documentation": {}
     },
@@ -468,7 +459,16 @@
         "kind": 5,
         "importPath": "Codes.run",
         "description": "Codes.run",
-        "peekOfCode": "b = [3,4,5,6]\n# a= 20\ndict_a = {\n    \"Salam\":\"Hello\",\n     a:40,\n     b: 60   \n}\nprint(dict_a)\n# Sert: Verilen ededlerden sade olanlari tapin.\n# import math",
+        "peekOfCode": "b = [3,4,5,6]\na= 20 \na = a+2\ndict_a = {\n    \"Salam\":\"Hello\",\n     a:40,\n     b: 60   \n}\nprint(dict_a)\n# Sert: Verilen ededlerden sade olanlari tapin.",
+        "detail": "Codes.run",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Codes.run",
+        "description": "Codes.run",
+        "peekOfCode": "a = a+2\ndict_a = {\n    \"Salam\":\"Hello\",\n     a:40,\n     b: 60   \n}\nprint(dict_a)\n# Sert: Verilen ededlerden sade olanlari tapin.\n# import math\n# def sade_ededleri_tap(list_a):    ",
         "detail": "Codes.run",
         "documentation": {}
     },

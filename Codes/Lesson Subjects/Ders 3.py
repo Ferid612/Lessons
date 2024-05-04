@@ -1,4 +1,40 @@
 
+# import json
+
+
+# with open('Codes/Lesson Subjects/some_switches.json','r') as file:
+#     data = json.load(file)
+
+
+# # print(data)
+
+# dictionary = {}
+# for j in range(len(data)-1): # j listin elementi ucun;  i dict-in key-leri ucun
+#     if data[j]['area_name'] not in dictionary.keys():
+#       dictionary.update({data[j]['area_name'] : data[j]['area_prefix']})
+  
+    
+# print(dictionary.values())
+
+# list_a = 1,2,3 
+
+# b,c,d = list_a
+
+
+
+
+# a = 10
+# b = 20 
+
+# a,b = b,a
+
+
+# a = a + b # a= 30 
+# b = a- b  # b=10
+# a = a -b # a= 20 
+
+ 
+
 # temp = my_list[0]
 # my_list[0] = my_list[-1]
 # my_list[-1] = temp
@@ -7,6 +43,8 @@
 # temp = my_list[1]
 # my_list[1] = my_list[-2]
 # my_list[-2] = temp
+
+
 
 
 
@@ -118,20 +156,30 @@
 
 #! Strings
 
-# Multiline Strings
-# str_b = "Salam"
-# str_c = 'Salam'
+# # Multiline Strings
+# str_b = "Salam \"necesen\" " 
+
+
+# # str_c = 'Salam'
 
 # string_a = """Salam baki necesen.
 # Neynirsen?
-# Halin ehvalin."""
+
+# Halin ehvalin
+
+# ."""
+
+# print(string_a)
+
+
 
 # print(string_a)
 # print(type(string_a))
 
 # for herf in "Salam Baki":
-#     print(herf, end=" ")
+#     print(herf)
 
+# print()
 
 #! indexing in string
 # var_a = "Dunya senin"
@@ -149,8 +197,13 @@
 
 # list_a = ["Farid", "Mahammad","Muhammad","Nicat"]
 
+# print("".join(list_a))
+
 # new_text = ",".join(list_a)
+
+
 # print(new_text)
+
 
 
 
@@ -177,8 +230,14 @@
 #*join
 #*repleca
 
-import pprint
+# import pprint 
 
+# list_a = [[1,2,3],
+#           [4,5,6],[
+#             7,8,9]]
+
+# pprint.PrettyPrinter(indent=9)
+# pprint.pprint(list_a, depth=3)
 
 # text_2 = "Xizidan yazan sairin dilinde qusur tutmayin. Qafiye daglilardadır Müşviqdən cəhiz."
 
@@ -272,6 +331,9 @@ import pprint
 #! TUPLE
 
 # thislist = ["apple", "banana", "cherry", "cherry"]
+import pprint
+
+
 thistuple = ("apple", "banana", "cherry", "cherry")
 
 
@@ -593,14 +655,14 @@ car = {
 
 #! Duplicates
 
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964,
-  "year": 2020,
-  "oil_type" : "dizel"
-}
-
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964,
+#   "year": 2020,
+#   "oil_type" : "dizel"
+# }
+# print(thisdict,'\n\n')
 # pprint.pprint(thisdict, width=1)
 
 
@@ -640,7 +702,17 @@ thisdict = {
 # }
 
 # # x = thisdict["oil_version"]
-# x = thisdict.get("oil_version","benzin")
+# x = thisdict.get("usernane", "Benzin")
+
+# print(x)
+
+# frontend 
+# backend 
+
+# arg1,arg,3,4  
+# return Erro
+
+# funksiya()
 
 # print(x)
 
@@ -662,6 +734,7 @@ thisdict = {
 # for index,item in enumerate(list_adam_adlari):
 #   print(index,item)
   
+#! Nəzrin Teymurova  Burda Qaldirq
   
 # for item in range(len(list_adam_adlari)):
   

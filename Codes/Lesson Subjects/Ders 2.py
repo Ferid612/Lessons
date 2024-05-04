@@ -309,6 +309,8 @@ for item in range(len(adlar)):
 # for x in a:
 #   print(x)
 
+
+
 # input_a = ""
 # while input_a !=  "Sagol":
 #     input_a = input()
@@ -322,7 +324,7 @@ for item in range(len(adlar)):
 #     print(list_a[i])
 #     i+=1
     
-#     sum()
+
 
 # while True:
 #     ad = input("Adinizi daxil edin: ")
@@ -346,14 +348,17 @@ for item in range(len(adlar)):
 # list_a = set([2,3,4,2])
 # print(list_a)
 
-# a= 10
+a= 200
 
-# if a>5:
-#     b = 20
-# elif a< 3:
-#     b = 30
-# else:
-#     b = 40
+if a > 10:
+    b = 20
+elif a > 5:
+    b = 30
+else:
+    b = 40
+
+
+
 
 # b = 20 if a > 5 else 30 if a<3 else 40
 

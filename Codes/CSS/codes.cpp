@@ -10,35 +10,41 @@ using namespace std;
 
 int main()
 {
-    int n,k;
-    cin >> n;
-    k=n;
-    int count = 0;
-    int max = 1;
+    int a;
+    int b;
+    cin >> a;
+    cin >> b;
 
-    while (n > 0)
+    for (int i = a; i <= b; i++)
     {
+        int sum1 = 0;
+        for (int j = 1; j < i; j++)
+        {
+            if ((i % j) == 0)
 
-        int tail = n % 10;
-        if (max < tail)
-            max = tail;
+            {
+                sum1 = sum1 + j;
+            }
+        }
+        if (sum1 > b)
+        {
+            continue;
+        }
+        int sum2 = 0;
+        for (int k = 1; k < sum1; k++)
+        {
+            if (sum1 % k == 0)
+            {
+                sum2 = sum2 + k;
+            }
+        }
 
-        n = n / 10;
+        if (i == sum2 && i > sum1)
+        {
+            cout << "(" << sum1 << "," << " " << sum2 << ")" << endl;
+        };
     }
-    cout << "max: " << max<<endl;
-    while (k > 0)
-    {
-        int tail = k % 10;
-        if (max == tail)
-            count = count + 1;
-
-        k = k / 10;
-
-    }
-
-    cout << count << endl;
 }
-
 // int main()
 // {
 //     int n;
