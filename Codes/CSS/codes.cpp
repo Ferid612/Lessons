@@ -44,6 +44,7 @@ int main()
     }
 
 
+// bura bakidir
 
     cout << "Value: " << maxElement << " " << row << " " << column << " ";
 }
