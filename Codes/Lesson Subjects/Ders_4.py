@@ -655,3 +655,7 @@ print( isinstance(muellim_a,Muellim))
 
 def say_hello(arg):
     print(f"Hello {arg}")
+    
+
+
+# Bura bizim əramizdi 

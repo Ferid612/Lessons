@@ -270,7 +270,7 @@
         "kind": 2,
         "importPath": "Codes.Lesson Subjects.Ders_4",
         "description": "Codes.Lesson Subjects.Ders_4",
-        "peekOfCode": "def say_hello(arg):\n    print(f\"Hello {arg}\")",
+        "peekOfCode": "def say_hello(arg):\n    print(f\"Hello {arg}\")\n# Bura bizim əramizdi",
         "detail": "Codes.Lesson Subjects.Ders_4",
         "documentation": {}
     },
@@ -279,7 +279,7 @@
         "kind": 5,
         "importPath": "Codes.Lesson Subjects.Ders_4",
         "description": "Codes.Lesson Subjects.Ders_4",
-        "peekOfCode": "hekim_a = Hekim(\"Ali\",\"Sahib\", 24)\nmuellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")\nprint( type(hekim_a)  == Hekim)\nprint( isinstance(muellim_a,Muellim))\ndef say_hello(arg):\n    print(f\"Hello {arg}\")",
+        "peekOfCode": "hekim_a = Hekim(\"Ali\",\"Sahib\", 24)\nmuellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")\nprint( type(hekim_a)  == Hekim)\nprint( isinstance(muellim_a,Muellim))\ndef say_hello(arg):\n    print(f\"Hello {arg}\")\n# Bura bizim əramizdi",
         "detail": "Codes.Lesson Subjects.Ders_4",
         "documentation": {}
     },
@@ -288,7 +288,7 @@
         "kind": 5,
         "importPath": "Codes.Lesson Subjects.Ders_4",
         "description": "Codes.Lesson Subjects.Ders_4",
-        "peekOfCode": "muellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")\nprint( type(hekim_a)  == Hekim)\nprint( isinstance(muellim_a,Muellim))\ndef say_hello(arg):\n    print(f\"Hello {arg}\")",
+        "peekOfCode": "muellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")\nprint( type(hekim_a)  == Hekim)\nprint( isinstance(muellim_a,Muellim))\ndef say_hello(arg):\n    print(f\"Hello {arg}\")\n# Bura bizim əramizdi",
         "detail": "Codes.Lesson Subjects.Ders_4",
         "documentation": {}
     },

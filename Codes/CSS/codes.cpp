@@ -8,43 +8,41 @@
 
 using namespace std;
 
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
 int main()
 {
-    int a;
-    int b;
-    cin >> a;
-    cin >> b;
+    int m, n;
 
-    for (int i = a; i <= b; i++)
+    cin >> m >> n;
+    int matrix[n][m];
+
+    int maxElement = 0;
+    int row = 0;
+    int column = 0;
+
+    for (int i = 0; i < m; i++)
     {
-        int sum1 = 0;
-        for (int j = 1; j < i; j++)
+        for (int j = 0; j < n; j++)
         {
-            if ((i % j) == 0)
+            cin >> matrix[i][j];
 
+            if (matrix[i][j] > maxElement)
             {
-                sum1 = sum1 + j;
+                maxElement = matrix[i][j];
+                row = i;
+                column = j;
             }
         }
-        if (sum1 > b)
-        {
-            continue;
-        }
-        int sum2 = 0;
-        for (int k = 1; k < sum1; k++)
-        {
-            if (sum1 % k == 0)
-            {
-                sum2 = sum2 + k;
-            }
-        }
-
-        if (i == sum2 && i > sum1)
-        {
-            cout << "(" << sum1 << "," << " " << sum2 << ")" << endl;
-        };
     }
+    cout << "Value: " << maxElement << " " << row << " " << column << " ";
 }
+
 // int main()
 // {
 //     int n;

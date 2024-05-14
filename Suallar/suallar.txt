@@ -28,6 +28,8 @@
 4) a ədədini müştəri daxil edir. S=a^2+2*a
 5) S in 3ə və 7ə ayrı bölünüb bölünmədiyini araşdıran programı tərtib et.
 
+
+
 # If elif else
 01.02.2020
 1) a,b,c,d ədədləri verilib bu ədədlərdən neçəsi 4ə və 5ə bölünəndə qalıq 1dən böyük olar?
@@ -47,6 +49,7 @@
 7) Müstəvi üzərində düzbucaqlı dekart koordinat sistemi və M (x,y) nöqtəsi verilib. x və y in qiymətlərinə görə M nöqtəsinin hansı rübdə yerləşdiyini tapın. x və y i müştəri daxil edəcək. 
 8) koordinat oxunda AB parçası verilib x nöqtəsinin AB parçasının üzərində olub-olmadığını araşdırın.
 
+
 03.02.2020
 1) Vurma cədvəlini ekrana çıxaran program tərtib edin.(İki variantda: for və while)
 2) *N ə dək sadə ədədi çıxışa verən programı tərtib edin.
@@ -54,6 +57,8 @@
 4) nCm tapan program tərtib edin.
 5) 1/1+1/2+1/3 ......1/n=cem. hesablayan program tərtib edin
 6) N natural ədədinin cüt rəqəmlərinin sayını tapan program tərtib edin.
+
+
 
 04.02.2020
 1) for,while, do while dövrləri haqqında səsli anlatım. öz sözlərinizlə nəyin nə olduğunu, arasında ki, fərqləri oxşarlıqları danışın.
