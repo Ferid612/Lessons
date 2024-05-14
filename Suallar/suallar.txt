@@ -9,6 +9,8 @@
 # 8. Siyahıdakı bütün sadə ədədləri tapan proqram yazın.
 
 
+
+
 # List string
 # Bir liste alan ve listenin en büyük elemanını bulan bir Python fonksiyonu yazın. Kullanıcıdan bir liste girmesini isteyin ve bu fonksiyonu kullanarak en büyük elemanı ekrana yazdırın.
 # Bir metin dizisi ve bir harf alan bir Python fonksiyonu yazın. Bu fonksiyon, metin dizisinde belirtilen harfin kaç kez geçtiğini hesaplar. Kullanıcıdan bir metin dizisi ve bir harf girmesini isteyin ve sonucu ekrana yazdırın.
