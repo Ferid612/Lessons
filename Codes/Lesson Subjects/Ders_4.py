@@ -226,6 +226,9 @@
 
 
 #Funksiya hər şey return edə bilər
+import os
+
+
 def f():
     return ['foo', 'bar', 'baz', 'qux']
  
@@ -622,13 +625,11 @@ class Human:
 
     def __str__(self):
         return self.name + " " + self.last
-
-
-
-
-    
-
-class Hekim(Human):
+    def __repr__(self) -> str:
+        return self.name + " " + self.last + " " + str(self.age)
+        
+   
+class Hekim(Human): # inheritance # 
     def __init__(self,name,last, age):
         super().__init__(name,last,age)
         
@@ -643,19 +644,46 @@ class Muellim(Human):
     # Overloading 
     
     
-hekim_a = Hekim("Ali","Sahib", 24)
-muellim_a = Muellim("Ali","Sahib", 24,"ProfessorDoktor")
+os.system("clear")
+# hekim_a = Hekim("Sebuhi","Huseynov", 24)
+# muellim_a = Muellim("Turan","Dasdemirov", 24,"ProfessorDoktor")
+# human = Human("Hasan","Aliyev",23)
+
+# print(repr(human))
 
 
+# print( type(hekim_a))
 
-print( type(hekim_a)  == Hekim)
-
-print( isinstance(muellim_a,Muellim))
+# print( isinstance(muellim_a,Muellim))
 
 
-def say_hello(arg):
-    print(f"Hello {arg}")
+# def say_hello(arg):
+#     print(f"Hello {arg}")
     
 
 
 # Bura bizim əramizdi 
+
+
+#! Destructor
+# class Employee:
+ 
+#     # Initializing
+#     def __init__(self):
+#         print('Employee created.')
+ 
+#     # Deleting (Calling destructor)
+#     def __del__(self):
+#         print('Destructor called, Employee deleted.')
+ 
+# obj = Employee()
+
+
+class Person:
+    pass
+
+    
+    
+def func():
+    pass
+

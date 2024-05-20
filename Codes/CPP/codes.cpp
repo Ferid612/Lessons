@@ -15,38 +15,44 @@ using namespace std;
 #include <algorithm>
 using namespace std;
 
+void Anagram_Checker(string text1, string text2)
+{
+    bool answer;
+    for (size_t i = 0; i < sizeof(text1); i++)
+    {
+        bool print = false;
+        for (size_t j = 0; j < sizeof(text2); j++)
+        {
+            if (text1[i] == text2[j])
+            {
+                print = true;
+                break;
+            }
+            else
+            {
+                print = false;
+            }
+        }
+        answer = print;
+    }
+    if (answer == true)
+    {
+        cout << "Anagram";
+    }
+    else
+    {
+        cout << "Not Anagram";
+    }
+}
+
 int main()
 {
-    int m, n;
+    string text1;
+    string text2;
+    cin >> text1;
+    cin >> text2;
 
-    cin >> m >> n;
-    int matrix[n][m];
-
-    int maxElement = 0;
-    int row = 0;
-    int column = 0;
-
-    for (int i = 0; i < m; i++)
-    {
-        for (int j = 0; j < n; j++)
-        {
-            cin >> matrix[i][j];
-
-            if (matrix[i][j] > maxElement)
-            {
-                maxElement = matrix[i][j];
-                row = i;
-                column = j;
-            }
-
-
-        }
-    }
-
-
-// bura bakidir
-
-    cout << "Value: " << maxElement << " " << row << " " << column << " ";
+    Anagram_Checker(text1, text2);
 }
 
 // int main()

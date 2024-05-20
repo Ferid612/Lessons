@@ -1,16 +1,16 @@
 
-a = (3,4,5,6 )
-b = [3,4,5,6]
+# a = (3,4,5,6 )
+# b = [3,4,5,6]
 
-a= 20 
-a = a+2
+# a= 20 
+# a = a+2
 
-dict_a = {
-    "Salam":"Hello",
-     a:40,
-     b: 60   
-}
-print(dict_a)
+# dict_a = {
+#     "Salam":"Hello",
+#      a:40,
+#      b: 60   
+# }
+# print(dict_a)
 
 
 

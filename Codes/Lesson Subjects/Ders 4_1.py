@@ -446,26 +446,38 @@
 # field-properties    ---- obyektin ozelikleri
 # methods -- funksiyalarimiz 
 
+# kısa kısa bölmələrə bölmək üçün funksiya edirdik  ++ 
+#  funksiyalari kateqorilesdirmek 
+# # dict tipine uygun hemde funksiyalari daxilinde saxlasin
+# #struktura oxsar basqa strukturlar lazim old 
+# a ,b      ==      b,c,       === b,d,e            --- b 
+# b bir defe yaradaq. inheritance 
+# OOP - # SOLID # Her sey temiz duzgun strukturla qurulsun 
  
+# bir fayl da bir problemi cozmusen # funksiya 
 
-# usaq1 = {
-#     "name":"hasan",
-#     "surname":"aliyev",
-#     "age":23
-# }
-
-# usaq2 = {
-#     "name":"hasan",
-#     "surname":"aliyev",
-#     "age":23
-# }
+import os
+import sys
 
 
-# usaq3 = {
-#     "name":"hasan",
-#     "surname":"aliyev",
-#     "age":23
-# }
+usaq1 = {
+    "name":"hasan",
+    "surname":"aliyev",
+    "age":23
+}
+
+usaq2 = {
+    "name":"hasan",
+    "surname":"aliyev",
+    "age":23
+}
+
+
+usaq3 = {
+    "name":"hasan",
+    "surname":"aliyev",
+    "age":23
+}
 
 # sinif ={
 #     "parta_sayi":20,
@@ -474,27 +486,56 @@
 # }
 
 # sinif["useqlar"][0]
-
-
-
-
-# class Human:
-#     # constructor 
-#     name_in_god = "Bende"
-#     def __init__(self, name, lastname):
-#         self.name = name
-#         self.lastname = lastname
-#         self.fullname = name + " " + lastname
-        
-        
-    # def __str__(self):
-    #     return  self.fullname
-        
-        
-    # def __repr__(self):
-    #     return  self.fullname + " tanrının yanında: " + self.name_in_god 
+os.system('clear')
+class Human:
+    name = "Adem"
+    surname= "Ademoglu"
     
+    def __init__(self, ad, soyad):
+        print("in init:",ad)
+        self.name = ad
+        self.surname = soyad
+        
+    def teqdimet(self):
+        print(self.name)
+        print(self.surname)
+        
+ 
+ 
+class Math:
+    name = "Adem"
+    surname= "Ademoglu"
     
+    def __init__(self, ad, soyad):
+        print("in init:",ad)
+        self.name = ad
+        self.surname = soyad
+        
+        
+    def toplame(self):
+        print(self.name)
+        print(self.surname)
+        
+ 
+# hesen_obj = Human("Hasan", "Hesenov") 
+# farid_obj = Human("Hasan", "Hesenov") 
+
+# hesen_obj.teqdimet()
+# farid_obj.teqdimet()
+
+
+# print(hesen_obj is farid_obj)
+# print(farid_obj)
+
+# print("hesen_obj:",hesen_obj)
+# print("hesen_obj.name:",hesen_obj.name)
+# print("hesen_obj.surname:",hesen_obj.surname)
+
+
+
+
+
+
 
 # farid_obj = Human("Farid","Habibli")
 # mahammad_obj = Human("Farid","Habibli")
@@ -544,29 +585,44 @@
 
 
 
-# class Human:
-#     def __init__(self,name,last,age):
-#         self.name = name
-#         self.last = last
-#         self.age = age
+class Human:
+    def __init__(self,name,last,age):
+        self.name = name
+        self.last = last
+        self.age = age
         
 
-#     def yemek_yemek(self):
-#         print(f"{self.name} yemek yedi.")
+    def yemek_yemek(self):
+        print(f"{self.name} yemek yedi.")
 
-#     def yas_artmaq(self):
-#         self.age = self.age + 1
-#         print(f"{self.name} yas artdi. yeni yas:{self.age}")
+    def yas_artmaq(self):
+        self.age = self.age + 1
+        print(f"{self.name} yas artdi. yeni yas:{self.age}")
+
+    def __str__(self):
+        return self.name + " " + self.last
 
 
-#     def __str__(self):
-#         return self.name + " " + self.last
-
-
-# class Hekim(Human):
-#     def __init__(self,name,last, age):
-#         super().__init__(name,last,age)
+class Hekim(Human):
+    def __init__(self,name,last, age):
+        super().__init__(name,last,age)
+        
+    def xesteni_muayine_et(self, name):
+        #####
+        print(f"Xeste muayine edildi. Netice: {name}`nin Başı çatmır")
     
+
+
+
+
+# nezrin_obj = Hekim("Nezrin","Teymurova", 23)
+# nezrin_obj.xesteni_muayine_et("Sebuhi")
+
+# print(nezrin_obj.name)
+# print(nezrin_obj.last)
+# nezrin_obj.yas_artmaq()
+
+
 
 
 # class Muellim(Human):

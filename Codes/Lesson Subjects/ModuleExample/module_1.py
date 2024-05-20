@@ -1,8 +1,6 @@
 def cemini_tap(x, y):
     return x + y
 
-
-
 def hasili_tap(x, y):
     return x * y
 
