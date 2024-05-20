@@ -304,7 +304,6 @@
 # 8. Siyahıdakı bütün sadə ədədləri tapan proqram yazın.
 # """
 
-
 # input_str = input()
 
 

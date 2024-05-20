@@ -34,6 +34,24 @@
         "documentation": {}
     },
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
         "label": "say_hello",
         "importPath": "Ders_4",
         "description": "Ders_4",
@@ -74,15 +92,6 @@
         "description": "numpy",
         "isExtraImport": true,
         "detail": "numpy",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
         "documentation": {}
     },
     {
@@ -185,6 +194,69 @@
         "documentation": {}
     },
     {
+        "label": "Human",
+        "kind": 6,
+        "importPath": "Codes.Lesson Subjects.Ders 4_1",
+        "description": "Codes.Lesson Subjects.Ders 4_1",
+        "peekOfCode": "class Human:\n    name = \"Adem\"\n    surname= \"Ademoglu\"\n    def __init__(self, ad, soyad):\n        print(\"in init:\",ad)\n        self.name = ad\n        self.surname = soyad\n    def teqdimet(self):\n        print(self.name)\n        print(self.surname)",
+        "detail": "Codes.Lesson Subjects.Ders 4_1",
+        "documentation": {}
+    },
+    {
+        "label": "Math",
+        "kind": 6,
+        "importPath": "Codes.Lesson Subjects.Ders 4_1",
+        "description": "Codes.Lesson Subjects.Ders 4_1",
+        "peekOfCode": "class Math:\n    name = \"Adem\"\n    surname= \"Ademoglu\"\n    def __init__(self, ad, soyad):\n        print(\"in init:\",ad)\n        self.name = ad\n        self.surname = soyad\n    def toplame(self):\n        print(self.name)\n        print(self.surname)",
+        "detail": "Codes.Lesson Subjects.Ders 4_1",
+        "documentation": {}
+    },
+    {
+        "label": "Human",
+        "kind": 6,
+        "importPath": "Codes.Lesson Subjects.Ders 4_1",
+        "description": "Codes.Lesson Subjects.Ders 4_1",
+        "peekOfCode": "class Human:\n    def __init__(self,name,last,age):\n        self.name = name\n        self.last = last\n        self.age = age\n    def yemek_yemek(self):\n        print(f\"{self.name} yemek yedi.\")\n    def yas_artmaq(self):\n        self.age = self.age + 1\n        print(f\"{self.name} yas artdi. yeni yas:{self.age}\")",
+        "detail": "Codes.Lesson Subjects.Ders 4_1",
+        "documentation": {}
+    },
+    {
+        "label": "Hekim",
+        "kind": 6,
+        "importPath": "Codes.Lesson Subjects.Ders 4_1",
+        "description": "Codes.Lesson Subjects.Ders 4_1",
+        "peekOfCode": "class Hekim(Human):\n    def __init__(self,name,last, age):\n        super().__init__(name,last,age)\n    def xesteni_muayine_et(self, name):\n        #####\n        print(f\"Xeste muayine edildi. Netice: {name}`nin Başı çatmır\")\n# nezrin_obj = Hekim(\"Nezrin\",\"Teymurova\", 23)\n# nezrin_obj.xesteni_muayine_et(\"Sebuhi\")\n# print(nezrin_obj.name)\n# print(nezrin_obj.last)",
+        "detail": "Codes.Lesson Subjects.Ders 4_1",
+        "documentation": {}
+    },
+    {
+        "label": "usaq1",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.Ders 4_1",
+        "description": "Codes.Lesson Subjects.Ders 4_1",
+        "peekOfCode": "usaq1 = {\n    \"name\":\"hasan\",\n    \"surname\":\"aliyev\",\n    \"age\":23\n}\nusaq2 = {\n    \"name\":\"hasan\",\n    \"surname\":\"aliyev\",\n    \"age\":23\n}",
+        "detail": "Codes.Lesson Subjects.Ders 4_1",
+        "documentation": {}
+    },
+    {
+        "label": "usaq2",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.Ders 4_1",
+        "description": "Codes.Lesson Subjects.Ders 4_1",
+        "peekOfCode": "usaq2 = {\n    \"name\":\"hasan\",\n    \"surname\":\"aliyev\",\n    \"age\":23\n}\nusaq3 = {\n    \"name\":\"hasan\",\n    \"surname\":\"aliyev\",\n    \"age\":23\n}",
+        "detail": "Codes.Lesson Subjects.Ders 4_1",
+        "documentation": {}
+    },
+    {
+        "label": "usaq3",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.Ders 4_1",
+        "description": "Codes.Lesson Subjects.Ders 4_1",
+        "peekOfCode": "usaq3 = {\n    \"name\":\"hasan\",\n    \"surname\":\"aliyev\",\n    \"age\":23\n}\n# sinif ={\n#     \"parta_sayi\":20,\n#     \"useqlar\":[usaq1,usaq2,usaq3]\n# }\n# sinif[\"useqlar\"][0]",
+        "detail": "Codes.Lesson Subjects.Ders 4_1",
+        "documentation": {}
+    },
+    {
         "label": "file_text",
         "kind": 5,
         "importPath": "Codes.Lesson Subjects.Ders 5",
@@ -234,7 +306,7 @@
         "kind": 6,
         "importPath": "Codes.Lesson Subjects.Ders_4",
         "description": "Codes.Lesson Subjects.Ders_4",
-        "peekOfCode": "class Hekim(Human):\n    def __init__(self,name,last, age):\n        super().__init__(name,last,age)\nclass Muellim(Human):\n    def __init__(self,name,last, age, academic_level):\n        super().__init__(name,last,age)\n        self.academic_level = academic_level\n    # Override\n    # Overloading \nhekim_a = Hekim(\"Ali\",\"Sahib\", 24)",
+        "peekOfCode": "class Hekim(Human): # inheritance # \n    def __init__(self,name,last, age):\n        super().__init__(name,last,age)\nclass Muellim(Human):\n    def __init__(self,name,last, age, academic_level):\n        super().__init__(name,last,age)\n        self.academic_level = academic_level\n    # Override\n    # Overloading \nos.system(\"clear\")",
         "detail": "Codes.Lesson Subjects.Ders_4",
         "documentation": {}
     },
@@ -243,7 +315,16 @@
         "kind": 6,
         "importPath": "Codes.Lesson Subjects.Ders_4",
         "description": "Codes.Lesson Subjects.Ders_4",
-        "peekOfCode": "class Muellim(Human):\n    def __init__(self,name,last, age, academic_level):\n        super().__init__(name,last,age)\n        self.academic_level = academic_level\n    # Override\n    # Overloading \nhekim_a = Hekim(\"Ali\",\"Sahib\", 24)\nmuellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")\nprint( type(hekim_a)  == Hekim)\nprint( isinstance(muellim_a,Muellim))",
+        "peekOfCode": "class Muellim(Human):\n    def __init__(self,name,last, age, academic_level):\n        super().__init__(name,last,age)\n        self.academic_level = academic_level\n    # Override\n    # Overloading \nos.system(\"clear\")\n# hekim_a = Hekim(\"Sebuhi\",\"Huseynov\", 24)\n# muellim_a = Muellim(\"Turan\",\"Dasdemirov\", 24,\"ProfessorDoktor\")\n# human = Human(\"Hasan\",\"Aliyev\",23)",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "class Person:\n    pass\ndef func():\n    pass",
         "detail": "Codes.Lesson Subjects.Ders_4",
         "documentation": {}
     },
@@ -266,29 +347,11 @@
         "documentation": {}
     },
     {
-        "label": "say_hello",
+        "label": "func",
         "kind": 2,
         "importPath": "Codes.Lesson Subjects.Ders_4",
         "description": "Codes.Lesson Subjects.Ders_4",
-        "peekOfCode": "def say_hello(arg):\n    print(f\"Hello {arg}\")\n# Bura bizim əramizdi",
-        "detail": "Codes.Lesson Subjects.Ders_4",
-        "documentation": {}
-    },
-    {
-        "label": "hekim_a",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders_4",
-        "description": "Codes.Lesson Subjects.Ders_4",
-        "peekOfCode": "hekim_a = Hekim(\"Ali\",\"Sahib\", 24)\nmuellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")\nprint( type(hekim_a)  == Hekim)\nprint( isinstance(muellim_a,Muellim))\ndef say_hello(arg):\n    print(f\"Hello {arg}\")\n# Bura bizim əramizdi",
-        "detail": "Codes.Lesson Subjects.Ders_4",
-        "documentation": {}
-    },
-    {
-        "label": "muellim_a",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders_4",
-        "description": "Codes.Lesson Subjects.Ders_4",
-        "peekOfCode": "muellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")\nprint( type(hekim_a)  == Hekim)\nprint( isinstance(muellim_a,Muellim))\ndef say_hello(arg):\n    print(f\"Hello {arg}\")\n# Bura bizim əramizdi",
+        "peekOfCode": "def func():\n    pass",
         "detail": "Codes.Lesson Subjects.Ders_4",
         "documentation": {}
     },
@@ -376,109 +439,73 @@
     {
         "label": "array",
         "kind": 5,
-        "importPath": "Codes.numpy_examples.numpy_arange",
-        "description": "Codes.numpy_examples.numpy_arange",
+        "importPath": "Codes.Others.numpy_examples.numpy_arange",
+        "description": "Codes.Others.numpy_examples.numpy_arange",
         "peekOfCode": "array = np.arange(30, 71)\n# Printing a message indicating an array of integers from 30 to 70\nprint(\"Array of the integers from 30 to 70\")\n# Printing the array of integers from 30 to 70\nprint(array)",
-        "detail": "Codes.numpy_examples.numpy_arange",
+        "detail": "Codes.Others.numpy_examples.numpy_arange",
         "documentation": {}
     },
     {
         "label": "a",
         "kind": 5,
-        "importPath": "Codes.numpy_examples.numpy_complex",
-        "description": "Codes.numpy_examples.numpy_complex",
+        "importPath": "Codes.Others.numpy_examples.numpy_complex",
+        "description": "Codes.Others.numpy_examples.numpy_complex",
         "peekOfCode": "a = np.array([1+1j, 1+0j, 4.5, 3, 2, 2j])\n# Printing the original array 'a'\nprint(\"Original array\")\nprint(a)\n# Checking the given array 'a' element-wise for complex numbers and printing the result\nprint(\"Checking for complex number:\")\nprint(np.iscomplex(a))\n# Checking the given array 'a' element-wise for real numbers and printing the result\nprint(\"Checking for real number:\")\nprint(np.isreal(a))",
-        "detail": "Codes.numpy_examples.numpy_complex",
+        "detail": "Codes.Others.numpy_examples.numpy_complex",
         "documentation": {}
     },
     {
         "label": "array",
         "kind": 5,
-        "importPath": "Codes.numpy_examples.numpy_ones",
-        "description": "Codes.numpy_examples.numpy_ones",
+        "importPath": "Codes.Others.numpy_examples.numpy_ones",
+        "description": "Codes.Others.numpy_examples.numpy_ones",
         "peekOfCode": "array = np.zeros(10)\n# Printing a message indicating an array of 10 zeros\nprint(\"An array of 10 zeros:\")\n# Printing the array of 10 zeros\nprint(array)\n# Creating an array of 10 ones using np.ones()\narray = np.ones(10)\n# Printing a message indicating an array of 10 ones\nprint(\"An array of 10 ones:\")\n# Printing the array of 10 ones",
-        "detail": "Codes.numpy_examples.numpy_ones",
+        "detail": "Codes.Others.numpy_examples.numpy_ones",
         "documentation": {}
     },
     {
         "label": "array",
         "kind": 5,
-        "importPath": "Codes.numpy_examples.numpy_ones",
-        "description": "Codes.numpy_examples.numpy_ones",
+        "importPath": "Codes.Others.numpy_examples.numpy_ones",
+        "description": "Codes.Others.numpy_examples.numpy_ones",
         "peekOfCode": "array = np.ones(10)\n# Printing a message indicating an array of 10 ones\nprint(\"An array of 10 ones:\")\n# Printing the array of 10 ones\nprint(array)\n# Creating an array of 10 fives by multiplying an array of 10 ones by 5\narray = np.ones(10) * 5\n# Printing a message indicating an array of 10 fives\nprint(\"An array of 10 fives:\")\n# Printing the array of 10 fives",
-        "detail": "Codes.numpy_examples.numpy_ones",
+        "detail": "Codes.Others.numpy_examples.numpy_ones",
         "documentation": {}
     },
     {
         "label": "array",
         "kind": 5,
-        "importPath": "Codes.numpy_examples.numpy_ones",
-        "description": "Codes.numpy_examples.numpy_ones",
+        "importPath": "Codes.Others.numpy_examples.numpy_ones",
+        "description": "Codes.Others.numpy_examples.numpy_ones",
         "peekOfCode": "array = np.ones(10) * 5\n# Printing a message indicating an array of 10 fives\nprint(\"An array of 10 fives:\")\n# Printing the array of 10 fives\nprint(array) \n#! Interesting \n# # Importing the NumPy library with an alias 'np'\n# import numpy as np\n# # Creating a 10x10 matrix filled with ones using np.ones()\n# x = np.ones((10, 10))",
-        "detail": "Codes.numpy_examples.numpy_ones",
+        "detail": "Codes.Others.numpy_examples.numpy_ones",
         "documentation": {}
     },
     {
         "label": "a",
         "kind": 5,
-        "importPath": "Codes.numpy_examples.numpy_save",
-        "description": "Codes.numpy_examples.numpy_save",
+        "importPath": "Codes.Others.numpy_examples.numpy_save",
+        "description": "Codes.Others.numpy_examples.numpy_save",
         "peekOfCode": "a = np.arange(20)\n# Saving the NumPy array 'a' as a file named 'temp_arra.npy' using np.save()\nnp.save('temp_arra.npy', a)\n# Printing a message checking if the file 'temp_arra.npy' exists or not\nprint(\"Check if 'temp_arra.npy' exists or not?\")\n# Checking if the file 'temp_arra.npy' exists using os.path.exists()\nif os.path.exists('temp_arra.npy'):\n    # Loading the data from 'temp_arra.npy' into 'x2' using np.load()\n    x2 = np.load('temp_arra.npy')\n    # Checking if the loaded array 'x2' is equal to the original array 'a' using np.array_equal()",
-        "detail": "Codes.numpy_examples.numpy_save",
+        "detail": "Codes.Others.numpy_examples.numpy_save",
         "documentation": {}
     },
     {
         "label": "nums",
         "kind": 5,
-        "importPath": "Codes.numpy_examples.numpy_sort",
-        "description": "Codes.numpy_examples.numpy_sort",
+        "importPath": "Codes.Others.numpy_examples.numpy_sort",
+        "description": "Codes.Others.numpy_examples.numpy_sort",
         "peekOfCode": "nums = np.array([[5.54, 3.38, 7.99],\n              [3.54, 4.38, 6.99],\n              [1.54, 2.39, 9.29]])\n# Printing a message indicating the original array\nprint(\"Original array:\")\nprint(nums)\n# Sorting the array 'nums' by rows in ascending order and displaying the sorted result\nprint(\"\\nSort the said array by row in ascending order:\")\nprint(np.sort(nums))\n# Sorting the array 'nums' by columns in ascending order and displaying the sorted result",
-        "detail": "Codes.numpy_examples.numpy_sort",
+        "detail": "Codes.Others.numpy_examples.numpy_sort",
         "documentation": {}
     },
     {
         "label": "x",
         "kind": 5,
-        "importPath": "Codes.numpy_examples.numpy_sum",
-        "description": "Codes.numpy_examples.numpy_sum",
+        "importPath": "Codes.Others.numpy_examples.numpy_sum",
+        "description": "Codes.Others.numpy_examples.numpy_sum",
         "peekOfCode": "x = np.array([[0, 1], [2, 3]])\n# Printing a message indicating the original array 'x'\nprint(\"Original array:\")\nprint(x)\n# Calculating and printing the sum of all elements in the array 'x' using np.sum()\nprint(\"Sum of all elements:\")\nprint(np.sum(x))\n# Calculating and printing the sum of each column in the array 'x' using np.sum() with axis=0\nprint(\"Sum of each column:\")\nprint(np.sum(x, axis=0))",
-        "detail": "Codes.numpy_examples.numpy_sum",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "Codes.run",
-        "description": "Codes.run",
-        "peekOfCode": "a = (3,4,5,6 )\nb = [3,4,5,6]\na= 20 \na = a+2\ndict_a = {\n    \"Salam\":\"Hello\",\n     a:40,\n     b: 60   \n}\nprint(dict_a)",
-        "detail": "Codes.run",
-        "documentation": {}
-    },
-    {
-        "label": "b",
-        "kind": 5,
-        "importPath": "Codes.run",
-        "description": "Codes.run",
-        "peekOfCode": "b = [3,4,5,6]\na= 20 \na = a+2\ndict_a = {\n    \"Salam\":\"Hello\",\n     a:40,\n     b: 60   \n}\nprint(dict_a)\n# Sert: Verilen ededlerden sade olanlari tapin.",
-        "detail": "Codes.run",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "Codes.run",
-        "description": "Codes.run",
-        "peekOfCode": "a = a+2\ndict_a = {\n    \"Salam\":\"Hello\",\n     a:40,\n     b: 60   \n}\nprint(dict_a)\n# Sert: Verilen ededlerden sade olanlari tapin.\n# import math\n# def sade_ededleri_tap(list_a):    ",
-        "detail": "Codes.run",
-        "documentation": {}
-    },
-    {
-        "label": "dict_a",
-        "kind": 5,
-        "importPath": "Codes.run",
-        "description": "Codes.run",
-        "peekOfCode": "dict_a = {\n    \"Salam\":\"Hello\",\n     a:40,\n     b: 60   \n}\nprint(dict_a)\n# Sert: Verilen ededlerden sade olanlari tapin.\n# import math\n# def sade_ededleri_tap(list_a):    \n#     for num_a in list_a:",
-        "detail": "Codes.run",
+        "detail": "Codes.Others.numpy_examples.numpy_sum",
         "documentation": {}
     }
 ]
