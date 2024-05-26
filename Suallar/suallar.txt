@@ -10,7 +10,6 @@
 
 
 
-
 # List string
 # Bir liste alan ve listenin en büyük elemanını bulan bir Python fonksiyonu yazın. Kullanıcıdan bir liste girmesini isteyin ve bu fonksiyonu kullanarak en büyük elemanı ekrana yazdırın.
 # Bir metin dizisi ve bir harf alan bir Python fonksiyonu yazın. Bu fonksiyon, metin dizisinde belirtilen harfin kaç kez geçtiğini hesaplar. Kullanıcıdan bir metin dizisi ve bir harf girmesini isteyin ve sonucu ekrana yazdırın.
@@ -67,7 +66,6 @@
 2) Natural ədədin cüt rəqəmlərin sayı ilə 3ə tam bölünün rəqəmlərinin cəmini tapan program tərtib edin. 
 3) Kvadratın və dairənin sahəsi verilmişdir. Kvadratın dairənin içinə tam yerləşib yerləşmədiyini araşdıran programı tərtib edin.
 4) (x+1)(x-3)....(x-27)  hasilini hesablayan program tərtib edin.
-
 6) A,B ədədinin ƏBOB unu tapan program tərtib edin.
 7) * A,B ədədinin ƏKOB nu tapan program tərtib edin. 
 
@@ -77,10 +75,9 @@
 3. Ayran=0.50
 4. Mərci=1.50
 5. Kola=0.50
-6. Menyusunu tərtib edin. Müştəri seçimlərini etsin və ümumi hesabı ekranı çıxarın. (Videoya baxa-baxa kopyasını da çıxara bilərsiz).
+6. Menyusunu tərtib edin. Müştəri seçimlərini etsin və ümumi hesabı ekranı çıxarın.
 7. 5 sualdan ibarət summativ(test) tərtib edin.  Düzgün cavabların sayını ekrana çıxaran programı tərtib edin. 
-8. *3 rəqəmli N natural ədədi girilir. Bu ədəd hərflə ekrana yazılır.(funksiya və Switch case işlədə bilərsiz.)
-9. 578 - beş yüz yetmiş səkkiz. 
+8. *3 rəqəmli N natural ədədi girilir. Bu ədəd hərflə ekrana yazılır.(funksiya və Switch case işlədə bilərsiz.): Məs 578 - beş yüz yetmiş səkkiz. 
 10.(n!+m!) -(n-m)! hesablayan program tərtib edin. Funksiya ilə. 
 
 11. Programdakı 2 səhvi tapın (C++):

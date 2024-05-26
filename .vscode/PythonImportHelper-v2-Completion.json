@@ -95,6 +95,23 @@
         "documentation": {}
     },
     {
+        "label": "run_copy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "run_copy",
+        "description": "run_copy",
+        "detail": "run_copy",
+        "documentation": {}
+    },
+    {
+        "label": "numpy_ones",
+        "importPath": "Codes.Others.numpy_examples",
+        "description": "Codes.Others.numpy_examples",
+        "isExtraImport": true,
+        "detail": "Codes.Others.numpy_examples",
+        "documentation": {}
+    },
+    {
         "label": "cemini_tap",
         "kind": 2,
         "importPath": "Codes.Lesson Subjects.ModuleExample.module_1",
@@ -506,6 +523,15 @@
         "description": "Codes.Others.numpy_examples.numpy_sum",
         "peekOfCode": "x = np.array([[0, 1], [2, 3]])\n# Printing a message indicating the original array 'x'\nprint(\"Original array:\")\nprint(x)\n# Calculating and printing the sum of all elements in the array 'x' using np.sum()\nprint(\"Sum of all elements:\")\nprint(np.sum(x))\n# Calculating and printing the sum of each column in the array 'x' using np.sum() with axis=0\nprint(\"Sum of each column:\")\nprint(np.sum(x, axis=0))",
         "detail": "Codes.Others.numpy_examples.numpy_sum",
+        "documentation": {}
+    },
+    {
+        "label": "salam_ver",
+        "kind": 2,
+        "importPath": "Codes.run_copy",
+        "description": "Codes.run_copy",
+        "peekOfCode": "def salam_ver(name):\n    print(f\"Salam {name}!\")",
+        "detail": "Codes.run_copy",
         "documentation": {}
     }
 ]

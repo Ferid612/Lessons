@@ -5,54 +5,21 @@
 #include <iostream>
 #include <algorithm>
 #include <string>
+#include <cstring>
 
 using namespace std;
-
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
-using namespace std;
-
-void Anagram_Checker(string text1, string text2)
+void volume(double r)
 {
-    bool answer;
-    for (size_t i = 0; i < sizeof(text1); i++)
-    {
-        bool print = false;
-        for (size_t j = 0; j < sizeof(text2); j++)
-        {
-            if (text1[i] == text2[j])
-            {
-                print = true;
-                break;
-            }
-            else
-            {
-                print = false;
-            }
-        }
-        answer = print;
-    }
-    if (answer == true)
-    {
-        cout << "Anagram";
-    }
-    else
-    {
-        cout << "Not Anagram";
-    }
+
+    cout << (4.0 / 3.0) * 3.14 * (r * r * r) << endl;
+    cout << (4.0 / 3.0) ;
 }
 
 int main()
 {
-    string text1;
-    string text2;
-    cin >> text1;
-    cin >> text2;
+    system("cls");
 
-    Anagram_Checker(text1, text2);
+    volume(3.5);
 }
 
 // int main()

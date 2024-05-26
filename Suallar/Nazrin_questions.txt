@@ -1,0 +1,66 @@
+1) Üçbucağın tərəfləri verilib. Bu üçbucağın düzbucaqlı olub-olmadığını araşdırın. Tərəflərini müştəri daxil edəcək. Əgər müştəri mənfi ədəd və ya sıfır girərsə müştəriyə "uzunluq mənfi və ya sıfır olanmaz yenidən bir ədəd girin" deyə bildiriş gəlsin. Və müştəri həmin tərəfi yenidən girsin. 
+2) 1/1+1/2+1/3 ......1/n=cem. hesablayan program tərtib edin
+3) Kvadratın və dairənin sahəsi verilmişdir. Kvadratın dairənin içinə tam yerləşib yerləşmədiyini araşdıran programı tərtib edin.
+4) (x+1)(x-3)....(x-27)  hasilini hesablayan program tərtib edin.
+5) A,B ədədinin ƏBOB unu tapan program tərtib edin.
+6) * A,B ədədinin ƏKOB nu tapan program tərtib edin. 
+7) Natural N ədədi verilmişdir. N`ə qədər olan bütün ədədlərin ƏKOB`nu tapan proqram yaz.
+
+8) *3 rəqəmli N natural ədədi girilir. Bu ədəd hərflə ekrana yazılır.(funksiya və Switch case işlədə bilərsiz.): Məs 578 - beş yüz yetmiş səkkiz. 
+9)  (n!+m!) -(n-m)! hesablayan program tərtib edin. Funksiya ilə. 
+
+10) Özü istisna olmaqla, bütün bölənlərinin cəminə bərabər olduqda, natural ədəd mükəmməl adlanır. Məsələn, 6 nömrəsi mükəmməldir, çünki 6 =   1 + 2 + 3. N-dək olan bütün mükəmməl ədədləri ekrana yazdırın. 
+
+11) 1-dən  N-dək natural ədədlərdən hər *rəqəmə* (təbii 0 istisna) bölünən natural ədədləri sayını tapın və həmin ədədləri ekrana yazdırın .
+
+
+
+12) 5 sualdan ibarət summativ(test) tərtib edin.  Düzgün cavabların sayını ekrana çıxaran programı tərtib edin. 
+
+
+13)
+1. Dönər=1.20
+2. Lahmacun=1.80
+3. Ayran=0.50
+4. Mərci=1.50
+5. Kola=0.50
+6. Menyusunu tərtib edin. Müştəri seçimlərini etsin və ümumi hesabı ekranı çıxarın.
+
+
+14) Girilən sözdəki saitlərin sayını tapan proqram tərtib edin.
+
+
+15) Array verilib.  Sonra isə 2 ədəd daxil edilir. A və B. 
+A və B indeks aralığındakı ədədləri tərsinə revers elə. 
+
+
+
+# Classes 
+
+
+# 1 Daxilində üçbucaq, düzbucaqlı və trapesiyanını sahəsini, və perimetrini tapa biləcək funksiyalar olan Class yaradın.
+
+figure = Figure()
+figure.find_triangle_area(a, b, c);
+figure.find_rectangle_area(a, b);
+figure.trapesia_area(a, b, h);
+
+Bu cür çağrılaraq fiqurların sahə və perimetrini versin.
+
+
+# Bir insan modeli yarat. Bu model pul xercleye bilsin. Borc ala bilsin. Ve ozunun ayrica balansi olsun.
+Asagidaki metodlari olsun. 
+
+person.masin_al("Porche") # Balansdan 300 cixsin
+person.erzaq_al("Corek") # balansdan 30 cixsin
+person.balansi_goster() #  balansi gostersin
+person.borc_al(3000) # balansa 3000 elave etsin borca 3000 yazsin
+person.borcu_goster() # borcu gostersin
+person.borcunu_ode(300) #balansdan cixib borca yazsin 
+
+
+
+
+
+
+

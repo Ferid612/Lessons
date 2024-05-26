@@ -1,3 +1,26 @@
+import run_copy
+
+
+from  Codes.Others.numpy_examples import numpy_ones
+
+
+run_copy.salam_ver("Hesen")
+
+
+# def abc():
+#     # Define and assign values to local variables 'x', 'y', and 'str1' inside the function 'abc'
+#     x = 1
+#     y = 2
+#     str1 = "w3resource"
+#     str2 = "w3resource"
+    
+#     # Print the string "Python Exercises"
+#     print("Python Exercises")
+
+
+
+# # Access the number of local variables in the function 'abc' using the __code__.co_nlocals attribute
+# print(abc.__code__.co_nlocals) 
 
 # a = (3,4,5,6 )
 # b = [3,4,5,6]
