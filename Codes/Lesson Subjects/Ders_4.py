@@ -1,24 +1,56 @@
+# from Codes.Lesson Subjects.Ders_4 import fakt
+
+# from Codes.Lesson Subjects.Ders_4 import snake_case
+
+# from Codes.Lesson Subjects.Ders_4 import snake_case
+
+# Sual filan filan sualin izahi
+
+# burda ikideyiskenin yerini deyisdik
+# a = a+ b
+# b = a- b
+# a = a- b
+"""_summary_
+    Bu funiksiya nin meqsedi filankesdir
+    Burda deyiskenler bunlardir 
+    arg_1 : bu en boyuke ededi 
+    arg_2 : 
+    Returns:
+        _type_: _description_
+"""
+
+
 
 #! Funksiyalar 
 
-# ad_1 = "Hesen"
-# ad_2 = "Ali"
-# ad_3 = "Mamed"
-# ad_4 = "Arif"
+ad_1 = "Hesen"
+ad_2 = "Ali"
+ad_3 = "Mamed"
+ad_4 = "Arif"
 
 
-# print(f"Salam {ad_1}, necesen?")
+# print
+# print(teta)
+# teta("Hesen Molladi")
 # print(f"Salam {ad_2}, necesen?")
 # print(f"Salam {ad_3}, necesen?")
 # print(f"Salam {ad_4}, necesen?")
 
+# def snake_case(arg_1, arg_2 = " Tural"):
+#     print(str(arg_1) + arg_2)
+
+
+
+# snake_case("Salam Necesen")
+
+
 # deyisgenlerin adi ve funksiyalarin pep8 snake_case  standarti ile yazilir
 
-# def say_hello(ad, prefix = "insan", ardicil_cumle = "necesen. Ne var ne yox?"):
-#     print(f"Salam {ad} {prefix}, {ardicil_cumle}")
+def say_hello(ad, prefix = "insan", ardicil_cumle = "necesen. Ne var ne yox?"):
+    print(f"Salam {ad} {prefix}, {ardicil_cumle}")
 
     
-# say_hello(ad_4, "Adam")
+# say_hello("Eli", "Adam")
 # say_hello(ad=ad_1, prefix="bey", ardicil_cumle="necesen menim qardasim?")
 # say_hello(prefix="muellim", ad=ad_2, ardicil_cumle="ders gecikirsen")
 # say_hello(ad_3, "usta")
@@ -40,22 +72,22 @@
     
     
     
-# def canculator(number_1, number_2, operator):
-#     if operator == "+":
-#         return number_1 + number_2        
+def canculator(number_1, number_2, operator):
+    if operator == "+":
+        return number_1 + number_2        
     
-#     elif operator == "-":    
-#         return number_1 - number_2
+    elif operator == "-":    
+        return number_1 - number_2
     
-#     elif operator == "*":
-#         return  number_1 * number_2
+    elif operator == "*":
+        return  number_1 * number_2
     
-#     elif operator == "/":
-#         return number_1 / number_2
+    return number_1 / number_2
 
 
 
 # cem_1 = canculator(1, 2, "+") 
+
 # cem_2 = canculator(3, 4, "+") 
 
 
@@ -80,15 +112,15 @@
 # funksiya_a(5)
 
 
-# def ucbucagin_novunu_tap (a,b,c):
-#     if a < 0 or b < 0 or c < 0:
-#         return "Bele bir ucbucaq yoxdur"
+def ucbucagin_novunu_tap (a,b,c):
+    if a < 0 or b < 0 or c < 0:
+        return "Bele bir ucbucaq yoxdur"
     
-#     if a == b == c == 60:
-#         return "Beraberyanli ucbucaqdir"
+    if a == b == c == 60:
+        return "Beraberyanli ucbucaqdir"
 
-#     elif a + b < c: 
-#         return "Korbucaqli ucbucaqdir"
+    if a + b < c: 
+        return "Korbucaqli ucbucaqdir"
          
 
 # ucbucagin_novunu_tap(-20, 20, 80)
@@ -116,17 +148,40 @@
 # print(funskiya_a_c(20))
 # print(funskiya_a_c(25))
 
-
+#! Nezrin*  We were Here
 #! Rekursiv funksiya
 
 
 
+
+# import time
 # def funksiya_a(t):
 #     print("emeliyat yerine yetirildi:",t)
+#     time.sleep(1)
 #     funksiya_a(2)
     
 
 # funksiya_a(23)
+
+# b = 5 
+# fakt = 1
+# for i in range(1,6):
+#     fakt*=i
+
+# print(fakt)
+
+# 5
+# def factorial(i):
+#     if i==0 or i ==1: 
+#         return 1
+    
+#     return i*factorial(i-1)  
+
+# 5 *4* 3 * 2 *1
+    
+# print(factorial(5))
+
+
 
 # def hesabla(eded_1,eded_2):
 #     c = 4*eded_1 + 0.20
@@ -144,26 +199,7 @@
 
 # print(netice_1 + netice_2 + netice_3)
 
-
-# def musterilerin_adini_ver():
-#     return "Hesen,Ali"
     
-    
-    
-# a = 5 
-# b = 3 
-# hesabla(eded_1=a, eded_2=b)
-
-
-# d = 8
-# v = 10
-
-
-# hesabla(eded_1=d,eded_2=v)
-
-# p = 32
-# o =23
-
 
 
 
@@ -183,6 +219,7 @@
 
 # def factorial_n(number_a):
 #     if number_a == 0:
+
 #         return 1    
 #     else:
 #         return number_a*factorial_n(number_a-1)
@@ -209,15 +246,26 @@
 # print(bool(list_a))
 
 
+def login(request):
+    username = request.get("username")
+    password = request.get("password")
+    
+    if username is None or password is None:
+        return "Username or Password are required", 401
+    
+    
 
+    
+    
+    
+    
+def f(x):
+    if x < 0:
+        return 0
+    if x > 100:
+        return 0
 
-# def f(x):
-#     if x < 0:
-#         return 0
-#     if x > 100:
-#         return 0
-
-#     print(x)
+    print(x)
 
 
 # f(-3)
@@ -233,6 +281,11 @@ def f():
     return ['foo', 'bar', 'baz', 'qux']
  
 
+# x,*y, t = f()
+
+# print(y)
+ 
+
 # print(f())
 
 # print(f()[2])
@@ -242,26 +295,45 @@ def f():
 
 
 # Python dict as an argument
-# def f(**kwargs):
-#     print(kwargs)
-#     print(type(kwargs))
-#     for key, val in kwargs.items():
-#             print(key, '->', val)
+# key word argument 
+def f(*args, **kwargs):
+    # print(kwargs)
+    # print(type(kwargs))
+    # for key, val in kwargs.items():
+    #         print(key, '->', val)
+    print("args: ",   args)
+    print("kwargs: ", kwargs)
 
 
-# f(foo=1, bar=2, baz=3)
+# argumentleri list kimi yollanilir
+# dictionary key and value
+
+# f(1,2,3,4,foo=1, bar=2, baz=3)
 
 
 
 # Gonderilme tipi
-# def f(a, b, c):
-#     print(F'a = {a}')
-#     print(F'b = {b}')
-#     print(F'c = {c}')
+def f(a, b, c):
+    print(F'a = {a}')
+    print(F'b = {b}')
+    print(F'c = {c}')
 
 
-# d = {'a': 'foo', 'b': 25, 'c': 'qux'}
+
+def func_a(a,b,x, d=10,e=20, *args, **kwargs):
+    print("Anonym")
+
+def e(a, b, *c, **kwargs):
+    print(F'a = {a}')
+    print(F'b = {b}')
+    print(F'c = {c}')
+
+
+t = [1,2,3]
+d = {'a': 'foo', 'b': 25, 'c': 'qux'}
 # f(**d)
+
+# e(2,3,4,5)
 
 
 
@@ -301,22 +373,20 @@ def f():
 
 
 # Numune Concat
-# def concat(prefix, *args):
-#     print(f'{prefix}{".".join(args)}')
+def concat(prefix, *args):
+    
+    print(f'{prefix}  {f"{prefix}".join(args)}')
 
 
-# concat('//', 'a', 'b', 'c')
+concat('//', 'a', 'b', 'c')
 
-# concat('... ', 'foo', 'bar', 'baz', 'qux')
+concat('...', 'foo', 'bar', 'baz', 'qux')
 
 # Canculyator funksiyasi yazin
 
 
 
 #! Docstring
-
-
-
 
 # Instagran user passowrd
 
@@ -326,9 +396,8 @@ def f():
 
 # # login for teleqram
 
-def login(username:str, password:int, age:bool) -> bool:
+def login(username:str, password:str, age:int) -> bool:
     """Bu funksiya instarame giris ucundur
-    
     Args:
         username (str): istifadecinin instagram  istifadeci adi
         password (str): intifadecinin instagram sifresi
@@ -336,12 +405,10 @@ def login(username:str, password:int, age:bool) -> bool:
 
     Returns:
         bool: neticeniin true ve ya false olaraq return edir 
-        """
+    """
 
     if age>18:
         print("xos gelmisiniz")
-    
-    
     
     return True or False
 
@@ -362,23 +429,20 @@ login("a","b",12)
 
 
 # #! Lambda 
-# def on_ile_topla(eded):
+# def sum(eded):
 #     eded = eded+10
 #     return eded
-
-
-# on_ile_topla = lambda eded, eded_2 : eded + eded_2
     
-# print(on_ile_topla(20))
+    
+# sum = lambda eded, eded_2 : eded + eded_2 
+    
+# print(sum(20,30))
+    
     
 # x = lambda a : a + 10
 
-# uce_vur = lambda x : 1 if x== 0 else x* uce_vur(x-1)
-
-
 # def uce_vur(a):
 #     return  a*3
-
 
 # print(uce_vur(5))
 
@@ -424,10 +488,11 @@ login("a","b",12)
 
 
 # k = int(input("k: "))
-# edede_vur_k = edede_vur(k)
+# k = 20 
+# edede_vur_k = edede_vur(0.5)
 
 
-# print(edede_vur_k(3))
+# print(edede_vur_k(100))
 
 # def topla(a, b):
 #     return a+b
@@ -477,6 +542,8 @@ login("a","b",12)
 
 # def best():
 #   print("Salam dunyani")
+
+
 
 #! OOP 
 

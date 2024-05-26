@@ -346,6 +346,33 @@
         "documentation": {}
     },
     {
+        "label": "say_hello",
+        "kind": 2,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "def say_hello(ad, prefix = \"insan\", ardicil_cumle = \"necesen. Ne var ne yox?\"):\n    print(f\"Salam {ad} {prefix}, {ardicil_cumle}\")\n# say_hello(\"Eli\", \"Adam\")\n# say_hello(ad=ad_1, prefix=\"bey\", ardicil_cumle=\"necesen menim qardasim?\")\n# say_hello(prefix=\"muellim\", ad=ad_2, ardicil_cumle=\"ders gecikirsen\")\n# say_hello(ad_3, \"usta\")\n# print(f\"Salam {ad_1}\")\n# say_hello()\n# say_hello()\n# say_hello()",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "canculator",
+        "kind": 2,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "def canculator(number_1, number_2, operator):\n    if operator == \"+\":\n        return number_1 + number_2        \n    elif operator == \"-\":    \n        return number_1 - number_2\n    elif operator == \"*\":\n        return  number_1 * number_2\n    return number_1 / number_2\n# cem_1 = canculator(1, 2, \"+\") \n# cem_2 = canculator(3, 4, \"+\") ",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "ucbucagin_novunu_ta",
+        "kind": 2,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "def ucbucagin_novunu_tap (a,b,c):\n    if a < 0 or b < 0 or c < 0:\n        return \"Bele bir ucbucaq yoxdur\"\n    if a == b == c == 60:\n        return \"Beraberyanli ucbucaqdir\"\n    if a + b < c: \n        return \"Korbucaqli ucbucaqdir\"\n# ucbucagin_novunu_tap(-20, 20, 80)\n# netice = ucbucagin_novunu_tap(-20, 20, 80)\n# if \"yoxdur\" in netice:",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
         "label": "f",
         "kind": 2,
         "importPath": "Codes.Lesson Subjects.Ders_4",
@@ -368,7 +395,79 @@
         "kind": 2,
         "importPath": "Codes.Lesson Subjects.Ders_4",
         "description": "Codes.Lesson Subjects.Ders_4",
-        "peekOfCode": "def func():\n    pass",
+        "peekOfCode": "def say_hello(arg):\n    print(f\"Hello {arg}\")",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "ad_1",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "ad_1 = \"Hesen\"\nad_2 = \"Ali\"\nad_3 = \"Mamed\"\nad_4 = \"Arif\"\n# print\n# print(teta)\n# teta(\"Hesen Molladi\")\n# print(f\"Salam {ad_2}, necesen?\")\n# print(f\"Salam {ad_3}, necesen?\")\n# print(f\"Salam {ad_4}, necesen?\")",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "ad_2",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "ad_2 = \"Ali\"\nad_3 = \"Mamed\"\nad_4 = \"Arif\"\n# print\n# print(teta)\n# teta(\"Hesen Molladi\")\n# print(f\"Salam {ad_2}, necesen?\")\n# print(f\"Salam {ad_3}, necesen?\")\n# print(f\"Salam {ad_4}, necesen?\")\n# def snake_case(arg_1, arg_2 = \" Tural\"):",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "ad_3",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "ad_3 = \"Mamed\"\nad_4 = \"Arif\"\n# print\n# print(teta)\n# teta(\"Hesen Molladi\")\n# print(f\"Salam {ad_2}, necesen?\")\n# print(f\"Salam {ad_3}, necesen?\")\n# print(f\"Salam {ad_4}, necesen?\")\n# def snake_case(arg_1, arg_2 = \" Tural\"):\n#     print(str(arg_1) + arg_2)",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "ad_4",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "ad_4 = \"Arif\"\n# print\n# print(teta)\n# teta(\"Hesen Molladi\")\n# print(f\"Salam {ad_2}, necesen?\")\n# print(f\"Salam {ad_3}, necesen?\")\n# print(f\"Salam {ad_4}, necesen?\")\n# def snake_case(arg_1, arg_2 = \" Tural\"):\n#     print(str(arg_1) + arg_2)\n# snake_case(\"Salam Necesen\")",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "b = 5 \nfakt = 1\nfor i in range(1,5):\n    fakt*=i\nprint(fakt)\n# def hesabla(eded_1,eded_2):\n#     c = 4*eded_1 + 0.20\n#     e = 5*c\n#     x = 10*eded_2*e\n# def ucbucagin_perimetrini_hesable(a,b,c):",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "fakt",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "fakt = 1\nfor i in range(1,5):\n    fakt*=i\nprint(fakt)\n# def hesabla(eded_1,eded_2):\n#     c = 4*eded_1 + 0.20\n#     e = 5*c\n#     x = 10*eded_2*e\n# def ucbucagin_perimetrini_hesable(a,b,c):\n#     perimeter = a +  b + c",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "hekim_a",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "hekim_a = Hekim(\"Ali\",\"Sahib\", 24)\nmuellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")\nprint( type(hekim_a)  == Hekim)\nprint( isinstance(muellim_a,Muellim))\ndef say_hello(arg):\n    print(f\"Hello {arg}\")",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "muellim_a",
+        "kind": 5,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "muellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")\nprint( type(hekim_a)  == Hekim)\nprint( isinstance(muellim_a,Muellim))\ndef say_hello(arg):\n    print(f\"Hello {arg}\")",
         "detail": "Codes.Lesson Subjects.Ders_4",
         "documentation": {}
     },

@@ -331,10 +331,10 @@
 #! TUPLE
 
 # thislist = ["apple", "banana", "cherry", "cherry"]
-import pprint
+# import pprint
 
 
-thistuple = ("apple", "banana", "cherry", "cherry")
+# thistuple = ("apple", "banana", "cherry", "cherry")
 
 
 # print(thistuple)
@@ -472,7 +472,7 @@ thistuple = ("apple", "banana", "cherry", "cherry")
 # Deyismek olmur
 
 
-thisset = {"apple", "banana", "cherry"}
+# thisset = {"apple", "banana", "cherry"}
 
 # for x in thisset:
 #   print(x)
@@ -512,7 +512,7 @@ thisset = {"apple", "banana", "cherry"}
 
 #*Remove
 
-thisset = {"apple", "banana", "cherry"}
+# thisset = {"apple", "banana", "cherry"}
 # thisset.remove("banana")
 # thisset.remove("banana")
 
@@ -623,11 +623,11 @@ thisset = {"apple", "banana", "cherry"}
 
 #! DICT
 
-car = {
-  "brand": "Ford",
-  "model": "S-class",
-  "year": 2012
-  }
+# car = {
+#   "brand": "Ford",
+#   "model": "S-class",
+#   "year": 2012
+#   }
 
 # print(car.values())
 
@@ -734,7 +734,8 @@ car = {
 # for index,item in enumerate(list_adam_adlari):
 #   print(index,item)
   
-#! Nəzrin Teymurova  Burda Qaldirq
+  
+  
   
 # for item in range(len(list_adam_adlari)):
   
@@ -808,13 +809,15 @@ car = {
 # print(dist_2)
 # print(thisdict)
 
-
+# Heap dinamik data typeler - esas ozellik bir deyisken diger deyiskenlerin yerlerini
+# Stack de ise eksine 1,2,3
 
 # UPDATE
+# test = (1,3,45)
 # thisdict = {
 #   True : "Ford",
 #   12 : "Mustang",
-
+#   test : "Salam"
 # }
 
 
@@ -823,14 +826,17 @@ car = {
 
 
 # thisdict.update(
+
 #   {
 #     "year": 2020,
 #    "model":"BMW",
 #    "oil_type":"benzin"
 #    }
-  
+
+
 #   )
 
+# print(thisdict)
 
 # thisdict[True] = 23
 
@@ -844,6 +850,7 @@ car = {
 #   "model": "Mustang",
 #   "year": 1964
 # }
+
 #print(thisdict)
 # pprint.pprint(thisdict.popitem())
 
@@ -852,7 +859,7 @@ car = {
 
 # 
 # print(thisdict.pop("model"))
-# print(thisdict.pop("model"))
+# print(thisdict.popitem())
 # print(thisdict)
 
 # print(thisdict)
@@ -893,6 +900,9 @@ car = {
 
 
 # NESTED ITEMS
+# O O P --- 
+# Esyalara aid Funksiyalarin 
+# OOP Class DIcT + Funksiyalarin 
 # child1 = {
 #   "name" : "Emil",
 #   "year" : 2004
@@ -914,7 +924,8 @@ car = {
 #   "child3" : child3
 # }
 
-# print(myfamily['child2']['name'])
+# from pprint import pprint
+# pprint(myfamily, width=1)
 
 
 
