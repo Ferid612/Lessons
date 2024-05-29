@@ -4,48 +4,36 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-void volume(double r)
-{
 
-    cout << (4.0 / 3.0) * 3.14 * (r * r * r) << endl;
-    cout << (4.0 / 3.0) ;
-}
-
-int main()
+int main(int argc, char *argv[])
 {
-    int n;
-    cin >> n;
-    int matrix[n][n];
-    for (int i = 0; i < n; ++i)
+    string t, newString;
+    getline(cin, t);
+    for (size_t i = 0; i < t.length(); i++)
     {
-        for (int j = 0; j < n; ++j)
+
+        if (isalpha(t[i]))
         {
-            cin >> matrix[i][j];
+
+            newString += t[i];
         }
     }
 
-    int counter(0);
-    for (int t = 0; t < n; ++t)
-    {
-        int ispermutationcounter(0);
-        for (int i = 0; i < n; ++i)
+    t = newString;
+    for (size_t j = 0; j < newString.length() - 1; j++)
+        for (size_t i = 0; i < t.length() - 1 - j; i++)
         {
-            for (int j = 0; j < n; ++j)
+
+            if (t[i] > t[i + 1])
             {
-                if (matrix[t][j] == i + 1)
-                {
-                    ispermutationcounter++;
-                    break;
-                }
+                char c = t[i];
+                t[i] = t[i + 1];
+                t[i + 1] = c;
             }
         }
-        if (ispermutationcounter == n)
-        {
-            counter++;
-        }
-    }
 
-    cout << counter << endl;
+    cout << t;
+
     return 0;
 }
 

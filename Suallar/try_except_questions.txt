@@ -1,0 +1,78 @@
+İşte Python'da try-except blokları ile ilgili bazı sorular:
+
+### Basit Sorular
+
+1. **Sıfıra bölme hatasını yakalamak için hangi hata türü kullanılır?**
+   ```python
+   try:
+       x = 10 / 0
+   except ____:
+       print("Sıfıra bölme hatası!")
+   ```
+
+2. **Bir dosyanın var olup olmadığını kontrol etmek ve yoksa bir mesaj yazdırmak için try-except bloğu nasıl yazılır?**
+   ```python
+   try:
+       file = open("non_existing_file.txt", "r")
+   except ____:
+       print("Dosya bulunamadı!")
+   ```
+
+3. **Birden fazla hata türünü yakalamak için nasıl bir yapı kullanılır?**
+   ```python
+   try:
+       x = int("abc")
+       y = 1 / 0
+   except ____:
+       print("Değer hatası yakalandı!")
+   except ____:
+       print("Sıfıra bölme hatası yakalandı!")
+   ```
+
+### Orta Seviye Sorular
+
+4. **Genel bir hata yakalama bloğu ile herhangi bir hatayı yakalayıp mesaj yazdırmak için nasıl bir kod yazarsınız?**
+   ```python
+   try:
+       x = int("abc")
+   except ____ as e:
+       print(f"Bir hata yakalandı: {e}")
+   ```
+
+5. **Finally bloğu ile bir dosya işlemi yaparken kaynakları serbest bırakmak için nasıl bir yapı kullanılır?**
+   ```python
+   try:
+       file = open("example.txt", "r")
+       content = file.read()
+   except FileNotFoundError:
+       print("Dosya bulunamadı!")
+   finally:
+       ____.close()
+       print("Dosya kapatıldı.")
+   ```
+
+6. **Kendi özel hata sınıfınızı oluşturup fırlatmak için nasıl bir yapı kullanılır?**
+   ```python
+   class CustomError(____):
+       pass
+
+   def check_value(value):
+       if value < 0:
+           raise CustomError("Negatif değer hatası!")
+       return value
+
+   try:
+       check_value(-3)
+   except ____ as e:
+       print(f"Özel hata yakalandı: {e}")
+   ```
+
+### İleri Seviye Sorular
+
+7. **Özel bir hata sınıfı oluşturup bu hatayı fırlatan ve yakalayan bir fonksiyon yazınız. Ayrıca, bu fonksiyon için bir test vakası yazınız.**
+   
+8. **Hataların loglanması için bir try-except bloğu kullanarak bir log dosyasına hata mesajlarını yazdıran bir kod yazınız.**
+   
+9. **Bir veritabanı bağlantısı açan, hata durumunda bağlantıyı kapatan ve tüm hataları loglayan bir kod yazınız.**
+
+Bu sorular, try-except bloklarını ve hata yönetimini öğrenmenize yardımcı olacak. Cevapları yazarak bu konuları pekiştirebilirsiniz. Eğer cevaplar hakkında yardıma ihtiyacınız olursa, sorabilirsiniz!

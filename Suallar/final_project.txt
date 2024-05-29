@@ -1,6 +1,4 @@
 0. Datani csv faylindan oxu
-  
-        
 1. Proqram başlayan kimi müştərinin kard nömrəsinin son 8 xanasını istəyir
 2. Kartın passwordunu teleb edir
 3. Xos geldiniz musterinin adi soyadi
@@ -14,3 +12,6 @@
     6. karti cixar
     
 
+Proqram yazılarkən diqqət etməli məqamlar: 
+    Düzgün sinifləndirmə işləri - Class bölgüsü
+    Düzgün try except - xəta yönətimi. Müştəri xətalarının qarşısı alınması

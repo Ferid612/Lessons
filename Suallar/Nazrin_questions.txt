@@ -60,7 +60,7 @@ person.borcunu_ode(300) #balansdan cixib borca yazsin
 
 
 
-
+# 
 
 
 
