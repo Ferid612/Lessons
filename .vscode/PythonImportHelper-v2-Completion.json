@@ -25,15 +25,6 @@
         "documentation": {}
     },
     {
-        "label": "pprint",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pprint",
-        "description": "pprint",
-        "detail": "pprint",
-        "documentation": {}
-    },
-    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -172,42 +163,6 @@
         "description": "Codes.Lesson Subjects.Ders 2",
         "peekOfCode": "adlar = [\"Eziz\",\"Ramiz\",\"Lale\",\"Baleeli\"]\n# print(len(adlar)) #-- listlerin uzunlugunu olcusunu length \nfor item in range(len(adlar)):\n    print(item, adlar[item])\n# ededler = [1,2,3,4,5,6,7,8,9]\n# for i in range( len(ededler)  ):\n#     print(i, ededler[i])\n#! Nəzrinlə burada qaldıq \n# print(len(a))\n# a = \"Hello, World!\"",
         "detail": "Codes.Lesson Subjects.Ders 2",
-        "documentation": {}
-    },
-    {
-        "label": "thistuple",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 3",
-        "description": "Codes.Lesson Subjects.Ders 3",
-        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\", \"cherry\")\n# print(thistuple)\n# print(type(thistuple))\n#! Not assignment\n# thistuple[0] = \"Lemon\"\n# print(thislist[0])\n#! Dublicate\n# thistuple = (\"apple\", \"banana\", \"cherry\", \"apple\", \"cherry\")\n# print(thistuple)\n#",
-        "detail": "Codes.Lesson Subjects.Ders 3",
-        "documentation": {}
-    },
-    {
-        "label": "thisset",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 3",
-        "description": "Codes.Lesson Subjects.Ders 3",
-        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\n# for x in thisset:\n#   print(x)\n# print(thisset.pop())\n# print(thisset.pop())\n# print(\"thisset:\", thisset)\n# print(thisset)\n# var = thisset.pop()\n# var_b = thisset.pop()\n# print(var)",
-        "detail": "Codes.Lesson Subjects.Ders 3",
-        "documentation": {}
-    },
-    {
-        "label": "thisset",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 3",
-        "description": "Codes.Lesson Subjects.Ders 3",
-        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\n# thisset.remove(\"banana\")\n# thisset.remove(\"banana\")\n# print(thisset)\n# #or\n# thisset.discard(\"banana\")\n# thisset.discard(\"banana\")\n# thisset.discard(\"banana\")\n# thisset.discard(\"banana\")\n# print(var_a)",
-        "detail": "Codes.Lesson Subjects.Ders 3",
-        "documentation": {}
-    },
-    {
-        "label": "car",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders 3",
-        "description": "Codes.Lesson Subjects.Ders 3",
-        "peekOfCode": "car = {\n  \"brand\": \"Ford\",\n  \"model\": \"S-class\",\n  \"year\": 2012\n  }\n# print(car.values())\n# english_levels = {\n#     \"a1\":\"beginner\",\n#     \"a2\":\"elemetry\",\n#     \"b1\":\"pre-intermadate\",",
-        "detail": "Codes.Lesson Subjects.Ders 3",
         "documentation": {}
     },
     {
@@ -373,11 +328,74 @@
         "documentation": {}
     },
     {
+        "label": "login",
+        "kind": 2,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "def login(request):\n    username = request.get(\"username\")\n    password = request.get(\"password\")\n    if username is None or password is None:\n        return \"Username or Password are required\", 401\ndef f(x):\n    if x < 0:\n        return 0\n    if x > 100:\n        return 0",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
         "label": "f",
         "kind": 2,
         "importPath": "Codes.Lesson Subjects.Ders_4",
         "description": "Codes.Lesson Subjects.Ders_4",
-        "peekOfCode": "def f():\n    return ['foo', 'bar', 'baz', 'qux']\n# print(f())\n# print(f()[2])\n# print(f()[::-1])\n# Python dict as an argument\n# def f(**kwargs):\n#     print(kwargs)\n#     print(type(kwargs))\n#     for key, val in kwargs.items():",
+        "peekOfCode": "def f(x):\n    if x < 0:\n        return 0\n    if x > 100:\n        return 0\n    print(x)\n# f(-3)\n# f(105)\n# f(64)\n#Funksiya hər şey return edə bilər",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 2,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "def f():\n    return ['foo', 'bar', 'baz', 'qux']\n# x,*y, t = f()\n# print(y)\n# print(f())\n# print(f()[2])\n# print(f()[::-1])\n# Python dict as an argument\n# key word argument \ndef f(*args, **kwargs):",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 2,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "def f(*args, **kwargs):\n    # print(kwargs)\n    # print(type(kwargs))\n    # for key, val in kwargs.items():\n    #         print(key, '->', val)\n    print(\"args: \",   args)\n    print(\"kwargs: \", kwargs)\n# argumentleri list kimi yollanilir\n# dictionary key and value\n# f(1,2,3,4,foo=1, bar=2, baz=3)",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 2,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "def f(a, b, c):\n    print(F'a = {a}')\n    print(F'b = {b}')\n    print(F'c = {c}')\ndef func_a(a,b,x, d=10,e=20, *args, **kwargs):\n    print(\"Anonym\")\ndef e(a, b, *c, **kwargs):\n    print(F'a = {a}')\n    print(F'b = {b}')\n    print(F'c = {c}')",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "func_a",
+        "kind": 2,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "def func_a(a,b,x, d=10,e=20, *args, **kwargs):\n    print(\"Anonym\")\ndef e(a, b, *c, **kwargs):\n    print(F'a = {a}')\n    print(F'b = {b}')\n    print(F'c = {c}')\nt = [1,2,3]\nd = {'a': 'foo', 'b': 25, 'c': 'qux'}\n# f(**d)\n# e(2,3,4,5)",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "e",
+        "kind": 2,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "def e(a, b, *c, **kwargs):\n    print(F'a = {a}')\n    print(F'b = {b}')\n    print(F'c = {c}')\nt = [1,2,3]\nd = {'a': 'foo', 'b': 25, 'c': 'qux'}\n# f(**d)\n# e(2,3,4,5)\n# Hem *args hem *kwargs\n# \"\"\"",
+        "detail": "Codes.Lesson Subjects.Ders_4",
+        "documentation": {}
+    },
+    {
+        "label": "concat",
+        "kind": 2,
+        "importPath": "Codes.Lesson Subjects.Ders_4",
+        "description": "Codes.Lesson Subjects.Ders_4",
+        "peekOfCode": "def concat(prefix, *args):\n    print(f'{prefix}  {f\"{prefix}\".join(args)}')\nconcat('//', 'a', 'b', 'c')\nconcat('...', 'foo', 'bar', 'baz', 'qux')\n# Canculyator funksiyasi yazin\n#! Docstring\n# Instagran user passowrd\n# from curses import longname\n# user_password = \"Bakugan612\"",
         "detail": "Codes.Lesson Subjects.Ders_4",
         "documentation": {}
     },
@@ -386,7 +404,7 @@
         "kind": 2,
         "importPath": "Codes.Lesson Subjects.Ders_4",
         "description": "Codes.Lesson Subjects.Ders_4",
-        "peekOfCode": "def login(username:str, password:int, age:bool) -> bool:\n    \"\"\"Bu funksiya instarame giris ucundur\n    Args:\n        username (str): istifadecinin instagram  istifadeci adi\n        password (str): intifadecinin instagram sifresi\n        age (int): istifadecinin yasi\n    Returns:\n        bool: neticeniin true ve ya false olaraq return edir \n        \"\"\"\n    if age>18:",
+        "peekOfCode": "def login(username:str, password:str, age:int) -> bool:\n    \"\"\"Bu funksiya instarame giris ucundur\n    Args:\n        username (str): istifadecinin instagram  istifadeci adi\n        password (str): intifadecinin instagram sifresi\n        age (int): istifadecinin yasi\n    Returns:\n        bool: neticeniin true ve ya false olaraq return edir \n    \"\"\"\n    if age>18:",
         "detail": "Codes.Lesson Subjects.Ders_4",
         "documentation": {}
     },
@@ -395,7 +413,7 @@
         "kind": 2,
         "importPath": "Codes.Lesson Subjects.Ders_4",
         "description": "Codes.Lesson Subjects.Ders_4",
-        "peekOfCode": "def say_hello(arg):\n    print(f\"Hello {arg}\")",
+        "peekOfCode": "def func():\n    pass",
         "detail": "Codes.Lesson Subjects.Ders_4",
         "documentation": {}
     },
@@ -436,38 +454,20 @@
         "documentation": {}
     },
     {
-        "label": "b",
+        "label": "t",
         "kind": 5,
         "importPath": "Codes.Lesson Subjects.Ders_4",
         "description": "Codes.Lesson Subjects.Ders_4",
-        "peekOfCode": "b = 5 \nfakt = 1\nfor i in range(1,5):\n    fakt*=i\nprint(fakt)\n# def hesabla(eded_1,eded_2):\n#     c = 4*eded_1 + 0.20\n#     e = 5*c\n#     x = 10*eded_2*e\n# def ucbucagin_perimetrini_hesable(a,b,c):",
+        "peekOfCode": "t = [1,2,3]\nd = {'a': 'foo', 'b': 25, 'c': 'qux'}\n# f(**d)\n# e(2,3,4,5)\n# Hem *args hem *kwargs\n# \"\"\"\n# >>> def f(a, b, *args, **kwargs):\n# ...     print(F'a = {a}')\n# ...     print(F'b = {b}')\n# ...     print(F'args = {args}')",
         "detail": "Codes.Lesson Subjects.Ders_4",
         "documentation": {}
     },
     {
-        "label": "fakt",
+        "label": "d",
         "kind": 5,
         "importPath": "Codes.Lesson Subjects.Ders_4",
         "description": "Codes.Lesson Subjects.Ders_4",
-        "peekOfCode": "fakt = 1\nfor i in range(1,5):\n    fakt*=i\nprint(fakt)\n# def hesabla(eded_1,eded_2):\n#     c = 4*eded_1 + 0.20\n#     e = 5*c\n#     x = 10*eded_2*e\n# def ucbucagin_perimetrini_hesable(a,b,c):\n#     perimeter = a +  b + c",
-        "detail": "Codes.Lesson Subjects.Ders_4",
-        "documentation": {}
-    },
-    {
-        "label": "hekim_a",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders_4",
-        "description": "Codes.Lesson Subjects.Ders_4",
-        "peekOfCode": "hekim_a = Hekim(\"Ali\",\"Sahib\", 24)\nmuellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")\nprint( type(hekim_a)  == Hekim)\nprint( isinstance(muellim_a,Muellim))\ndef say_hello(arg):\n    print(f\"Hello {arg}\")",
-        "detail": "Codes.Lesson Subjects.Ders_4",
-        "documentation": {}
-    },
-    {
-        "label": "muellim_a",
-        "kind": 5,
-        "importPath": "Codes.Lesson Subjects.Ders_4",
-        "description": "Codes.Lesson Subjects.Ders_4",
-        "peekOfCode": "muellim_a = Muellim(\"Ali\",\"Sahib\", 24,\"ProfessorDoktor\")\nprint( type(hekim_a)  == Hekim)\nprint( isinstance(muellim_a,Muellim))\ndef say_hello(arg):\n    print(f\"Hello {arg}\")",
+        "peekOfCode": "d = {'a': 'foo', 'b': 25, 'c': 'qux'}\n# f(**d)\n# e(2,3,4,5)\n# Hem *args hem *kwargs\n# \"\"\"\n# >>> def f(a, b, *args, **kwargs):\n# ...     print(F'a = {a}')\n# ...     print(F'b = {b}')\n# ...     print(F'args = {args}')\n# ...     print(F'kwargs = {kwargs}')",
         "detail": "Codes.Lesson Subjects.Ders_4",
         "documentation": {}
     },
