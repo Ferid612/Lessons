@@ -48,19 +48,19 @@ figure.trapesia_area(a, b, h);
 Bu cür çağrılaraq fiqurların sahə və perimetrini versin.
 
 
-# Bir insan modeli yarat. Bu model pul xercleye bilsin. Borc ala bilsin. Ve ozunun ayrica balansi olsun.
-Asagidaki metodlari olsun. 
+# Bir insan modeli yarat. Bu model pul xərcləyə bilsin. Borc ala bilsin. Və ozunun ayrica balansi olsun.
+Aşağıdakı metodları olsun. 
 
-person.masin_al("Porche") # Balansdan 300 cixsin
-person.erzaq_al("Corek") # balansdan 30 cixsin
-person.balansi_goster() #  balansi gostersin
-person.borc_al(3000) # balansa 3000 elave etsin borca 3000 yazsin
-person.borcu_goster() # borcu gostersin
-person.borcunu_ode(300) #balansdan cixib borca yazsin 
+person.masin_al("Porche")           # Balansdan 300 çıxsın
+person.erzaq_al("Corek")            # balansdan 30 çıxsın
+person.balansi_goster()             # balansı göstərsin
+person.borc_al(3000)                # balansa 3000 əlavə etsin borca 3000 yazsın
+person.borcu_goster()               # borcu göstərsin
+person.borcunu_ode(300)             # balansdan çıxıb borca yazsın 
+person.butun_emeliyyatlari_goster() # butun edilen emeliyatlari sirasiyla göstərsin. Ne qeder pul cixildi əlavə edildi.
 
 
 
-# 
 
 
 
